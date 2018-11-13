@@ -1,0 +1,102 @@
+App.templates.navbar = `
+<div class="nav-container">
+    <a id="top"></a>
+    <nav class="bg-dark">
+        <div class="nav-bar">
+            <div class="module left">
+              <router-link to="/" style="height:80px">
+                    <img class="logo logo-light" alt="Foundry" src="ctn/img/banner/logowhite.png" />
+              </router-link>
+                <span class="uppercase bold lead" style="font-weight:600px;padding-left:10px" >STEEL HAWKS</span>
+            </div>
+            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                <i class="ti-menu"></i>
+            </div>
+            <div class="module-group right" style="overflow: visible;">
+                <div class="module left">
+                    <ul class="menu">
+                      <li>
+                        <router-link to="/">Home</router-link>
+                      </li>
+
+                        <li class="has-dropdown">
+                            <a  class="inner-link" href="#about">
+                                About Us
+                            </a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <ul>
+                                      <li>
+                                        <router-link to="/school">Townsend Harris</router-link>
+                                      </li>
+                                        <li>
+                                          <router-link to="/team">Team</router-link>
+                                        </li>
+                                        <li>
+                                          <router-link to="/mentors">Mentors</router-link>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li v-show="page == 'main'">
+                            <a class="inner-link" href="#first">
+                                FIRST
+                            </a>
+                        </li>
+                        <li v-show="page != 'main'">
+                          <a href="/#first">
+                                FIRST
+                            </a>
+                        </li>
+
+                        <li class="has-dropdown">
+                            <a href="#">
+                                FRC Bots
+                            </a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <ul>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li v-show="page == 'main'">
+                          <a class="inner-link"
+                              href="#news">
+                              News
+                            </a>
+                        </li>
+                        <li v-show="page != 'main'">
+                          <a href="/#news">
+                                News
+                            </a>
+                        </li>
+
+                        <li v-show="page == 'main'">
+                          <a class="inner-link" href="#sponsors">
+                                Sponsors
+                            </a>
+                        </li>
+                        <li v-show="page != 'main'">
+                          <a href="/#sponsors">
+                                Sponsors
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Blog
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+                <!--end of menu module-->
+                </div>
+            <!--end of module group-->
+        </div>
+    </nav>
+</div>
+`;
