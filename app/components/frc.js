@@ -1,9 +1,9 @@
 $(function(){
 
   var component = {
-    name: 'page-main',
-    path: '/',
-    template_url: 'app/components/main.html',
+    name: 'page-frc',
+    path: '/frc',
+    template_url: 'app/components/frc.html',
     init: function(html){
       return  {
         template:html,
@@ -14,17 +14,7 @@ $(function(){
         },
         mounted: function(){
 
-          init_foundry();
-
-         $(".volume.btn").click(
-           function(){
-             var video = document.getElementById("video");
-             video.muted = !video.muted;
-           }
-         );
-
-         Pixlee.init({apiKey:'y7K3EYgGBl9lza5AsEnj'});
-         Pixlee.addSimpleWidget({widgetId:'3570'});
+          
         }
       }    
     }

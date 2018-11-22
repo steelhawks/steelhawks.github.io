@@ -14,26 +14,21 @@ $(function(){
 
     function get_template(){
         return `
+
+
         <div class="main-container">
 
-          <section class="image-square right">
 
-                  <div class="row">
-                    <div class="col-md-5 image">
-                      <div class="background-image-holder fadeIn"
-                           style="background:url('ctn/img/thhs_building2.jpg')">
 
-                          <img alt="image"
-                               class="background-image"
-                               src="ctn/img/thhs_building2.jpg"
-                               style="display:none;"/>
-
-                       </div>
-                   </div>
-                   <div class="col-md-6" style="padding:10px;margin:10px 50px">
+          <section class="pt10 pb120 pt-xs-40 pb-xs-40">
+                
+                <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <img alt="Screenshot" class="cast-shadow mb-xs-24" src="ctn/img/thhs_building2.jpg">
+                </div>
+                    <div class="col-md-offset-2 col-md-8 col-sm-12 ">
                       <h3>Townsend Harris High School</h3>
-                      <p class="mb20">
-                          Townsend Harris is a young school with an honored past.
+                        <p class="lead mb40">
+Townsend Harris is a young school with an honored past.
                           In 1848, the New York Free Academy, our first municipal institution of free higher education,
                           was established by the Board of Education due largely to the effort of Townsend Harris who was,
                           at the time, the president of the Board. The Free Academy later became the City College of New York.
@@ -50,10 +45,11 @@ $(function(){
                           for people and ideas, critical and creative thinking, and precision of language.
                           The community encourages the students to strive for excellence, to make sensible
                           decisions, and to develop an enduring commitment to serving the community.
-                      </p>
-                  </div>
-                </div>
-        </section>
+                        </p>
+                    </div>
+                <!--end of container-->
+            </section>
+
         </div>
     `;
   }

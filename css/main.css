@@ -10,7 +10,8 @@
 
 .bg-crimson {
   color: white;
-  background-image: linear-gradient(315deg, #751515 0%, #d43637 50%);
+  background-color: #ad2525;
+  //background-image: linear-gradient(315deg, #751515 0%, #d43637 50%);
 }
 
 .bg-smoke {
@@ -37,6 +38,12 @@ img.sponsor {
 img.sponsor:hover {
   opacity: 1;
 transition: all 500ms ease;
+}
+
+
+.nav-bar .menu a {
+  font-size:12px;
+
 }
 
 #aboutUs div	    			{display: table-cell; vertical-align: middle;}

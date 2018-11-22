@@ -1,7 +1,7 @@
 $(function(){
 
   const router = new VueRouter({
-    mode: 'history',
+    //mode: 'history',
     routes: App.routes
   });
 

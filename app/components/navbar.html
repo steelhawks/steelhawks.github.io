@@ -1,7 +1,7 @@
 App.templates.navbar = `
 <div class="nav-container">
     <a id="top"></a>
-    <nav class="bg-dark">
+    <nav class="absolute scrolled bg-dark">
         <div class="nav-bar">
             <div class="module left">
               <router-link to="/" style="height:80px">
@@ -21,33 +21,30 @@ App.templates.navbar = `
 
                         <li class="has-dropdown">
                             <a  class="inner-link" href="#about">
-                                About Us
+                                About
                             </a>
                             <ul class="mega-menu">
                                 <li>
                                     <ul>
+
                                       <li>
                                         <router-link to="/school">Townsend Harris</router-link>
                                       </li>
                                         <li>
-                                          <router-link to="/team">Team</router-link>
+                                          <router-link to="/team">Team 2601</router-link>
                                         </li>
+
                                         <li>
                                           <router-link to="/mentors">Mentors</router-link>
                                         </li>
+
+                                      <li>
+                                        <router-link to="/frc">First</router-link>
+                                      </li>
+
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
-                        <li v-show="page == 'main'">
-                            <a class="inner-link" href="#first">
-                                FIRST
-                            </a>
-                        </li>
-                        <li v-show="page != 'main'">
-                          <a href="/#first">
-                                FIRST
-                            </a>
                         </li>
 
                         <li class="has-dropdown">
@@ -80,16 +77,9 @@ App.templates.navbar = `
                             </a>
                         </li>
                         <li v-show="page != 'main'">
-                          <a href="/#sponsors">
+                          <a href="/#/sponsors">
                                 Sponsors
                             </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Blog
-                            </a>
-
                         </li>
                     </ul>
                 </div>

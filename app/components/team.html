@@ -1,6 +1,27 @@
 window.App.templates.pages.team = `
 
 <div class="main-container">
+<section>
+                <div class="container">
+                    <!--end of row-->
+                    <div class="row masonry" >
+                        <div class="col-md-6 col-sm-12 masonry-item mb30 " v-for="group in groups">
+                            <div class="feature boxed cast-shadow-light mb0">
+                                <h2 class=" color-primary mb0">
+                                    <i v-bind:class="group.icon" class="icon-sm"></i>
+
+                                {{ group.name }}</h2>
+                                <h6 class="uppercase color-primary">Subteam</h6>
+                                <p>
+                                {{ group.description }}
+                                </p>
+                            </div>
+                        </div>                       
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
 
 <section class="bg-rain">
   <div class="container">
