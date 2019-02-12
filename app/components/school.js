@@ -17,18 +17,14 @@ $(function(){
 
 
         <div class="main-container">
-
-
-
-          <section class="pt10 pb120 pt-xs-40 pb-xs-40">
-                
+          <section class="pt10 pb10">
                 <div class="col-md-offset-2 col-md-8 col-sm-12">
-                    <img alt="Screenshot" class="cast-shadow mb-xs-24" src="ctn/img/thhs_building2.jpg">
+                  <center><img alt="Screenshot" class="cast-shadow mb-xs-24" src="ctn/img/thhs_building2.jpg"></center>
                 </div>
-                    <div class="col-md-offset-2 col-md-8 col-sm-12 ">
-                      <h3>Townsend Harris High School</h3>
-                        <p class="lead mb40">
-Townsend Harris is a young school with an honored past.
+                    <div class="col-md-offset-2 col-md-8 col-sm-12">
+                      <center><h3 class="mt40"><b>Townsend Harris High School</b></h3></center>
+                        <p class="lead text-justify">
+                            Townsend Harris is a young school with an honored past.
                           In 1848, the New York Free Academy, our first municipal institution of free higher education,
                           was established by the Board of Education due largely to the effort of Townsend Harris who was,
                           at the time, the president of the Board. The Free Academy later became the City College of New York.
@@ -49,7 +45,6 @@ Townsend Harris is a young school with an honored past.
                     </div>
                 <!--end of container-->
             </section>
-
         </div>
     `;
   }

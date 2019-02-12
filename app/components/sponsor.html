@@ -1,0 +1,17 @@
+window.App.templates.pages.sponsor = `
+<div class = "main-container">
+<section class="img-bg" style="background-color:red">
+  <center><h1><b>Coming Soon!</b></h1></center>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 text-center spread-children-large">
+          <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url">
+            <img alt="pic" class="sponsor fade-1-4"  v-bind:src="sponsor.logo">
+          </a>
+        </div>
+    </div>
+    <!--end of row-->
+</div>
+</div>
+`;

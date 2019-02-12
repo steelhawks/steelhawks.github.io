@@ -1,29 +1,37 @@
 window.App.templates.pages.team = `
 
 <div class="main-container">
-<section>
-                <div class="container">
-                    <!--end of row-->
-                    <div class="row masonry" >
-                        <div class="col-md-6 col-sm-12 masonry-item mb30 " v-for="group in groups">
-                            <div class="feature boxed cast-shadow-light mb0">
-                                <h2 class=" color-primary mb0">
-                                    <i v-bind:class="group.icon" class="icon-sm"></i>
 
-                                {{ group.name }}</h2>
-                                <h6 class="uppercase color-primary">Subteam</h6>
-                                <p>
-                                {{ group.description }}
-                                </p>
-                            </div>
-                        </div>                       
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
+  <section class="pb0" style="background-color:black">
+    <center><h2 class="uppercase" style="color:white;"><strong>Who is team 2601?</strong></h2></center>
+    <center><blockquote style="width:1500px;text-align:justify;color:white;background-color:black;">The Steel Hawks robotics team, operating out of Townsend Harris High School in Flushing, NY, competes annually in the FIRST Robotics Competition (FRC) after diligently working for six weeks designing, building, and programming a robot to perform certain tasks pertaining to that year’s game. We take this robot to various competitions: the Hudson Valley and Long Island Regionals, as well as the Detroit FRC World Championship upon qualification.
+              As a team, we raise funds by building strong relationships with corporate and engineering sponsors, as well as fundraising within our school through candy, coffee, and bake sales. We do this to ensure that our team has the necessary funds and resources to purchase materials for our robot as well as travel to each of our competitions.
+    </blockquote></center>
+  </section>
 
-<section class="bg-rain">
+  <section>
+    <center><h2 class="color-primary" style="margin-top:-50px;"><b>Subteams</b></h2></center>
+    <div class="container">
+      <!--end of row-->
+      <div class="row masonry" >
+          <div class="col-md-6 col-sm-12 masonry-item mb30 " v-for="group in groups">
+              <div class="feature boxed cast-shadow-light mb0">
+                  <h2 class="color-primary mb0">
+                      <i v-bind:class="group.icon" class="icon-sm"></i>
+                      {{ group.name }}</h2>
+                  <h6 class="uppercase color-primary">Subteam</h6>
+                  <p>
+                  {{ group.description }}
+                  </p>
+              </div>
+          </div>
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </section>
+
+<!-- <section class="bg-rain">
   <div class="container">
       <div class="row mb64 mb-xs-24">
           <div class="col-sm-12 text-center">
@@ -43,8 +51,8 @@ window.App.templates.pages.team = `
         </div>
 
   </div>
-</section>
-<section class="bg-dark">
+</section> -->
+<!-- <section class="bg-dark">
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-md-offset-2">
@@ -58,13 +66,10 @@ window.App.templates.pages.team = `
                         </li>
                     </ul>
                 </div>
-                <!--end of image slider-->
             </div>
         </div>
-        <!--end of row-->
     </div>
-    <!--end of container-->
-</section>
+</section> -->
 
 </div>
 `;

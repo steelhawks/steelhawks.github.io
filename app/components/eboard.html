@@ -1,0 +1,22 @@
+window.App.templates.pages.eboard = `
+<div class="main-container">
+  <section class="img-bg" style="background-color:green;">
+    <center><h1><b>Executive Board</b></h1></center>
+  </section>
+  <div class="container">
+    <!--end of row-->
+    <div class="row">
+        <div class="col-md-6 col-sm-12 mb30 " v-for="leader in leaders">
+            <div class="feature boxed cast-shadow-light mb0">
+                <center><h2 class="color-primary mb0">
+                    {{ leader.name }}</h2></center>
+                <center><h4> {{ leader.title }}</h4></center>
+                <br>
+                <p> {{leader.bio}} </p>
+            </div>
+        </div>
+    </div>
+    <!--end of row-->
+  </div>
+</div>
+`;

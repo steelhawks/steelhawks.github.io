@@ -1,9 +1,9 @@
 $(function(){
   App.sponsors = [
-    { name: 'Applebees',
-      logo: 'ctn/img/sponsors/applebees.png',
-      url: 'http://www.applebees.com'
-    },
+    // { name: 'Applebees',
+    //   logo: 'ctn/img/sponsors/applebees.png',
+    //   url: 'http://www.applebees.com'
+    // },
     { name: 'Github',
       logo: 'ctn/img/sponsors/Octocat.png',
       url: 'http://www.github.com/'
@@ -18,9 +18,9 @@ $(function(){
     { name: 'conEdison',
       logo: 'ctn/img/sponsors/conEdison.png'
     },
-    { name: 'Home Depot',
-      logo: 'ctn/img/sponsors/home_depot.png'
-    },
+    // { name: 'Home Depot',
+    //   logo: 'ctn/img/sponsors/home_depot.png'
+    // },
     { name: 'Magellan',
       logo: 'ctn/img/sponsors/magellan1.png'
     },
