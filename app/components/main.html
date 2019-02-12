@@ -72,6 +72,42 @@
   <a href="https://thhs.ed.co/steel-hawks" target="_blank"><img src="/ctn/img/edco.png"></img></a>
 </section>
 
+<a id="sponsors"></a>
+
+  <section class="bg-blue-grey image-bg pt40 pb40">
+      <div class="container">
+          <div class="row">
+              <div class="text-center">
+                  <h2><b>Our Sponsors</b></h2>
+                  <p class="lead">
+                      The Steel Hawks would like to thank the following people,
+                      companies and organizations for their continuing support
+                      of our team and school.
+                  </p>
+              </div>
+          </div>
+          <!--end of row-->
+      </div>
+      <!--end of container-->
+
+
+      <div class="container">
+          <div class="row">
+              <div class="col-md-10 col-md-offset-1 text-center spread-children-large">
+                <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url">
+                  <img alt="pic" class="sponsor fade-1-4"  v-bind:src="sponsor.logo">
+                </a>
+              </div>
+          </div>
+
+          <div class="row">
+
+          </div>
+          <!--end of row-->
+      </div>
+      <!--end of container-->
+  </section>
+  
 <section class="pt40 pb40 image-bg" style="background-color:black;">
     <div class="container">
         <div class="row">
@@ -119,40 +155,4 @@
     </div>
     <!--end of container-->
   </section>
-
-  <a id="sponsors"></a>
-
-    <section class="bg-blue-grey image-bg pt40 pb40">
-        <div class="container">
-            <div class="row">
-                <div class="text-center">
-                    <h2><b>Our Sponsors</b></h2>
-                    <p class="lead">
-                        The Steel Hawks would like to thank the following people,
-                        companies and organizations for their continuing support
-                        of our team and school.
-                    </p>
-                </div>
-            </div>
-            <!--end of row-->
-        </div>
-        <!--end of container-->
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 text-center spread-children-large">
-                  <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url">
-                    <img alt="pic" class="sponsor fade-1-4"  v-bind:src="sponsor.logo">
-                  </a>
-                </div>
-            </div>
-
-            <div class="row">
-
-            </div>
-            <!--end of row-->
-        </div>
-        <!--end of container-->
-    </section>
 </div>
