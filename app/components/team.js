@@ -9,7 +9,7 @@ var subteams = [
   {
     name: 'Electrical',
     icon: 'ti-pulse',
-    description: 'Our subteam focuses on wiring circuits and creating the board for our robot. We also work with pneumatics, which involves the use of pressurized air to move mechanisms. We will learn how to crimp wires, assemble circuits, and assemble pneumatic loops. '
+    description: 'Our subteam focuses on wiring circuits and creating the board for our robot. We also work with pneumatics, which involves the use of pressurized air to move mechanisms.'
   },
   {
     name: '</> Programming',
@@ -20,13 +20,13 @@ var subteams = [
     name: 'Drive-Team',
     icon: 'ti-car',
     description:"Potential drive team members will review the rules and learn different strategies in order to be well equipped for a match. We will learn the different parts of the robot and understand how they work with one another in order to provide feedback on the robots performance. On occasion, we will get to drive the robot. "
-  },    
+  },
   {
     name: "Scouting",
     icon: 'ti-eye',
-    description: "We focus on data collection and strategy which is then used during competition. We’ll teach you the ins and outs of last year's game and how to make strategies for it with the assistance of our app. "  
+    description: "We focus on data collection and strategy which is then used during competition. We’ll teach you the ins and outs of last year's game and how to make strategies for it with the assistance of our app. "
   },
-  { 
+  {
     name: "Public Relations",
     icon: 'ti-face-smile',
     description:"Public Relations is the subteam that focuses on developing the brand of the team and making it marketable.\n\nWe will do outreach at public events, where we explain to any interested visitors about our team and what robotics entails. We will do outreach at school, where we will use the power of flyers, social media, and announcements to inform our peers about any robotics events. We will also  help the financial subteam with writing grants, as well as reach out to sponsors with thank-you letters, keeping them updated with the team as well as thanking them for their valuable contributions."
@@ -39,19 +39,19 @@ var subteams = [
   {
     name: "Media",
     icon: 'ti-video-clapper',
-    description: "In this subteam we document our team in an artistic way. You will learn how to edit photos and videos. Also we will with chairmans to create the chairmans video. "
+    description: "In this subteam we document our team in an artistic way. We also work with the Public Relations subteam to chairmans to create the chairmans video. "
   },
-  { 
+  {
     name: 'CAD',
     icon: 'ti-ruler-pencil',
-    description: "Our subteam makes dreams become reality. You get to make 3-d models of mechanism and prototypes. You will also make parts to be 3D printed. We further aid the mechanical subteam with the prototyping process."
+    description: "Our subteam makes dreams become reality. We make 3D models of mechanisms and prototypes. We also make parts to be 3D printed. We further aid the mechanical subteam with the prototyping process."
   },
   {
     name: "Animation",
     icon: 'ti-widget',
-    description: "We use Blender, a 3D animation software, to create any animations the team needs. We will teach you how to model, texture, and animate different objects, including characters."
+    description: "We use Blender, a 3D animation software, to create any animations the team needs. We model, texture, and animate different objects, including characters."
   }
-  ] 
+  ]
 
   var leaders = [
     {
@@ -148,7 +148,7 @@ var subteams = [
           groups: subteams
         }
       },
-      mounted: function(){  
+      mounted: function(){
           initializeMasonry();
           init_slider();
       }
