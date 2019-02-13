@@ -4,17 +4,7 @@
         <div class="background-image-holder">
             <img alt="image" class="background-image" src="ctn/img/team/mentors.jpg" />
         </div>
-<!--         <div class="fs-vid-background">
- -->
 
-            <!-- <div id="yt_aquila" class="player"
-                  data-property="{videoURL:'sIoXR36DF2A',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,optimizeDisplay: true, anchor:'bottom'}"></div> -->
-<!--           <video width="100%" height="100%" id="video" muted autoplay loop >
-            <source src="ctn/video/banner_low.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
- -->
- <!-- </div> -->
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -69,56 +59,20 @@
 
 <section class="pt40 pb0 image-bg" style="background-color:red;">
   <center><h2><b>Support The Team</b></h2></center>
-  <a href="https://thhs.ed.co/steel-hawks" target="_blank"><img src="/ctn/img/edco.png"></img></a>
+  <a href="https://thhs.ed.co/steel-hawks" target="_blank"><img src="/ctn/img/edco.png"></a>
 </section>
 
-<a id="sponsors"></a>
-
-  <section class="bg-blue-grey image-bg pt40 pb40">
-      <div class="container">
-          <div class="row">
-              <div class="text-center">
-                  <h2><b>Our Sponsors</b></h2>
-                  <p class="lead">
-                      The Steel Hawks would like to thank the following people,
-                      companies and organizations for their continuing support
-                      of our team and school.
-                  </p>
-              </div>
-          </div>
-          <!--end of row-->
-      </div>
-      <!--end of container-->
-
-
-      <div class="container">
-          <div class="row">
-              <div class="col-md-10 col-md-offset-1 text-center spread-children-large">
-                <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url">
-                  <img alt="pic" class="sponsor fade-1-4"  v-bind:src="sponsor.logo">
-                </a>
-              </div>
-          </div>
-
-          <div class="row">
-
-          </div>
-          <!--end of row-->
-      </div>
-      <!--end of container-->
-  </section>
-  
 <section class="pt40 pb40 image-bg" style="background-color:black;">
     <div class="container">
         <div class="row">
             <div class="overflow-hidden">
                 <center><h2><b>Contact Us</b></h2></center>
-                <center><h4 class="uppercase mb20"><a href="https://www.thhs.qc.edu/" target="_blank">Townsend Harris High School</h4></center>
+                <center><h4 class="uppercase mb20"><a href="https://www.thhs.qc.edu/" target="_blank">Townsend Harris High School</a></h4></center>
                 <center><div class="col-sm-6 p0">
                     <p class="lead">
                         <a href="https://www.google.com/maps/place/Townsend+Harris+High+School/
                         @40.7349907,-73.8235537,17z/data=!3m1!4b1!4m5!3m4!1s0x89c26061029c1fa5:0xdf1a323bf2fdf3c5!8m2!3d40.7349867!4d-73.821365"
-                        target="_blank">149-11 Melbourne Ave
+                        target="_blank">149-11 Melbourne Ave</a>
                         <br> Flushing, NY 11367
                     </p>
                 </div></center>
@@ -155,4 +109,40 @@
     </div>
     <!--end of container-->
   </section>
+
+  <a id="sponsors"></a>
+
+    <section class="bg-blue-grey image-bg pt40 pb40">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h2><b>Our Sponsors</b></h2>
+                    <p class="lead">
+                        The Steel Hawks would like to thank the following people,
+                        companies and organizations for their continuing support
+                        of our team and school.
+                    </p>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center spread-children-large">
+                  <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url">
+                    <img alt="pic" class="sponsor fade-1-4"  v-bind:src="sponsor.logo">
+                  </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
 </div>
