@@ -1,16 +1,16 @@
 window.App.templates.pages.mentors = `
 
 <div class="main-container">
-  <section class="img-bg pb0" style="background-color:white;">
-    <center><h1 style="color:black;"><b>Mentors</b></h1></center>
+  <section class="img-bg pb0" style="background-color:black;">
+    <center><h1 style="color:white;"><b>Mentors</b></h1></center>
   </section>
-  <section class="img-bg" style="background-color:black;">
+  <section class="img-bg" style="background-color:maroon;">
     <div class="container">
       <!--end of row-->
       <div class="row";
           <div class="col-md-6 col-sm-12 mb30 " v-for="mentor in mentors">
               <div class="feature boxed cast-shadow-light mb0">
-                  <center><h2 class="color-primary mb0">
+                  <center><h2 style="color:maroon;">
                       {{ mentor.name }}</h2></center>
                   <center><h4> {{ mentor.title }}</h4></center>
                   <br>

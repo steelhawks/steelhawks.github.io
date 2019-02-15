@@ -4,67 +4,67 @@ $(function(){
     {
       name: 'Joel Heitman',
       title: 'Head Coach',
-      bio: 'Mr. Heitman'
+      bio: 'Mr. Heitman is the Head Coach of the Steel Hawks.'
     },
     {
       name: 'Susan Brustein',
       title: 'Coach',
-      bio: 'Ms. Brustein'
+      bio: 'Ms. Brustein is a coach for the Steel Hawks.'
     },
     {
       name: 'Joshua Raghunath',
       title: 'Coach',
-      bio: 'Mr. Raghunath'
+      bio: 'Mr. Raghunath is a coach for the Steel Hawks.'
     },
     {
       name: 'David Stern',
       title: 'Coach',
-      bio: 'Mr. Stern'
+      bio: 'Mr. Stern is a coach for the Steel Hawks.'
     },
     {
       name: 'Olan-Ray Frith',
       title: 'Mentor',
-      bio: 'Olan'
+      bio: 'Olan is a mentor for the Steel Hawks.'
     },
     {
       name: 'Weijian Zeng',
       title: 'Mentor',
-      bio: 'Weijian'
+      bio: 'Weijian is a mentor for the Steel Hawks.'
     },
     {
       name: 'Kevin Goetzger',
       title: 'Mentor',
-      bio: 'Kevin'
+      bio: 'Kevin is a mentor for the Steel Hawks.'
     },
     {
       name: 'Kenneth Leuci',
       title: 'Mentor',
-      bio: 'Ken'
+      bio: 'Ken is a mentor for the Steel Hawks.'
     },
     {
       name: 'John Tsai',
       title: 'Mentor',
-      bio: 'Mr. Tsai'
+      bio: 'Mr. Tsai is a mentor for the Steel Hawks.'
     },
     {
       name: 'Lyndon Wong',
       title: 'Mentor',
-      bio: 'Lyndon'
+      bio: 'Lyndon is a mentor for the Steel Hawks.'
     },
     {
       name: 'Marcus Barbu',
       title: 'Mentor',
-      bio: 'Marcus'
+      bio: 'Marcus is a mentor for the Steel Hawks.'
     },
     {
       name: 'Ishabul Haque',
       title: 'Mentor',
-      bio: 'Ishabul'
+      bio: 'Ishabul is a mentor for the Steel Hawks.'
     },
     {
       name: 'Sam Diaz',
       title: 'Mentor',
-      bio: 'Sam'
+      bio: 'Sam is a mentor for the Steel Hawks.'
     }
   ];
 
