@@ -22,7 +22,7 @@ $(function(){
                   <center><img alt="Screenshot" class="cast-shadow mb-xs-24" src="ctn/img/thhs_building2.jpg"></center>
                 </div>
                     <div class="col-md-offset-2 col-md-8 col-sm-12">
-                      <center><h3 class="mt40"><b>Townsend Harris High School</b></h3></center>
+                      <center><h3 class="mt40" style="color:maroon;"><b>Townsend Harris High School</b></h3></center>
                         <p class="lead text-justify">
                             Townsend Harris is a young school with an honored past.
                           In 1848, the New York Free Academy, our first municipal institution of free higher education,
