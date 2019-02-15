@@ -16,7 +16,8 @@ $(function(){
       url: 'http://www.baesystems.com/'
     },
     { name: 'conEdison',
-      logo: 'ctn/img/sponsors/conEdison.png'
+      logo: 'ctn/img/sponsors/conEdison.png',
+      url: 'https://www.coned.com/en'
     },
     // { name: 'Home Depot',
     //   logo: 'ctn/img/sponsors/home_depot.png'
@@ -30,17 +31,19 @@ $(function(){
     { name: 'BAE',
       logo: 'ctn/img/sponsors/ROT.png'
     },
-    { name: 'Mu Family',
-      logo: 'ctn/img/sponsors/mu.jpg'
-    },
+    // { name: 'Mu Family',
+    //   logo: 'ctn/img/sponsors/mu.jpg'
+    // },
     { name: 'SolidWorks',
       logo: 'ctn/img/sponsors/solidworks2.png'
     },
     { name: 'Queens College',
-      logo: 'ctn/img/sponsors/qc.png'
+      logo: 'ctn/img/sponsors/qc.png',
+      url: 'https://www.qc.cuny.edu/Pages/home.aspx'
     },
     { name: 'THHS',
-      logo: 'ctn/img/sponsors/thhs.png'
+      logo: 'ctn/img/sponsors/thhs.png',
+      url: 'https://www.thhs.qc.edu/'
     },
 
   ]

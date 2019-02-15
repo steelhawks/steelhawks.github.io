@@ -17,7 +17,7 @@ var subteams = [
     description: "The Programming Sub-Team is the software side to the team. In programming, we develop the robot code for the autonomous (self-controlled) and teleoperated (driver controlled) periods of the game, vision for the robot so that it is able to detect specific game pieces and landmarks on the field (depending on each year's game), the ScoutApp which the scouters use to collect & process data, and the team website."
   },
   {
-    name: 'Drive-Team',
+    name: 'Drive Team',
     icon: 'ti-car',
     description:"Potential drive team members will review the rules and learn different strategies in order to be well equipped for a match. We will learn the different parts of the robot and understand how they work with one another in order to provide feedback on the robots performance. On occasion, we will get to drive the robot. "
   },
@@ -32,7 +32,7 @@ var subteams = [
     description:"Public Relations is the subteam that focuses on developing the brand of the team and making it marketable.\n\nWe will do outreach at public events, where we explain to any interested visitors about our team and what robotics entails. We will do outreach at school, where we will use the power of flyers, social media, and announcements to inform our peers about any robotics events. We will also  help the financial subteam with writing grants, as well as reach out to sponsors with thank-you letters, keeping them updated with the team as well as thanking them for their valuable contributions."
   },
   {
-    name: "Financial",
+    name: "Finance",
     icon: 'ti-money',
     description: "The finance department focuses on fundraising which will help all aspects of robotics run at their full capacity.  Join our finance family which encompasses both humanities and STEM so get the best of both worlds when learning about marketing while improving your writing abilities! "
   },
@@ -50,7 +50,12 @@ var subteams = [
     name: "Animation",
     icon: 'ti-widget',
     description: "We use Blender, a 3D animation software, to create any animations the team needs. We model, texture, and animate different objects, including characters."
-  }
+  },
+  {
+    name: "Safety",
+    icon: 'ti-heart',
+    description: "We ensure the safety of the team."
+    }
   ]
 
   var leaders = [

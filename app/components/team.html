@@ -12,7 +12,6 @@ window.App.templates.pages.team = `
   <section>
     <center><h2 class="color-primary" style="margin-top:-50px;"><b>Subteams</b></h2></center>
     <div class="container">
-      <!--end of row-->
       <div class="row masonry" >
           <div class="col-md-6 col-sm-12 masonry-item mb30 " v-for="group in groups">
               <div class="feature boxed cast-shadow-light mb0">
@@ -26,50 +25,47 @@ window.App.templates.pages.team = `
               </div>
           </div>
       </div>
-      <!--end of row-->
     </div>
-    <!--end of container-->
   </section>
-
-<!-- <section class="bg-rain">
-  <div class="container">
-      <div class="row mb64 mb-xs-24">
-          <div class="col-sm-12 text-center">
-              <h3>Team Leaders</h3>
-          </div>
-      </div>
-
-      <div class="row" v-for="leader in leaders">
-          <div class="col-sm-3 text-center mb40 mb-xs-24">
-              <img alt="Pic" class="mb24" v-bind:src="leader.pic">
-          </div>
-          <div class="col-sm-9">
-            <h4 class="mb0">{{ leader.name }}</h4>
-            <h6  class="uppercase">{{ leader.title }}</h6>
-            <p>{{ leader.bio }}</p>
-          </div>
-        </div>
-
-  </div>
-</section> -->
-<!-- <section class="bg-dark">
+  
+  <!-- <section class="bg-rain">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-md-offset-2">
-                <div class="image-slider slider-paging-controls slider-all-controls">
-                    <ul class="slides">
-                        <li v-for="pic in slideshow">
-                          <div class="image-caption">
-                            <img alt="Image" v-bind:src="pic.src" />
-                            <div class="caption" style="background:black;color:white;font-size:18px">{{ pic.caption }}</div>
-                          </div>
-                        </li>
-                    </ul>
-                </div>
+        <div class="row mb64 mb-xs-24">
+            <div class="col-sm-12 text-center">
+                <h3>Team Leaders</h3>
             </div>
         </div>
-    </div>
-</section> -->
 
+        <div class="row" v-for="leader in leaders">
+            <div class="col-sm-3 text-center mb40 mb-xs-24">
+                <img alt="Pic" class="mb24" v-bind:src="leader.pic">
+            </div>
+            <div class="col-sm-9">
+              <h4 class="mb0">{{ leader.name }}</h4>
+              <h6  class="uppercase">{{ leader.title }}</h6>
+              <p>{{ leader.bio }}</p>
+            </div>
+          </div>
+
+    </div>
+  </section> -->
+  <!-- <section class="bg-dark">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-8 col-md-offset-2">
+                  <div class="image-slider slider-paging-controls slider-all-controls">
+                      <ul class="slides">
+                          <li v-for="pic in slideshow">
+                            <div class="image-caption">
+                              <img alt="Image" v-bind:src="pic.src" />
+                              <div class="caption" style="background:black;color:white;font-size:18px">{{ pic.caption }}</div>
+                            </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> -->
 </div>
 `;

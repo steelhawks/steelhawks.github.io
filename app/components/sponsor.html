@@ -4,7 +4,7 @@ window.App.templates.pages.sponsor = `
   <center><h1 style="color:white;"><b>Our Sponsors</b></h1></center>
 </section>
 <section class="img-bg" style="background-color:white;"
-<center><p class="lead" style="margin-top:50px;"><b>
+<center><p class="lead" style=""><b>
     The Steel Hawks would like to thank the following people,
     companies and organizations for their continuing support
     of our team and school.</b>
@@ -13,7 +13,7 @@ window.App.templates.pages.sponsor = `
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center spread-children-large">
-          <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url">
+          <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url" target="_blank">
             <img alt="pic" class="sponsor fade-1-4"  v-bind:src="sponsor.logo">
           </a>
         </div>
