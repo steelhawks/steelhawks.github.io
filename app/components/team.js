@@ -54,7 +54,7 @@ var subteams = [
   {
     name: "Safety",
     icon: 'ti-heart',
-    description: "We ensure the safety of the team."
+    description: "We ensure the safety of the team. We keep members safe whether they are in the lab working on the robot or not."
     }
   ]
 
@@ -164,3 +164,4 @@ var subteams = [
     );
 
 });
+  

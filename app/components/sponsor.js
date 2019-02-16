@@ -15,4 +15,5 @@ $(function(){
       { name: 'sponsor', path: '/sponsor', component: Vue.component('page-sponsor') }
     );
 
+
 });

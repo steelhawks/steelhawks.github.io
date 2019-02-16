@@ -4,7 +4,7 @@ window.App.templates.pages.team = `
 
   <section class="pb0" style="background-color:black">
     <center><h2 class="uppercase" style="color:white;"><strong>Who is team 2601?</strong></h2></center>
-    <center><blockquote style="width:1500px;text-align:justify;color:white;background-color:black;">The Steel Hawks robotics team, operating out of Townsend Harris High School in Flushing, NY, competes annually in the FIRST Robotics Competition (FRC) after diligently working for six weeks designing, building, and programming a robot to perform certain tasks pertaining to that year’s game. We take this robot to various competitions: the Hudson Valley and Long Island Regionals, as well as the Detroit FRC World Championship upon qualification.
+    <center><blockquote style="text-align:justify;color:white;background-color:black;">The Steel Hawks robotics team, operating out of Townsend Harris High School in Flushing, NY, competes annually in the FIRST Robotics Competition (FRC) after diligently working for six weeks designing, building, and programming a robot to perform certain tasks pertaining to that year’s game. We take this robot to various competitions: the Hudson Valley and Long Island Regionals, as well as the Detroit FRC World Championship upon qualification.
               As a team, we raise funds by building strong relationships with corporate and engineering sponsors, as well as fundraising within our school through candy, coffee, and bake sales. We do this to ensure that our team has the necessary funds and resources to purchase materials for our robot as well as travel to each of our competitions.
     </blockquote></center>
   </section>
@@ -15,19 +15,21 @@ window.App.templates.pages.team = `
       <div class="row masonry" >
           <div class="col-md-6 col-sm-12 masonry-item mb30 " v-for="group in groups">
               <div class="feature boxed cast-shadow-light mb0">
-                  <h2 class="color-primary mb0">
+                  <center><h2 class="color-primary mb0">
                       <i v-bind:class="group.icon" class="icon-sm"></i>
-                      {{ group.name }}</h2>
-                  <h6 class="uppercase color-primary">Subteam</h6>
+                      {{ group.name }}</h2></center>
+                  <center><h6 class="uppercase color-primary">Subteam</h6></center>
                   <p class="text-justify">
                   {{ group.description }}
                   </p>
               </div>
+              </div>
+            </div>
           </div>
       </div>
     </div>
   </section>
-  
+
   <!-- <section class="bg-rain">
     <div class="container">
         <div class="row mb64 mb-xs-24">
@@ -68,4 +70,6 @@ window.App.templates.pages.team = `
       </div>
   </section> -->
 </div>
+
+
 `;

@@ -5,31 +5,31 @@ body {
 }
                             /* Start text style elements */
 h1 {
-    font-family: Montserrat, sans-serif; 
-    font-size:36px; 
+    font-family: Montserrat, sans-serif;
+    font-size:36px;
     padding-bottom: 5px;
 }
 h2 {
-    font-family: Montserrat, sans-serif; 
-    font-size:25px; 
+    font-family: Montserrat, sans-serif;
+    font-size:25px;
     padding-bottom: 10px;
 }
 h3 {
-    font-family: Montserrat, sans-serif; 
-    font-size:20px; 
+    font-family: Montserrat, sans-serif;
+    font-size:20px;
     padding-bottom: 5px;
 }
 h4 {
-    font-family: Montserrat, sans-serif; 
-    font-size:18px; 
+    font-family: Montserrat, sans-serif;
+    font-size:18px;
     padding-bottom: 5px;
 }
 p, p a:link {
-    font-family: Lato, sans-serif; 
-    font-size:15px; 
-    line-height: 2; 
+    font-family: Lato, sans-serif;
+    font-size:15px;
+    line-height: 2;
     text-align: justify;
-} 
+}
 strong {
     font-weight: bold;
 }
@@ -49,11 +49,11 @@ p a:link {
     width: 960px; margin: auto auto;
 }
 .dark {
-    background-color: rgb(35,31,32) !important; 
+    background-color: rgb(35,31,32) !important;
     color: white !important
 }
 .padded	{
-    padding-top: 10px; 
+    padding-top: 10px;
     padding-bottom: 10px
 }
 .bulletless {
@@ -65,7 +65,7 @@ p a:link {
     font-size: 150%;
 }
                                             /* End text style elements */
- 
+                                            
                                             /* Start navbar style elements */
 #nav {
     /* container */
@@ -103,17 +103,17 @@ p a:link {
     height: 60px;
 }
 #navbar {
-    background-color: black; 
+    background-color: black;
     border-bottom: 6px #B40404 solid;
     position: fixed;
     z-index: 99999999;
     width: 100%;
 }
 #navbar h1 {
-    font-family: Lato, sans-serif; 
-    font-weight: 300; 
-    color: white; 
-    font-size: 28px; 
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 28px;
     line-height:40px;
 }
 #navbar li {
@@ -128,33 +128,33 @@ p a:link {
 }
 #navbarItems > li {
     display:table-cell;
-    vertical-align:middle; 
-    height:60px; 
+    vertical-align:middle;
+    height:60px;
     position: relative;
 }
 #navbarItems h2 {
-    font-family: Lato, sans-serif; 
-    font-weight: 400; 
-    color: white; 
-    font-size: 15px; 
-    padding: 0 10px; 
-    margin: auto 0; 
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    padding: 0 10px;
+    margin: auto 0;
     text-align: center;
 }
 #navbarItems > li:hover {
-    cursor: pointer; 
+    cursor: pointer;
 }
 #navbarItems > li:hover *.dropdown {
     display: block;
 }
 #navbarItems *.dropdown {
-    position:absolute; 
-    background-color: rgb(35,31,32); 
-    top: 60px; 
-    border-top: #B40404 solid 6px; 
-    display: none; 
-    height: auto; 
-    transition: display .5s; 
+    position:absolute;
+    background-color: rgb(35,31,32);
+    top: 60px;
+    border-top: #B40404 solid 6px;
+    display: none;
+    height: auto;
+    transition: display .5s;
     z-index: 2;
 }
 #navbarItems *.dropdown h2 {
@@ -183,7 +183,7 @@ p a:link {
                                             /* End navbar style elements */
 											/* Start CSS Slider Elements */
 #cssslider {
-	
+
 }
 											/* End CSS Slider Elements */
 
@@ -194,28 +194,28 @@ p a:link {
 
                                             /* Start Sponsor container style elements */
 #teamSponsorsContainer {
-    margin: 50px auto; 
+    margin: 50px auto;
 }
 #teamSponsorsText {
-    text-align: center; 
-    width: 55%; margin: 0 auto; 
+    text-align: center;
+    width: 55%; margin: 0 auto;
     padding-bottom: 15px;
 }
 #teamSponsorsText p {
     text-align: center;
 }
 #teamSponsors {
-    position: relative; 
+    position: relative;
     height: 741px;
 }
 #teamSponsors img, #teamSponsors h1, #teamSponsors h1:link, #teamSponsors h1:visited {
-    opacity: .9; 
-    background-color: rgb(230,230,230); 
-    padding: 15px; 
-    transition:opacity .25s, background-color .25s; 
+    opacity: .9;
+    background-color: rgb(230,230,230);
+    padding: 15px;
+    transition:opacity .25s, background-color .25s;
     -webkit-transition:opacity .25s, background-color .25s;
-    position: absolute; 
-    color:black 
+    position: absolute;
+    color:black
 }
 
 #teamSponsors img:hover, #teamSponsors h1:hover {

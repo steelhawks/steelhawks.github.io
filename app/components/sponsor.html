@@ -1,38 +1,25 @@
 window.App.templates.pages.sponsor = `
 <div class = "main-container">
-<section class="img-bg" style="background-color:maroon;">
-  <center><h1 style="color:white;"><b>Our Sponsors</b></h1></center>
+<section class="img-bg bg-crimson" style="height:100px">
+  <center><h1 style="color:white;">Our Sponsors</h1></center>
 </section>
-<section class="img-bg" style="background-color:white;"
-<center><p class="lead" style=""><b>
+<section style="margin-top:-5vh">
+<center><h4>
     The Steel Hawks would like to thank the following people,
     companies and organizations for their continuing support
-    of our team and school.</b>
-</p></center>
+    of our team and school.
+</h4></center>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1 text-center spread-children-large">
-          <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url" target="_blank">
-            <img alt="pic" class="sponsor fade-1-4"  v-bind:src="sponsor.logo">
-          </a>
+<div class="container" style="padding-top:10vh">
+        <div class="row masonry">
+          <div v-for= "sponsor in sponsors" class="col-md-6 col-sm-12 masonry-item mb30">
+              <div class="col text-center" style="margin-top:-7vh">
+                <img alt="pic" v-bind:src="sponsor.logo" style="width:200px; height:110px; padding-bottom:2vh;"/>
+                <p class="lead mb80">{{ sponsor.description }}</p>
+              </div>
+          </div>
         </div>
-    </div>
-
-    <div class="row">
-
-    </div>
-    <!--end of row-->
 </div>
 </section>
-<!-- <div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1 text-center spread-children-large">
-          <a v-for="sponsor in sponsors" style="padding-top:30px" v-bind:href="sponsor.url">
-            <img alt="pic" class="sponsor fade-1-4"  v-bind:src="sponsor.logo">
-          </a>
-        </div>
-    </div>
-</div> -->
 </div>
 `;
