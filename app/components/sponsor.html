@@ -11,10 +11,10 @@ window.App.templates.pages.sponsor = `
 </h4></center>
 
 <div class="container" style="padding-top:10vh">
-        <div class="row masonry">
-          <div v-for= "sponsor in sponsors" class="col-md-6 col-sm-12 masonry-item mb30">
-              <div class="col text-center" style="margin-top:-7vh">
-                <img alt="pic" v-bind:src="sponsor.logo" style="width:200px; height:110px; padding-bottom:2vh;"/>
+        <div class="row">
+          <div v-for= "sponsor in sponsors" class="col-md-6 margin-left:0px;margin-right:0px;">
+              <div class="col text-center" style="margin-top:-7vh; height:450px">
+                <img alt="pic" v-bind:src="sponsor.logo" style="width:180px; height:110px; padding-bottom:2vh;"/>
                 <p class="lead mb80">{{ sponsor.description }}</p>
               </div>
           </div>
