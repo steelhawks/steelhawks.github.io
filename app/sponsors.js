@@ -36,9 +36,9 @@ $(function(){
       logo: 'ctn/img/sponsors/mu.jpg',
       description: 'Dr. Harrison T. Mu, M.D. FACS is a Board-certified neurological surgeon and Diplomate of the American Board of Neurological Surgery. He is affiliated with many of the top hospitals in New York City and Long Island areas.'
     },
-    { name: 'Werther Family',
-      description: ''
-    },
+    // { name: 'Werther Family',
+    //   description: ''
+    // },
 
   ]
 });
