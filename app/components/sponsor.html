@@ -8,18 +8,37 @@ window.App.templates.pages.sponsor = `
     The Steel Hawks would like to thank the following people,
     companies and organizations for their continuing support
     of our team and school.
-</h4></center>
+</h4></center><br>
 
-<div class="container" style="padding-top:10vh">
+  <div class="container">
+    <!--end of row-->
+    <div class="row";
+        <div class="col-md-6 col-sm-12 mb30 " v-for="sponsor in sponsors">
+            <div class="feature boxed cast-shadow-light mb0">
+                <center><h2 style="color:maroon;">
+                    {{ sponsor.name }}</h2>
+                    <img v-bind:src="sponsor.logo"/></center>
+                  <br>
+                  <p> {{sponsor.description}} </p>
+                <!-- <center><h4> {{ mentor.title }}</h4></center> -->
+                <!-- <p> {{mentor.bio}} </p> -->
+            </div>
+        </div>
+    </div>
+    <!--end of row-->
+  </div>
+<!-- <div class="container" style="padding-top:10vh;">
         <div class="row">
           <div v-for= "sponsor in sponsors" class="col-md-6 margin-left:0px;margin-right:0px;">
-              <div class="col text-center" style="margin-top:-7vh; height:450px">
-                <img alt="pic" v-bind:src="sponsor.logo" style="width:180px; height:110px; padding-bottom:2vh;"/>
-                <p class="lead mb80">{{ sponsor.description }}</p>
+              <div class="col text-center boxed" style="margin-top:-7vh; height:450px">
+                <img alt="pic" v-bind:src="sponsor.logo" style="padding-bottom:2vh;"/>
+                <p class="lead mb40">{{ sponsor.description }}</p>
               </div>
           </div>
         </div>
-</div>
+</div> -->
 </section>
 </div>
 `;
+
+<!-- width:180px; height:110px;  -->
