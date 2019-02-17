@@ -18,7 +18,7 @@ $(function(){
     },
     { name: 'Queens College',
       logo: 'ctn/img/sponsors/qc.png',
-      description: 'Queens College prepares students to become leaders of our global society by offering a rigorous education in the liberal arts and sciences under the guidance of a faculty dedicated to both teaching and research.'
+      description: 'Queens College prepares students to become leaders of global society by offering a rigorous education in the liberal arts and sciences under the guidance of a faculty dedicated to both teaching and research.'
     },
     { name: 'SolidWorks',
       logo: 'ctn/img/sponsors/solidworks2.png',
