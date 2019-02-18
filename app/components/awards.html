@@ -1,49 +1,51 @@
 window.App.templates.pages.awards = `
 <div class="main-container">
-<section class="img-bg" style="background-color:black;margin-bottom:-50px;">
-  <center><h1 style="color:white;"><b>Awards</b></h1></center>
+<section class="img-bg bg-crimson" style="border-bottom-style:solid;border-bottom-width:20px;border-bottom-color:#292929;">
+  <center><h1 style="color:white;margin-bottom:-5vh;"><b>Awards</b></h1></center>
 </section>
 <section class="img-bg" style="background-color:white;">
-  <center><img src="/ctn/img/2017HVRWinner.png"></img></center>
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="card">
-          <div class="card-body">
-            <center><h2 class="card-title" style="color:maroon;"><b>2018</b></h2></center>
-            <center><p class="lead card-text" style="color:maroon;">Regional Engineering Inspiration Award - SBPLI Long Island Regional #2<br><br>Judges' Award - Hudson Valley Regional</p></center>
+
+
+
+    <div class="col-md-6">
+      <center><h2 style="color:maroon; font-weight:500">2018</h2></center>
+      <div v-for="award in awards">
+        <div v-if="award.year === '2018'"  class="card-body">
+            <center><h4 class="card-title" ><b>{{ award.event }}</b></h4>
+            <p class="lead card-text" >{{ award.name }}</p></center>
+            <img v-bind:src="award.picture"/>
+        </div>
+      </div>
+      <center><h2 style="color:maroon; font-weight:500">2017</h2></center>
+      <div v-for="award in awards">
+        <div v-if="award.year === '2017'"  class="card-body">
+          <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
+            <center><p class="lead card-text" >{{ award.name }}</p></center>
+            <img v-bind:src="award.picture" />
           </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <center><h2 class="card-title" style="color:maroon;"><b>2017</b></h2></center>
-          <center><p class="lead card-text" style="color:maroon;">Regional Winners - Hudson Valley Regional<br><br>FIRST Dean's List Finalist Award (Phyllis Alinsao) - Hudson Valley Regional</p></center>
         </div>
       </div>
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <center><h2 class="card-title" style="color:maroon;"><b>2015</b></h2></center>
-          <center><p class="lead card-text" style="color:maroon;">Regional Engineering Inspiration Award - New York City Regional<br><br>
-            Gracious Professionalism Award sponsored by Johnson & Johnson - Carson Division<br><br>
-            Gracious Professionalism Award sponsored by Johnson & Johnson - SPBLI Long Island Regional</p></center>
+      <div class="col-md-6">
+        <center><h2 style="color:maroon; font-weight:500">2015</h2></center>
+        <div v-for="award in awards">
+          <div v-if="award.year === '2015'"  class="card-body">
+            <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
+            <center><p class="lead card-text" >{{ award.name }}</p></center>
+            <img v-bind:src="award.picture"/>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <center><h2 class="card-title" style="color:maroon;"><b>2014</b></h2></center>
-          <center><p class="lead card-text" style="color:maroon;">Gracious Professionalism Award sponsored by Johnson & Johnson - New York City Regional</p></center>
+        <center><h2 style="color:maroon;  font-weight:500">2014</h2></center>
+          <div v-for="award in awards">
+            <div v-if="award.year === '2014'"  class="card-body">
+              <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
+              <center><p class="lead card-text" >{{ award.name }}</p></center>
+              <img v-bind:src="award.picture"/>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
+
+
+
 </section>
 </div>
 `;

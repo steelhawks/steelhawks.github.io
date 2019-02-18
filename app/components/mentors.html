@@ -10,6 +10,7 @@ window.App.templates.pages.mentors = `
       <div class="row";
           <div class="col-md-6 col-sm-12 mb30 " v-for="mentor in mentors">
               <div class="feature boxed cast-shadow-light mb0">
+                  <center><img v-bind:src="mentor.pic"></img></center><br>
                   <center><h2 style="color:maroon;">
                       {{ mentor.name }}</h2></center>
                   <center><h4> {{ mentor.title }}</h4></center>

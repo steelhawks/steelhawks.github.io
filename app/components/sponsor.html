@@ -1,13 +1,13 @@
 window.App.templates.pages.sponsor = `
 <div class = "main-container">
-<section class="img-bg" style="background-color:black;">
-  <center><h1 style="color:white;margin-bottom:-2vh;"><b>Our Sponsors</b></h1></center>
+<section class="img-bg bg-crimson" style=" border-bottom-width:20px; border-bottom-style:solid; border-bottom-color:#484848	;">
+  <center><h1 style="color:white;margin-bottom:-2vh; font-weight:500;">Our Sponsors</h1></center>
 </section>
-<section style="background-color:maroon;">
-<center><h4 style="color:white;margin-top:-2vh;">
-    <b>The Steel Hawks would like to thank the following people,
+<section>
+<center><h4 class="lead-mb80"style="margin-top:-2vh;font-weight:450;">
+    The Steel Hawks would like to thank the following people,
     companies and organizations for their continuing support
-    of our team and school.</b>
+    of our team and school.
 </h4></center><br>
 
   <div class="container">
@@ -19,7 +19,7 @@ window.App.templates.pages.sponsor = `
                     {{ sponsor.name }}</h2>
                     <img v-bind:src="sponsor.logo"/></center>
                   <br>
-                  <p> {{sponsor.description}} </p>
+                  <p class="lead-mb80"> {{sponsor.description}} </p>
                 <!-- <center><h4> {{ mentor.title }}</h4></center> -->
                 <!-- <p> {{mentor.bio}} </p> -->
             </div>

@@ -1,5 +1,6 @@
 $(function(){
 
+  var mentorHL = '/ctn/img/mentors/';
   var mentors = [
     {
       name: 'Joel Heitman',
@@ -14,7 +15,8 @@ $(function(){
     {
       name: 'Joshua Raghunath',
       title: 'Coach',
-      bio: 'Mr. Raghunath is a coach for the Steel Hawks.'
+      bio: 'Mr. Raghunath is a coach for the Steel Hawks.',
+      pic: mentorHL + 'mrR.JPG'
     },
     {
       name: 'David Stern',
@@ -59,7 +61,8 @@ $(function(){
     {
       name: 'Ishabul Haque',
       title: 'Mentor',
-      bio: 'Ishabul is a mentor for the Steel Hawks.'
+      bio: 'Ishabul is a mentor for the Steel Hawks.',
+      pic: mentorHL + 'ishabul.JPG'
     },
     {
       name: 'Sam Diaz',

@@ -14,7 +14,7 @@ var subteams = [
   {
     name: '</> Programming',
     icon: '',
-    description: "The Programming Sub-Team is the software side to the team. In programming, we develop the robot code for the autonomous (self-controlled) and teleoperated (driver controlled) periods of the game, vision for the robot so that it is able to detect specific game pieces and landmarks on the field (depending on each year's game), the ScoutApp which the scouters use to collect & process data, and the team website."
+    description: "The Programming Sub-Team is the software side to the team. In programming, we develop the robot code for the autonomous (self-controlled) and teleoperated (driver controlled) periods of the game, vision for the robot so that it is able to detect specific game pieces and landmarks on the field (depending on the year's game), the Scout App which the scouters use to collect and process data, and the team website."
   },
   {
     name: 'Drive Team',
@@ -164,4 +164,3 @@ var subteams = [
     );
 
 });
-  
