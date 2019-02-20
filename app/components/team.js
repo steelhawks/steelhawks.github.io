@@ -144,6 +144,12 @@ var subteams = [
     });
   }
 
+  var init_popover = function(){
+    $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+  }
+
   Vue.component('page-team', {
       template: window.App.templates.pages.team,
       data: function(){
@@ -156,6 +162,7 @@ var subteams = [
       mounted: function(){
           initializeMasonry();
           init_slider();
+          init_popover();
       }
     });
 
