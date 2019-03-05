@@ -7,42 +7,45 @@ window.App.templates.pages.awards = `
   <div class="row">
     <center><img src="/ctn/img/2017HVRWinner.png"></img></center>
   </div>
+  <div class="row">
     <div class="col-md-6">
-      <center><h2 style="color:maroon; font-weight:500">2018</h2></center>
+      <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2018</h2>
       <div v-for="award in awards">
         <div v-if="award.year === '2018'"  class="card-body">
             <center><h4 class="card-title" ><b>{{ award.event }}</b></h4>
             <p class="lead card-text" >{{ award.name }}</p></center>
             <img v-bind:src="award.picture"/>
         </div>
-      </div>
-      <center><h2 style="color:maroon; font-weight:500">2017</h2></center>
+      </div></center>
+      <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2017</h2>
       <div v-for="award in awards">
         <div v-if="award.year === '2017'"  class="card-body">
           <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
             <center><p class="lead card-text" >{{ award.name }}</p></center>
             <img v-bind:src="award.picture" />
           </div>
-        </div>
+        </div></center>
       </div>
       <div class="col-md-6">
-        <center><h2 style="color:maroon; font-weight:500">2015</h2></center>
+        <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2015</h2>
         <div v-for="award in awards">
           <div v-if="award.year === '2015'"  class="card-body">
             <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
             <center><p class="lead card-text" >{{ award.name }}</p></center>
             <img v-bind:src="award.picture"/>
           </div>
-        </div>
-        <center><h2 style="color:maroon;  font-weight:500">2014</h2></center>
+        </div></center>
+        <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon;  font-weight:500">2014</h2>
           <div v-for="award in awards">
             <div v-if="award.year === '2014'"  class="card-body">
               <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
               <center><p class="lead card-text" >{{ award.name }}</p></center>
               <img v-bind:src="award.picture"/>
             </div>
-          </div>
+          </div></center>
         </div>
+        </div>
+      </div>
 
 
 

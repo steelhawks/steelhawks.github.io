@@ -2,14 +2,14 @@ window.App.templates.pages.team = `
 
 <div class="main-container">
 
-  <section class="image-bg overlay pt-xs-180 pb-xs-180 bg-crimson" style="height:400px">
+  <section class="image-bg overlay pt-xs-180 pb-xs-180 bg-crimson">
       <div class="background-image-holder">
           <img alt="image" class="background-image" src="ctn/img/team/subteam-header.jpg" />
       </div>
     <div class="container">
       <div class="row">
         <center><h2 class="uppercase" style="color:white;"><strong>Who is team 2601?</strong></h2></center>
-        <center><p style="text-align:justify;color:white;padding-left:30px;padding-right:30px;font-size:1.4em;">The Steel Hawks robotics team, operating out of Townsend Harris High School in Flushing, NY, competes annually in the FIRST Robotics Competition (FRC) after diligently working for six weeks designing, building, and programming a robot to perform certain tasks pertaining to that year’s game. We take this robot to various competitions: the Hudson Valley and Long Island Regionals, as well as the Detroit FRC World Championship upon qualification.
+        <center><p class="lead" style="text-align:justify;color:white;padding-left:30px;padding-right:30px;">The Steel Hawks robotics team, operating out of Townsend Harris High School in Flushing, NY, competes annually in the FIRST Robotics Competition (FRC) after diligently working for six weeks designing, building, and programming a robot to perform certain tasks pertaining to that year’s game. We take this robot to various competitions: the Hudson Valley and Long Island Regionals, as well as the Detroit FRC World Championship upon qualification.
               As a team, we raise funds by building strong relationships with corporate and engineering sponsors, as well as fundraising within our school through candy, coffee, and bake sales. We do this to ensure that our team has the necessary funds and resources to purchase materials for our robot as well as travel to each of our competitions.
         </p></center>
       </div>
@@ -29,8 +29,8 @@ window.App.templates.pages.team = `
                   <p class="text-justify">
                   {{ group.description }}
                   </p>
-                  <a href="#/team" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Coming Soon!"
-                    >{{ group.name }} Members</a>
+                  <center><a href="#/team" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Coming Soon!"
+                    >{{ group.name }} Members</a></center>
               </div>
               </div>
             </div>

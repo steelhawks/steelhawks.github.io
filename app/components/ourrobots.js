@@ -6,7 +6,8 @@ $(function(){
       tubeLink: "https://www.youtube.com/embed/Mew6G_og-PI",
       bio: "Robots, stuck on planet Primus, must gather hatches and cargo to prepare their spaceships before the next Sandstorm arrives.",
       name: "",
-      cad:""
+      cad:"",
+      media:"vid",
     },
     {
       year: "2018",
@@ -16,6 +17,7 @@ $(function(){
       robotpic: "/ctn/img/robots/2018.png",
       name: "Steel Hawking",
       cad:"",
+      media:"pic",
     },
     {
       year: "2017",
@@ -25,6 +27,7 @@ $(function(){
       robotpic: "/ctn/img/robots/2017.JPG",
       name: "Aquila",
       cad:"",
+      media:"vid",
     },
     {
       year: "2016",
@@ -32,7 +35,8 @@ $(function(){
       tubeLink: "https://www.youtube.com/embed/VqOKzoHJDjA",
       bio: "Robots need to fortify their defense while attacking the opponent's outer works and capturing their tower.",
       name: "Red Tail",
-      cad:""
+      cad:"",
+      media:"vid",
     },
     {
       year: "2015",
@@ -40,7 +44,8 @@ $(function(){
       tubeLink: "https://www.youtube.com/embed/EtHq5U6SAsg",
       bio: "Teams pick and stack totes on scoring platforms, putting pool noodles (\"litter\") inside recycling containers, and putting the containers on top of scoring stacks of totes. ",
       name: "Raptor",
-      cad:""
+      cad:"",
+      media:"vid",
     }
 
   ];

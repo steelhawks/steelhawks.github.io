@@ -14,7 +14,8 @@ window.App.templates.pages.ourrobots = `
                   <div class="container">
                     <div class="row">
                       <div class="col-lg-6">
-                        <div class="video-container"><iframe width="560" height="315" v-bind:src="robot.tubeLink" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="video-container" v-if="robot.media == 'vid'"><iframe width="560" height="315" v-bind:src="robot.tubeLink" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div v-if="robot.media == 'pic'""><center><img style="width:80%;height:60%;"v-bind:src="robot.robotpic"></img></center></div>
                       </div>
                       <div class="col-md-5">
                         <p class="lead" style="text-align:justify;"> {{robot.bio}} </p>
@@ -23,7 +24,7 @@ window.App.templates.pages.ourrobots = `
                         </div>
                         <br>
                         <div class="row" style="text-align:center;">
-                          <a><p class="lead"><b>{{robot.name}} CAD Files (Coming soon!)</p></a>
+                          <a href="robot.cad"><p class="lead"><b>{{robot.name}} CAD Files (Coming soon!)</p></a>
                         </div>
                       </div>
                     </div>
