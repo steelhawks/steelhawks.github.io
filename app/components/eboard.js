@@ -22,7 +22,7 @@ $(function(){
     {
       name: 'Annabella Li',
       title: 'Financial Secretary',
-      bio: "Hey everyone! I'm Annabella and I'm the Financial Secretary for the Steel Hawks.",
+      bio: "Hey, it's Annabella, financial secretary of the team and Starbucks/bubble tea enthusiast! As financial secretary, I write our team's business plan, reach out to sponsors and set up fundraisers to keep our team functioning at its finest. Doing all this for my team just makes cents!",
       pic: boardHL + "annabella.jpeg"
     },
     {

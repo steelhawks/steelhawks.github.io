@@ -3,7 +3,7 @@ window.App.templates.pages.eboard = `
   <section class="img-bg" style="background-color:black;border-bottom-width:20px;border-bottom-style:solid;border-bottom-color:#FFFFFF;">
     <center><h1 class="uppercase" style="color:white;margin-bottom:-5vh;"><b>Executive Board</b></h1></center>
   </section>
-  <section class="img-bg" style="background-color:crimson;border-bottom-width:20px;border-bottom-style:solid;border-bottom-color:#FFFFFF;">
+  <section class="img-bg bg-crimson" style="border-bottom-width:20px;border-bottom-style:solid;border-bottom-color:#FFFFFF;">
     <div class="container">
       <div class="row">
           <div class="col-md-6 col-sm-12 mb30 " v-for="leader in leaders">
@@ -13,7 +13,7 @@ window.App.templates.pages.eboard = `
                       {{ leader.name }}</h2></center>
                   <center><h4> {{ leader.title }}</h4></center>
                   <br>
-                  <p class="text-justify"> {{leader.bio}} </p>
+                  <p class="text-justify" style="color:black;"> {{leader.bio}} </p>
               </div>
           </div>
       </div>
