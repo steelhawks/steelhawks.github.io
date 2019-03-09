@@ -19,7 +19,7 @@ $(function(){
         <div class="main-container">
           <section class="pt10 pb10">
                 <div class="col-md-offset-2 col-md-8 col-sm-12">
-                  <center><img alt="Screenshot" class="cast-shadow mb-xs-24" src="ctn/img/thhs_building2.jpg"></center>
+                  <center><img alt="Screenshot" class="cast-shadow mb-xs-24" src="ctn/img/thhs_building2.jpg" style="border-rounded"></center>
                 </div>
                     <div class="col-md-offset-2 col-md-8 col-sm-12">
                       <center><h3 class="mt40" style="color:maroon;"><b>Townsend Harris High School</b></h3></center>
