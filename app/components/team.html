@@ -20,8 +20,8 @@ window.App.templates.pages.team = `
     <center><h2 class="color-white" style="margin-top:-50px;"><b>Subteams</b></h2></center>
     <div class="container">
       <div class="row masonry" >
-          <div class="col-md-6 col-sm-12 masonry-item mb30 " v-for="group in groups">
-              <div class="feature boxed cast-shadow-light mb0">
+          <div class="col-md-6 col-sm-12 masonry-item mb30 " v-for="group in groups" style="margin-bottom:50px;">
+              <div style="height:400px"class="feature boxed cast-shadow-light mb0">
                   <center><h2 class="color-primary mb0">
                       <i v-bind:class="group.icon" class="icon-sm"></i>
                       {{ group.name }}</h2></center>
@@ -29,8 +29,11 @@ window.App.templates.pages.team = `
                   <p class="text-justify">
                   {{ group.description }}
                   </p>
-                  <center><a href="#/team" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content={{group.members}}
-                    >{{ group.name }} Members</a></center>
+                  <center><details>
+                    <summary class="color-primary mb0" style="font-weight:800;font-size:1.3em;">{{ group.name }} Members</summary>
+                    <p style="margin-left:40px;margin-right:40px;margin-top:10px;;height:20px">{{group.members}}<p>
+                  </details></center>
+                  </div>
               </div>
               </div>
             </div>

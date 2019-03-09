@@ -5,19 +5,21 @@ var subteams = [
   { name: 'Mechanical',
      icon: 'ti-settings',
     description: "We are the subteam responsible for designing and creating a machine set to accomplish a task based on the game that comes out each year. We design and prototype beta robots before moving to the final design. Once we have each element of the robot finalized, we're responsible for putting it together in the most efficient way possible. We have to keep in mind factors such as drop centers, turning radius, height, speed, weight.",
-    members: "Coming Soon!"
+    members: "Coming Soon!",
+    collapse:"#Mechanical",
   },
   {
     name: 'Electrical',
     icon: 'ti-pulse',
     description: 'Our subteam focuses on wiring circuits and creating the board for our robot. We also work with pneumatics, which involves the use of pressurized air to move mechanisms.',
-    members: "Coming Soon!"
+    members: "Coming Soon!",
+    collapse:"#Electrical"
   },
   {
     name: '</> Programming',
     icon: '',
     description: "The Programming Sub-Team is the software side to the team. In programming, we develop the robot code for the autonomous (self-controlled) and teleoperated (driver controlled) periods of the game, vision for the robot so that it is able to detect specific game pieces and landmarks on the field (depending on the year's game), the Scout App which the scouters use to collect and process data, and the team website.",
-    members: ["Amar Maksumic, Shara Bhuiyan, Hali Huang, Kelvin Yip, Michael Kim, Andy Hoo, Ethan Diep, Johnathan Suero"]
+    members: "Amar Maksumic, Shara Bhuiyan, Hali Huang, Kelvin Yip, Michael Kim, Andy Hoo, Ethan Diep, Johnathan Suero"
   },
   {
     name: 'Drive Team',
@@ -134,6 +136,7 @@ var subteams = [
   ]
 
 
+
   var init_slider = function(){
     $('.slider-all-controls').flexslider({
         slideshow: true,
@@ -155,11 +158,6 @@ var subteams = [
     });
   }
 
-  var init_popover = function(){
-    $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();
-  });
-  }
 
   Vue.component('page-team', {
       template: window.App.templates.pages.team,
@@ -173,7 +171,6 @@ var subteams = [
       mounted: function(){
           initializeMasonry();
           init_slider();
-          init_popover();
       }
     });
 
