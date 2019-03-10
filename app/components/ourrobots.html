@@ -1,9 +1,9 @@
 window.App.templates.pages.ourrobots = `
 <div class="main-container">
-  <section class="img-bg" style="background-color:black;margin-bottom:-50px;">
+  <section class="img-bg white-border pb0" style="background-color:black;">
     <center><h1 style="color:white;"><b>Our Robots</b></h1></center>
   </section>
-  <section class="img-bg" style="background-color:maroon;">
+  <section class="img-bg white-border bg-crimson">
     <div class="container">
       <div class="row">
           <div class="col-lg-12 mb30" v-for="robot in robots">
@@ -18,7 +18,7 @@ window.App.templates.pages.ourrobots = `
                         <div v-if="robot.media == 'pic'""><center><img style="width:80%;height:60%;"v-bind:src="robot.robotpic"></img></center></div>
                       </div>
                       <div class="col-md-5">
-                        <p class="lead" style="text-align:justify;"> {{robot.bio}} </p>
+                        <p class="lead" style="text-align:justify;color:black;"> {{robot.bio}} </p>
                         <div class="row" style="text-align:center;">
                           <p class="lead"><b>Robot Name:</b> {{robot.name}}</p>
                         </div>
