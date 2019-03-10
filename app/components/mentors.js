@@ -56,7 +56,7 @@ $(function(){
     {
       name: 'Marcus Barbu',
       title: 'Mentor',
-      bio: 'Marcus is a mentor for the Steel Hawks.'
+      bio: 'Marcus is a programming mentor for the Steel Hawks.'
     },
     {
       name: 'Ishabul Haque',
@@ -67,7 +67,7 @@ $(function(){
     {
       name: 'Sam Diaz',
       title: 'Mentor',
-      bio: 'Sam is a mentor for the Steel Hawks.'
+      bio: 'I am God'
     }
   ];
 

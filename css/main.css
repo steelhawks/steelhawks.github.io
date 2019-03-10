@@ -30,6 +30,20 @@
     background-blend-mode: luminosity;
 }
 
+.white-border{
+  border-bottom-width:20px;
+  border-bottom-style:solid;
+  border-bottom-color:#FFFFFF;
+}
+
+.dark-border{
+
+}
+
+.maroon-border{
+
+}
+
 img.sponsor {
   height:90px;
   opacity: .65;

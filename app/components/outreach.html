@@ -1,13 +1,44 @@
 window.App.templates.pages.outreach = `
-<!-- <div class="main-container">
-  <section class="img-bg" style="background-color:black;border-bottom-style:solid;border-bottom-width:20px;border-bottom-color:maroon;">
+<div class="main-container">
+  <section class="img-bg white-border" style="background-color:black;">
     <center><h1 class="uppercase" style="color:white;margin-bottom:-8vh;"><b>Outreach</b></h1></center>
   </section>
-  <section class="img-bg mt0" style="border-bottom-style:solid;border-bottom-width:20px;border-bottom-color:maroon;">
+  <section class="img-bg bg-crimson white-border">
     <div class="container">
       <div class="row">
         <div class="col-lg-18">
-          <center style="featured boxed cast-shadow-light"><h2 style="color:maroon;"><b>Project Philippines</b></h2>
+          <center><h2 style="color:white;margin-top:-50px;"><b>Beyond FIRST</b></h2></center>
+            <div v-for="event in events">
+              <div v-if="event.mF==='Out FIRST'" class="card-body feature boxed cast-shadow-light">
+                <center><h3><b>{{event.sF}}</b></h3></center>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img v-bind:src="event.img"></img>
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="lead text-justify" style="color:black;">{{event.description1}}</p>
+                    <br>
+                    <p class="lead text-justify" style="color:black;">{{event.description2}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <center><h2 style="color:white;"><b>In FIRST</b></h2></center>
+            <div v-for="event in events">
+              <div v-if="event.mF==='In FIRST'" class="card-body feature boxed cast-shadow-light">
+                <center><h3><b>{{event.sF}}</b></h3></center>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img v-bind:src="event.img"></img>
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="lead text-justify" style="color:black;">{{event.description1}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <!-- <center style="featured boxed cast-shadow-light"><h2 style="color:maroon;"><b>Project Philippines</b></h2>
             <div v-for="event in events">
               <div v-if="event.mF==='Project Philippines'" class="card-body">
                 <div class="row">
@@ -21,15 +52,14 @@ window.App.templates.pages.outreach = `
                 </div>
               </div>
             </div>
-          </center>
-
+          </center> -->
         </div>
       </div>
     </div>
   </section>
-</div> -->
+</div>
 
-<div class = "main-container">
+<!-- <div class = "main-container">
 <section class="img-bg" style="background-color:black;border-bottom-style:solid;border-bottom-width:20px;border-bottom-color:maroon;">
   <center><h1 class="uppercase" style="color:white;margin-bottom:-8vh;"><b>Outreach</b></h1></center>
 </section>
@@ -66,7 +96,7 @@ window.App.templates.pages.outreach = `
     </div>
   </div>
   <center><h4 style="margin-top:20px;"><b>FTC Championships</b></h4></center>
-  <div class="container">
+    <div class="container">
     <div class="row">
       <div class="col-lg-6">
         <img src="/ctn/img/outreach/ftc.jpeg"></img>
@@ -107,5 +137,5 @@ window.App.templates.pages.outreach = `
     </div>
   </div>
   </section>
-</div>
+</div> -->
 `;
