@@ -37,11 +37,14 @@
 }
 
 .dark-border{
-
+border-bottom-width:20px;
+border-bottom-style:solid;
+border-bottom-color:#292929;
 }
-
 .maroon-border{
-
+  border-bottom-width:20px;
+  border-bottom-style:solid;
+  border-bottom-color:#ad2525;
 }
 
 img.sponsor {
