@@ -5,13 +5,13 @@ var subteams = [
   { name: 'Mechanical',
      icon: 'ti-settings',
     description: "We are the subteam responsible for designing and creating a machine set to accomplish a task based on the game that comes out each year. We design and prototype beta robots before moving to the final design. Once we have each element of the robot finalized, we're responsible for putting it together in the most efficient way possible. We have to keep in mind factors such as drop centers, turning radius, height, speed, weight.",
-    members: "James Hopkins, Shane Werther, Carolina Narvaez, Courtney Chan, Adam Ganpat, Alex Muntean, Alisha Ansari, Balraj Chahal, Benjamin Zeller, Bob Fang, Danielle Chiu, Darren Leong, David Muratov, Edwin Khew, Elsa Oreen, Esmond Lau, Felecia Hassan, Heidy Mendez, Ilan Matsuyoshi, Jackson DeMasi, Jasmine Fleming, Jeremy Aziel, Jessica Jimenez, Jocelyn Wang, Joshua Ashvil, Julie Li, Karan Ajmera, Keane Lupercio"
+    members: "James Hopkins, Shane Werther, Carolina Narvaez, Courtney Chan, Adam Ganpat, Alex Muntean, Alisha Ansari, Balraj Chahal, Benjamin Zeller, Bob Fang, Danielle Chiu, Darren Leong, David Muratov, Edwin Khew, Elsa Oreen, Esmond Lau, Felecia Hassan, Heidy Mendez, Ilan Matsuyoshi, Jackson DeMasi, Jasmine Fleming, Jeremy Aziel, Jessica Jimenez, Jocelyn Wang, Joshua Ashvil, Julie Li, Karan Ajmera, Keane Lupercio, Krishna Baliga, Nathan Lin, Nicholas Rao, Priyota Saha"
   },
   {
     name: 'Electrical',
     icon: 'ti-pulse',
     description: 'Our subteam focuses on wiring circuits and creating the board for our robot. We also work with pneumatics, which involves the use of pressurized air to move mechanisms.',
-    members: "Eric Wu, Arbid Yusuf, Betty Jin, Eric Zhao, Akash Persaud, Samuel Tsai, Keith Yeung",
+    members: "Eric Wu, Arbid Yusuf, Betty Jin, Eric Zhao, Akash Persaud, Samuel Tsai, Keith Yeung, Minnie Lee, John Pabololat, Neeharika Kotimreddy"
   },
   {
     name: '</> Programming',
@@ -53,7 +53,7 @@ var subteams = [
     name: 'CAD',
     icon: 'ti-ruler-pencil',
     description: "Our subteam makes dreams become reality. We make 3D models of mechanisms and prototypes. We also make parts to be 3D printed. We further aid the mechanical subteam with the prototyping process.",
-    members: "Jessica Lu"
+    members: "Jessica Lu, Megan Chang, Eric Han"
   },
   {
     name: "Animation",

@@ -43,11 +43,11 @@ $(function(){
       bio: "Hi everyone! I'm Amrita and I'm one of the PR Managers for the Steel Hawks.",
       pic: boardHL + "amrita.jpeg"
     },
-    // {
-    //   name: 'Aarti Patel',
-    //   title: 'Inventory Secretary',
-    //   bio: "Hello! My name is Aarti and I am the inventory manager of the team. The work I contribute makes sure that our team runs in an orderly fashion; I help keep track of all the tools we have and where we keep them. If only I applied the same philosophy to my room..."
-    // },
+    {
+      name: 'Aarti Patel',
+      title: 'Inventory Secretary',
+      bio: "Hello! My name is Aarti and I am the inventory manager of the team. The work I contribute makes sure that our team runs in an orderly fashion; I help keep track of all the tools we have and where we keep them. If only I applied the same philosophy to my room..."
+    },
     {
       name: 'Samantha Wong',
       title: 'Strategy Director',
@@ -60,11 +60,11 @@ $(function(){
       bio: "Hi! My name is Raymond and I'm the Director of Photography and Videography. I work to document the team's achievements, failures, happiest, and stressful moments. I also work with the team to create the Chairman's video every year. I'm pretty chill and I will always help my team with whatever they need help with.",
       pic: boardHL + "raymond.jpeg"
     },
-    // {
-    //   name: 'Kyle Lai',
-    //   title: 'Safety Captain',
-    //   bio: "I'm Kyle! I keep everyone safe during robotics, whether they're working in the lab or not."
-    // }
+    {
+      name: 'Kyle Lai',
+      title: 'Safety Captain',
+      bio: "I'm Kyle! I keep everyone safe during robotics, whether they're working in the lab or not."
+    }
   ];
 
   Vue.component('page-eboard', {
