@@ -29,7 +29,7 @@ var subteams = [
     name: "Scouting",
     icon: 'ti-eye',
     description: "We focus on data collection and strategy which is then used during competition. We’ll teach you the ins and outs of last year's game and how to make strategies for it with the assistance of our app. ",
-    members: "Samantha Wong"
+    members: "Samantha Wong, Angela Chen, Tiffany Lin"
   },
   {
     name: "Public Relations",

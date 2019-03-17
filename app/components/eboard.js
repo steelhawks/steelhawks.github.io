@@ -46,7 +46,8 @@ $(function(){
     {
       name: 'Aarti Patel',
       title: 'Inventory Secretary',
-      bio: "Hello! My name is Aarti and I am the inventory manager of the team. The work I contribute makes sure that our team runs in an orderly fashion; I help keep track of all the tools we have and where we keep them. If only I applied the same philosophy to my room..."
+      bio: "Hello! My name is Aarti and I am the inventory manager of the team. The work I contribute makes sure that our team runs in an orderly fashion; I help keep track of all the tools we have and where we keep them. If only I applied the same philosophy to my room...",
+      pic: "/ctn/img/genericProfile.jpg"
     },
     {
       name: 'Samantha Wong',
@@ -63,7 +64,8 @@ $(function(){
     {
       name: 'Kyle Lai',
       title: 'Safety Captain',
-      bio: "I'm Kyle! I keep everyone safe during robotics, whether they're working in the lab or not."
+      bio: "I'm Kyle! I keep everyone safe during robotics, whether they're working in the lab or not.",
+      pic: "/ctn/img/genericProfile.jpg"
     }
   ];
 
