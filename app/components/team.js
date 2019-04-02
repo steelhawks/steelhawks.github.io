@@ -66,7 +66,13 @@ var subteams = [
     icon: 'ti-heart',
     description: "We ensure the safety of the team. We keep members safe whether they are in the lab working on the robot or not.",
     members: "Kyle Lai"
-    }
+  },
+  {
+    name: 'CNC',
+    icon: 'ti-ruler-pencil',
+    description: 'We are in charge of cutting parts for robot.',
+    members: 'Paul Rambharose, David Muratov'
+  }
   ]
 
   var brochure = [

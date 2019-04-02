@@ -1,50 +1,49 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-	<title>FRC 2601 | Steel Hawks</title>
-	<!--favicon-->
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/ctn/img/favicon_package_v0.16/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/ctn/img/favicon_package_v0.16/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
-	<!--META tags for window-->
-	<meta charset="UTF-8">
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>FRC 2601 - Steel Hawks</title>
+		<!--favicon-->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/ctn/img/favicon_package_v0.16/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/ctn/img/favicon_package_v0.16/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<!--META tags for window-->
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!--Core JS Libraries-->
-	<!-- <script src="lib/jquery-3.3.1.min.js"></script> -->
-	<script src="lib/theme/js/jquery.min.js"></script>
+		<!--Core JS Libraries-->
+		<!-- <script src="lib/jquery-3.3.1.min.js"></script> -->
+		<script src="lib/theme/js/jquery.min.js"></script>
 
- 	<script src="lib/vue_debug.js"></script>
-	<script src="lib/vue-router.js"></script>
-	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	 	<script src="lib/vue_debug.js"></script>
+		<script src="lib/vue-router.js"></script>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-	<script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+		<script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
 
-	<!--Adding Google Fonts-->
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,400bold,300' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+		<!--Adding Google Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,400bold,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/animations.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/animations.css">
 
-	<link href="lib/theme/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="lib/theme/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="lib/theme/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="lib/theme/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="lib/theme/css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="lib/theme/css/theme-thhs.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="lib/theme/css/font-robotocondensed.css" rel="stylesheet" type="text/css" media="all" />
-	<link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,400,700,700italic" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/media.css">
-	<link rel="stylesheet" href="css/team.css">
-</head>
+		<link href="lib/theme/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="lib/theme/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="lib/theme/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="lib/theme/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="lib/theme/css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="lib/theme/css/theme-thhs.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="lib/theme/css/font-robotocondensed.css" rel="stylesheet" type="text/css" media="all" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,400,700,700italic" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="css/team.css">
+	</head>
 
 <body>
 
@@ -53,41 +52,6 @@
 		<transition name="fade">
 			<router-view></router-view>
 		</transition>
-		<!-- <section class="image-bg pb5 pt5" style="background-color:maroon;">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-							<ul class="list-inline social-list mb0">
-											<li>
-													<a href="https://twitter.com/thhsrobotics?lang=en" target="_blank">
-															<i class="icon icon-sm ti-twitter-alt"></i>
-													</a>
-											</li>
-											<li>
-													<a href="https://www.facebook.com/frc2601/" target="_blank">
-															<i class="icon icon-sm ti-facebook"></i>
-													</a>
-											</li>
-											<li>
-													<a href="https://www.instagram.com/steelhawks2601/" target="_blank">
-															<i class="icon icon-sm ti-instagram"></i>
-													</a>
-											</li>
-											<li>
-												<a href="https://www.youtube.com/channel/UCEWGzCi4HUPlMh-btGRb1dg" target="_blank">
-													<i class="icon icon-sm ti-youtube" style="color:white"></i>
-												</a>
-											</li>
-											<li>
-												<a href="https://github.com/steelhawks" target="_blank">
-													<i class="icon ti-github icon-sm" style="color:white"></i>
-												</a>
-											</li>
-									</ul>
-					</div>
-				</div>
-			</div>
-		</section> -->
 		<section class="pt40 pb40 image-bg" style="background-color:black;border-bottom-color:maroon;border-bottom-style:solid;">
 		    <div class="container">
 		        <div class="row">
