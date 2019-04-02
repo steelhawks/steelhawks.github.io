@@ -69,6 +69,15 @@ var subteams = [
     }
   ]
 
+  var brochure = [
+    {
+      name: '/ctn/img/brochurep1.png'
+    },
+    {
+      name: '/ctn/img/brochurep2.png'
+    },
+  ];
+
   // var leaders = [
   //   {
   //     name:"",
@@ -164,7 +173,8 @@ var subteams = [
         return {
           // slideshow: slideshow,
           // leaders: leaders,
-          groups: subteams
+          groups: subteams,
+          brochure: brochure
         }
       },
       mounted: function(){

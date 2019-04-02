@@ -16,6 +16,15 @@ window.App.templates.pages.team = `
     </div>
   </section>
 
+  <section class="image-bg">
+    <div class="scrollable-nL">
+      <div v-for="page in brochure">
+        <img v-bind:src="page.name"></img>
+        <br>
+      </div>
+    </div>
+  </section>
+
   <section class="maroon-border" style="background-color:white;">
     <center><h2 class="color-white" style="margin-top:-50px;"><b>Subteams</b></h2></center>
     <div class="container">
