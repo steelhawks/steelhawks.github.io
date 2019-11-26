@@ -47,7 +47,6 @@ $(function(){
       cad:"",
       media:"vid",
     }
-
   ];
 
   Vue.component('page-ourrobots', {

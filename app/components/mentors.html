@@ -1,25 +1,23 @@
 window.App.templates.pages.mentors = `
 
 <div class="main-container">
+  <!-- Mentor Header -->
   <section class="img-bg pb0 white-border" style="background-color:black;">
     <center><h1 class="uppercase" style="color:white;"><b>Mentors</b></h1></center>
   </section>
+  <!-- Mentor Featured boxes -->
   <section class="img-bg bg-crimson white-border">
     <div class="container">
-      <!--end of row-->
-      <div class="row";
+      <div class="row">
           <div class="col-md-6 col-sm-12 mb30 " v-for="mentor in mentors">
               <div class="feature boxed cast-shadow-light mb0"  style="height:700px;">
                   <center><img v-bind:src="mentor.pic"></img></center><br>
-                  <center><h2 style="color:maroon;">
-                      {{ mentor.name }}</h2></center>
-                  <center><h4> {{ mentor.title }}</h4></center>
-                  <br>
-                  <p class="text-justify" style="color:black;"> {{mentor.bio}} </p>
+                  <center><h2 style="color:maroon;">{{ mentor.name }}</h2></center>
+                  <center><h4>{{ mentor.title }}</h4></center>
+                  <p class="text-justify" style="color:black;">{{mentor.bio}}</p>
               </div>
           </div>
       </div>
-      <!--end of row-->
     </div>
   </section>
 </div>

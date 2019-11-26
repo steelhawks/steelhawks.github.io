@@ -1,9 +1,7 @@
 $(function(){
-
     var vue = {
         page: ''
     };
-
     Vue.component('navbar', {
       template: window.App.templates.navbar,
       data: function(){
@@ -18,5 +16,4 @@ $(function(){
         vue.page = this.$router.history.current.name;
       }
     });
-
 });

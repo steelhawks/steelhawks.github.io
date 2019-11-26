@@ -9,8 +9,8 @@ window.App.templates.pages.outreach = `
         <div class="col-lg-18">
           <center><h2 style="color:white;margin-top:-50px;"><b>Beyond FIRST</b></h2></center>
             <div v-for="event in events">
-              <div v-if="event.mF==='Out FIRST'" class="card-body feature boxed cast-shadow-light">
-                <center><h3><b>{{event.sF}}</b></h3></center>
+              <div v-if="event.mainFocus==='Out FIRST'" class="card-body feature boxed cast-shadow-light">
+                <center><h3><b>{{event.smallFocus}}</b></h3></center>
                 <div class="row">
                   <div class="col-lg-6">
                     <img v-bind:src="event.img"></img>
@@ -25,8 +25,8 @@ window.App.templates.pages.outreach = `
             </div>
           <center><h2 style="color:white;"><b>In FIRST</b></h2></center>
             <div v-for="event in events">
-              <div v-if="event.mF==='In FIRST'" class="card-body feature boxed cast-shadow-light">
-                <center><h3><b>{{event.sF}}</b></h3></center>
+              <div v-if="event.mainFocus==='In FIRST'" class="card-body feature boxed cast-shadow-light">
+                <center><h3><b>{{event.smallFocus}}</b></h3></center>
                 <div class="row">
                   <div class="col-lg-6">
                     <img v-bind:src="event.img"></img>
@@ -38,7 +38,7 @@ window.App.templates.pages.outreach = `
               </div>
             </div>
 
-      
+
         </div>
       </div>
     </div>

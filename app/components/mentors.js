@@ -1,13 +1,21 @@
 $(function(){
 
+  function mentor(name, title, bio, pic){
+    this.name = name;
+    this.title = title;
+    this.bio = bio;
+    this.pic = pic;
+  }
+
   var mentorHL = '/ctn/img/mentors/';
   var mentors = [
-    {
-      name: 'Joel Heitman',
-      title: 'Head Coach',
-      bio: 'Mr. Heitman is the Head Coach of the Steel Hawks. He joined the Steel Hawks in 2013. His passion for Robotics has allowed the team to soar, and he hopes that with the help of his mentors, he can inspire the next generation of innovators.',
-      pic: "/ctn/img/genericProfile.jpg"
-    },
+    new mentor('Joel Heitman','Head Coach', 'Mr. Heitman is the Head Coach of the Steel Hawks. He joined the Steel Hawks in 2013. His passion for Robotics has allowed the team to soar, and he hopes that with the help of his mentors, he can inspire the next generation of innovators.', "/ctn/img/genericProfile.jpg"),
+    // {
+    //   name: 'Joel Heitman',
+    //   title: 'Head Coach',
+    //   bio: 'Mr. Heitman is the Head Coach of the Steel Hawks. He joined the Steel Hawks in 2013. His passion for Robotics has allowed the team to soar, and he hopes that with the help of his mentors, he can inspire the next generation of innovators.',
+    //   pic: "/ctn/img/genericProfile.jpg"
+    // },
     {
       name: 'Susan Brustein',
       title: 'Coach',

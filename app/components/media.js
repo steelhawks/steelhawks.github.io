@@ -1,6 +1,3 @@
-
-
-
 $(function(){
 
   var pages = [
