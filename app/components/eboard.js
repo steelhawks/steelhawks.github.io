@@ -1,5 +1,4 @@
 $(function(){
-
   function Leader(name, title, bio, pic, subteam)
   {
     this.name = name;
@@ -8,7 +7,6 @@ $(function(){
     this.pic = pic;
     this.subteam = subteam;
   }
-
   let genericPro = "/ctn/img/genericProfile.jpg"
   let boardHL = "/ctn/img/eboard19/";
   let leaders = [
@@ -26,7 +24,7 @@ $(function(){
     new Leader('Sharon Li','Head of Media',"Hello, I'm Sharon!" ,genericPro),
     new Leader('Amrita Roy', 'Head of Chairmans', "Hi everyone! I'm Amrita and I'm the Head of Chairmans for the Steel Hawks.", boardHL + "amrita.jpeg"),
     new Leader('Chris Gilson','Head of Finance',"Hi I'm Chris!",genericPro),
-    new Leader('Michael Kim', 'Head Of Scouting', "Hi! My name's Samantha and I'm the team's strategy director. I create strategies for the team during competition using the team's scouting data. My job as the team's strategy director goes hand in hand with my job as the team's lead scout. I'm a junior who really needs to study for my AP classes as much as I study the manual.", genericPro),
+    new Leader('Michael Kim', 'Head Of Scouting', "Hi! I am Michael", genericPro),
     new Leader('Kelvin Yip', 'Head of Communications', "Hi everyone! My name is Kelvin and I'm the Head of Communications for the Steel Hawks. I update all team members with latest information and oversee the team's Discord Server. I am the lead programmer for the Scout App and Steel Hawks website.",boardHL + "kelvin.jpeg"),
     new Leader('Clara Graceanu', 'Head of Public Relations', "Hi! I'm Clara!",genericPro)
   ];
@@ -37,7 +35,6 @@ $(function(){
   //     pic: boardHL + "brianna.jpeg"
   //   },
   // ];
-
   Vue.component('page-eboard', {
     template:window.App.templates.pages.eboard,
     data:function(){
@@ -46,10 +43,8 @@ $(function(){
       }
     },
     mounted: function(){
-
     }
   });
-
   App.routes.push(
     {name: 'eboard', path: '/eboard', component: Vue.component('page-eboard')}
   );

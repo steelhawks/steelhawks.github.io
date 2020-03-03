@@ -29,19 +29,21 @@ window.App.templates.pages.team = `
     <center><h2 class="color-white" style="margin-top:-50px;"><b>Subteams</b></h2></center>
     <div class="container">
       <div class="row masonry">
-          <div class="col-md-6 col-sm-12 masonry-item mb30 " v-for="group in groups" style="margin-bottom:10em;">
+          <div class="col-md-6 col-sm-13 masonry-item mb30 " v-for="group in groups" style="margin-bottom:20em;">
               <div style=""class="feature boxed cast-shadow-light mb0">
                   <center><h2 class="color-primary mb0">
-                      <i v-bind:class="group.icon" class="icon-sm"></i>
+                      <i v4-bind:class="group.icon" class="icon-sm"></i>
                       {{ group.name }}</h2></center>
                   <center><h6 class="uppercase color-primary">Subteam</h6></center>
                   <p class="text-justify">
                   {{ group.description }}
                   </p>
                   <center><details>
-                    <summary class="btn btn-rounded uppercase"  style="font-weight:800;font-size:1.3em;margin-left:30px;margin-right:30px;">{{ group.name }} Members</summary>
-                    <p>{{group.members}}</p>
-                    <!-- <p style="margin-left:40px;margin-right:40px;margin-top:10px;;height:20px">{{group.members}}<p> -->
+                      <center><h6 class="uppercase color-primary">Members</h6></center>
+                    <summary class="btn btn-rounded uppercase" style="font-weight:800;font-size:1.3em;margin-left:30px;margin-right:30px;"> {{ group.name }} Members </summary>
+                    <p> {{group.members}} </p>
+
+                    <!-- */ <p style="margin-left:40px;margin-right:40px;margin-top:10px;;height:20px">{{group.members}}<p> -->
                   </details></center>
               </div>
               </div>
