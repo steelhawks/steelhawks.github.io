@@ -17,7 +17,7 @@ var subteams = [
     name: '</> Programming',
     icon: '',
     description: "The Programming Sub-Team is the software side to the team. In programming, we develop the robot code for the autonomous (self-controlled) and teleoperated (driver controlled) periods of the game, vision for the robot so that it is able to detect specific game pieces and landmarks on the field (depending on the year's game), the Scout App which the scouters use to collect and process data, and the team website.",
-    members: "Amar Maksumic, Shara Bhuiyan, Kelvin Yip, Hali Huang, Andy Hoo, Ethan Diep, Adeebah Zaman, Bryan Sukhdeo, Kaitlin Kaii, Nathan Lin, Amanda Grivej, Brian Hsu, Esther Liu, Harry Zhu, Jonathan Suero, Kevin Byun, Leo Zhang, Michael Kim, Nick Was, Sarah Kwong, Yuga Suzuki, Yuri Choi"
+    members: "Amar Maksumic, Shara Bhuiyan, Kelvin Yip, Hali Huang, Andy Hoo, Ethan Diep, Adeebah Zaman, Bryan Sukhdeo, Kaitlin Kaii, Amanda Grivej, Brian Hsu, Esther Liu, Harry Zhu, Jonathan Suero, Kevin Byun, Leo Zhang, Michael Kim, Nick Was, Sarah Kwong, Yuri Choi, Matthew Goldstein"
   },
   {
     name: 'Drive Team',

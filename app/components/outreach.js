@@ -3,12 +3,18 @@ $(function(){
   var outreach = [
   {
     mainFocus: 'Out FIRST',
-    smallFous: 'Project Philippines',
+    smallFocus: 'Project Philippines',
     img: '/ctn/img/outreach/PP.jpeg',
     description1: "In the summer of 2017, one of our teammates, Phyllis Alinsao, traveled to Iloilo, Philippines to host hands-on engineering workshops; we called this program Project Philippines! Our team supported Phyllis by donating over $4,500 of materials, including tools and a chassis so that the students could receive a hands-on engineering experience. We also worked with Phyllis to create the curriculum for the four-week workshops.",
     description2: "After Phyllis returned, she told us that Iloilo and surrounding neighborhoods had no libraries; In response, we held a schoolwide book drive for these students and others across the three regions of the Philippines: Mindanao, Luzon, and the Western Visayas."
   },
   {
+    mainFocus: 'Out FIRST',
+    smallFocus: 'Project India',
+    img: '/ctn/img/projectIndiaPicOne.jpeg',
+    description1: "In 2019, our teammate, Neeharika Kotimreddy, traveled to her hometown of Muthukur in Nellore, India to host Project India. Our team developed curricula for the engineering workshops she hosted at the Zilla Praja Parishth HS in Nellore. She taught the fundamentals of mechanical and electrical engineering giving students the knowledge necessary to build a robot. Her students also learned to code in Java and C++, enabling them to control their robot, their first hands-on experience with technology in the classroom. Project India was recognized by the Government of Andhra Pradesh and catalyzed a discussion among local political leaders about including this type of career-applicable learning in their government schools."
+},
+{
     mainFocus: 'Out FIRST',
     smallFocus: 'FIRST Relations',
     img: '/ctn/img/outreach/FIRSTRelations.png',
