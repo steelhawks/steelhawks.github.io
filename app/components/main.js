@@ -24,23 +24,24 @@ $(function(){
          );
 
          Pixlee.init({apiKey:'y7K3EYgGBl9lza5AsEnj'});
-         Pixlee.addSimpleWidget({widgetId:'3570'});
+         Pixlee.addSimpleWidget({widgetId:3570});
+         Pixlee.resizeWidget()
         }
-      }    
+      }
     }
   };
 
- 
-    Vue.component(component.name, 
+
+    Vue.component(component.name,
       function(resolve, reject){
         $.get(component.template_url, function(html){
           resolve(component.init(html));
         });
     });
 
-    App.routes.push( { name: component.name, 
-                       path: component.path, 
-                       component: Vue.component(component.name) 
+    App.routes.push( { name: component.name,
+                       path: component.path,
+                       component: Vue.component(component.name)
       }
     );
 
