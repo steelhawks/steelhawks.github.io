@@ -1,36 +1,23 @@
+
 $(function(){
 
   var component = {
     name: 'page-frc',
-    path: '/frc',
-    template_url: 'app/components/frc.html',
-    init: function(html){
-      return  {
-        template:html,
-        data: function(){
-          return {
-            sponsors: App.sponsors
-          }
-        },
-        mounted: function(){
-
-          
-        }
-      }    
-    }
+    path: '/frc'
   };
 
- 
-    Vue.component(component.name, 
-      function(resolve, reject){
-        $.get(component.template_url, function(html){
-          resolve(component.init(html));
-        });
-    });
+  Vue.component(component.name,{
+    template: window.App.templates.pages.frc,
+    data: function(){
+        return {
+          sponsors: App.sponsors
+        }
+    },
+  });
 
-    App.routes.push( { name: component.name, 
-                       path: component.path, 
-                       component: Vue.component(component.name) 
+    App.routes.push( { name: component.name,
+                       path: component.path,
+                       component: Vue.component(component.name)
       }
     );
 

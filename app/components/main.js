@@ -22,10 +22,7 @@ $(function(){
              video.muted = !video.muted;
            }
          );
-
-//          Pixlee.init({apiKey:''});
-//          Pixlee.addSimpleWidget({widgetId:});
-//          Pixlee.resizeWidget()
+          PixleeAsyncInit()
         }
       }
     }
