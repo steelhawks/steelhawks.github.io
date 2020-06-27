@@ -23,9 +23,9 @@ $(function(){
            }
          );
 
-         Pixlee.init({apiKey:'y7K3EYgGBl9lza5AsEnj'});
-         Pixlee.addSimpleWidget({widgetId:3570});
-         Pixlee.resizeWidget()
+//          Pixlee.init({apiKey:''});
+//          Pixlee.addSimpleWidget({widgetId:});
+//          Pixlee.resizeWidget()
         }
       }
     }
