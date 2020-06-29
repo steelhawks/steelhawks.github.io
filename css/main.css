@@ -8,6 +8,14 @@
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
+.bg-home {
+  background: linear-gradient(#000000,#800000)
+}
+
+.bg-black {
+  background-color: #000000
+}
+
 .bg-crimson {
   color: white;
   background-color: #ad2525;
@@ -24,6 +32,13 @@
   background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
 }
 
+.round-button{
+    display:block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid maroon;
+}
 
 .background-luminosity .background-image-holder {
     background-color: #87949c !important;
@@ -41,6 +56,7 @@ border-bottom-width:20px;
 border-bottom-style:solid;
 border-bottom-color:#292929;
 }
+
 .maroon-border{
   border-bottom-width:20px;
   border-bottom-style:solid;
