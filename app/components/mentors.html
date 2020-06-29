@@ -10,11 +10,11 @@ window.App.templates.pages.mentors = `
     <div class="container">
       <div class="row">
           <div class="col-md-6 col-sm-12 mb30 " v-for="mentor in mentors">
-              <div class="feature boxed cast-shadow-light mb0"  style="height:700px;">
+              <div class="feature boxed cast-shadow-light mb0">
                   <center><img v-bind:src="mentor.pic"></img></center><br>
                   <center><h2 style="color:maroon;">{{ mentor.name }}</h2></center>
                   <center><h4>{{ mentor.title }}</h4></center>
-                  <p class="text-justify" style="color:black;">{{mentor.bio}}</p>
+                  <!-- <p class="text-justify" style="color:black;">{{mentor.bio}}</p> -->
               </div>
           </div>
       </div>
@@ -22,3 +22,5 @@ window.App.templates.pages.mentors = `
   </section>
 </div>
 `;
+
+<!--Work in progress! 700px-->
