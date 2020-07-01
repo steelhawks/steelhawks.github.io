@@ -1,8 +1,10 @@
 App.templates.navbar = `
+<!--Navbar start-->
 <div class="nav-container">
   <a id="top"></a>
     <nav class="absolute scrolled bg-dark">
       <div class="nav-bar">
+        <!--Sets icon and Steel Hawks Hyperlinks-->
         <div class="module left">
           <router-link to="/" style="height:80px">
             <img class="logo logo-light" alt="Foundry" src="ctn/img/banner/logowhite.png" />
@@ -11,9 +13,11 @@ App.templates.navbar = `
             <span class="uppercase bold lead" style="font-weight:600px;padding-left:10px">STEEL HAWKS</span>
           </router-link>
         </div>
+        <!--For mobile-->
         <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
             <i class="ti-menu"></i>
         </div>
+        <!--The different pages-->
         <div class="module-group right" style="overflow:visible;">
           <div class="module left">
             <ul class="menu">
@@ -70,6 +74,9 @@ App.templates.navbar = `
               </li>
               <li>
                 <router-link to="/media">Media</router-link>
+              </li>
+              <li>
+                <router-link to="/contact">Contact</router-link>
               </li>
                 <!-- <li v-show="page == 'main'">
                   <a class="inner-link"

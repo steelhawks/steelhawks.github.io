@@ -22,6 +22,7 @@
 		<script src="lib/vue-router.js"></script>
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+		<!--pixlee initiation script-->
 		<script>
 			window.PixleeAsyncInit = function() {
 				console.log('loading Pixlee');
@@ -39,9 +40,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
 
+		<!--CSS customized by self-->
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/animations.css">
+		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="css/team.css">
 
+		<!--Leaflet CSS-->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+
+		<!--CSS files from Bootstrap, foundry, and google font-->
 		<link href="lib/theme/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="lib/theme/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="lib/theme/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
@@ -51,8 +59,6 @@
 		<link href="lib/theme/css/font-robotocondensed.css" rel="stylesheet" type="text/css" media="all" />
 		<link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,400,700,700italic" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="css/media.css">
-		<link rel="stylesheet" href="css/team.css">
 	</head>
 
 <body>
@@ -62,9 +68,10 @@
 		<transition name="fade">
 			<router-view></router-view>
 		</transition>
-		<section class="pt40 pb40 image-bg" style="background-color:black;">
+		<!--Footer-->
+		<section class="pt40 pb16 image-bg bg-black">
 		    <div class="container">
-		        <div class="row">
+		        <!-- <div class="row">
 		            <div class="overflow-hidden">
 		                <center><h2 style="color:white;"><b>Contact Us</b></h2></center>
 		                <center><h4 class="uppercase mb20"><a href="https://www.thhs.qc.edu/" target="_blank">Townsend Harris High School</a></h4></center>
@@ -75,16 +82,10 @@
 		                        <br> Flushing, NY 11367</a>
 		                    </p>
 		                </div></center>
-		                <center><div class="col-sm-6 p0">
-		                    <p class="lead">
-		                        <b>Phone: (718) 575 - 5580</b>
-		                        <br><b>Email: <a href="mailto:townsendharrisrobotics@gmail.com">townsendharrisrobotics@gmail.com</a></b>
-		                    </p>
-		                </div></center>
 		            </div>
-		        </div>
+		        </div> -->
 		        <div class="row">
-		            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+		            <div class="col-sm-8 col-sm-offset-2 text-center">
 		                <ul class="list-inline social-list mb0">
 		                        <li>
 		                            <a href="https://twitter.com/thhsrobotics?lang=en" target="_blank">
@@ -103,27 +104,30 @@
 		                        </li>
 		                        <li>
 		                          <a href="https://www.youtube.com/channel/UCEWGzCi4HUPlMh-btGRb1dg" target="_blank">
-		                            <i class="icon icon-sm ti-youtube" style="color:white"></i>
+		                            <i class="icon icon-sm ti-youtube"></i>
 		                          </a>
 		                        </li>
 		                        <li>
 		                          <a href="https://github.com/steelhawks" target="_blank">
-		                            <i class="icon ti-github icon-sm" style="color:white"></i>
+		                            <i class="icon ti-github icon-sm"></i>
 		                          </a>
 		                        </li>
-														<li>
-															<a href="https://www.twitch.tv/steelhawks2601/videos" target="_blank">
-																<i class="icon ti-twitch icon-sm" style="color:white;"></i>
-															</a>
-														</li>
 		                    </ul>
 		            </div>
 		        </div>
+						<br>
+						<div class="row text-center">
+							<p class="lead">© Steel Hawks 2020</p>
+						</div>
 		        <!--end of row-->
 		    </div>
 		    <!--end of container-->
 		  </section>
 	</div>
+
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+	integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+	crossorigin=""></script>
 
 	<script type="text/javascript" src="app/init.js"></script>
 	<script type="text/javascript" src="app/sponsors.js"></script>
@@ -136,6 +140,8 @@
 	<script type="text/javascript" src="app/components/team.js"></script>
 
 	<script type="text/javascript" src="app/components/school.js"></script>
+	<script type="text/javascript" src="app/components/contact.html"></script>
+	<script type="text/javascript" src="app/components/contact.js"></script>
 
 	<script type="text/javascript" src="app/components/mentors.html"></script>
 	<script type="text/javascript" src="app/components/mentors.js"></script>

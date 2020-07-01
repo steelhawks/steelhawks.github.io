@@ -5,6 +5,18 @@ window.App.templates.pages.awards = `
 </section>
 <section class="img-bg" style="background-color:white;border-bottom-style:solid;border-bottom-color:#ad2525;border-bottom-width:20px;">
   <div class="row">
+    <div class="col-md-12">
+      <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2020</h2>
+      <div v-for="award in awards">
+        <div v-if="award.year === '2020'"  class="card-body">
+            <center><h4 class="card-title" ><b>{{ award.event }}</b></h4>
+            <p class="lead card-text" >{{ award.name }}</p></center>
+            <img v-bind:src="award.picture"/>
+        </div>
+      </div></center>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-md-6">
       <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2018</h2>
       <div v-for="award in awards">

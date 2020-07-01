@@ -7,6 +7,7 @@ $(function(){
   }
 
   var awards = [
+    new award("Regional Chairman's Award",'2020','New York City Regional'),
     new award('Regional Engineering Inspiration Award','2018','SPBLI Long Island Regional #2'),
     new award('Judges Award', '2018', 'Hudson Valley Regional'),
     new award('Regional Winners', '2017', 'Hudson Valley Regional'),
