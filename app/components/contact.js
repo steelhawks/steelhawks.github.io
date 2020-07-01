@@ -1,9 +1,9 @@
 $(function(){
 
-  var townsendmap = L.map('townsend-map',{
-    center: [40.7349368,-73.8237583],
-    zoom: 12
-  });
+  // var townsendmap = L.map('townsend-map',{
+  //   center: [40.7349368,-73.8237583],
+  //   zoom: 12
+  // });
 
   var component = {
     name: 'page-contact',
