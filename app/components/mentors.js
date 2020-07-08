@@ -4,7 +4,9 @@ $(function(){
   var mentorHL = '/ctn/img/mentors/';
   //hyperlink for a generic profile picture
   var genericPicture  = "/ctn/img/genericProfile.jpg"
-  //information pertaining to all mentors
+  /*information pertaining to all mentors
+   *pictures are needed for: Ms. Brustein, Mr. Tsai, Kevin, Kenneth, and Jack
+   */
   var mentors = [
     {
       name: 'Joel Heitman',
@@ -45,7 +47,7 @@ $(function(){
     {
       name: 'Weijian Zeng',
       title: 'Mentor',
-      bio: 'Weijian is the programming mentor for the Steel Hawks.',
+      bio: 'Weijian is the programming mentor for the Steel Hawks. We are grateful for his work in helping aspiring software engineers develop clean, well-written code for the team.',
       pic: mentorHL + "weijian.JPG"
     },
     {
@@ -61,29 +63,35 @@ $(function(){
       pic: genericPicture
     },
     {
-      name: 'Raj Rao',
+      name: 'Jack Gold',
       title: 'Mentor',
-      bio: 'Raj is a mentor for the Steel Hawks.',
-      pic: genericPicture
-    },
-    {
-      name: 'Marcus Barbu',
-      title: 'Mentor',
-      bio: 'Marcus Barbus is a graduate of the Class of 2016, and was formerly the President of the Steel Hawks. He currently mentors the programming subteam.',
-      pic: genericPicture
-    },
-    {
-      name: 'Ishabul Haque',
-      title: 'Mentor',
-      bio: 'Ishabul is a mentor for the Steel Hawks.',
-      pic: mentorHL + 'ishabul.JPG'
-    },
-    {
-      name: 'Alexander Burzynski',
-      title: 'Mentor',
-      bio: 'Alexander is a mentor for the Steel Hawks.',
+      bio: 'Jack is a mentor for the Steel Hawks.',
       pic: genericPicture
     }
+    // {
+    //   name: 'Raj Rao',
+    //   title: 'Mentor',
+    //   bio: 'Raj is a mentor for the Steel Hawks.',
+    //   pic: genericPicture
+    // },
+    // {
+    //   name: 'Marcus Barbu',
+    //   title: 'Mentor',
+    //   bio: 'Marcus Barbus is a graduate of the Class of 2016, and was formerly the President of the Steel Hawks. He currently mentors the programming subteam.',
+    //   pic: genericPicture
+    // },
+    // {
+    //   name: 'Ishabul Haque',
+    //   title: 'Mentor',
+    //   bio: 'Ishabul is a mentor for the Steel Hawks.',
+    //   pic: mentorHL + 'ishabul.JPG'
+    // },
+    // {
+    //   name: 'Alexander Burzynski',
+    //   title: 'Mentor',
+    //   bio: 'Alexander is a mentor for the Steel Hawks.',
+    //   pic: genericPicture
+    // }
   ];
 
   Vue.component('page-mentors', {

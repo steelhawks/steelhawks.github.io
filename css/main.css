@@ -16,16 +16,19 @@
   background-color: #000000
 }
 
+.bg-white {
+  background-color: #ffffff
+}
+
 .bg-crimson {
   color: white;
   background-color: #ad2525;
-  //background-image: linear-gradient(315deg, #751515 0%, #d43637 50%);
+  background-image: linear-gradient(135deg, #751515 0%, #d43637 50%);
 }
 
 .bg-smoke {
   background-image: linear-gradient(to top, #909090 0%, #ccd4d8 100%);
 }
-
 
 .bg-blue-grey {
   background-color: #bdd4e7;
@@ -49,10 +52,45 @@
   height: 18vh;
 }
 
+.banner{
+  background: #0f4bcb;
+  color: white;
+  display: inline-block;
+  height: 170px;
+  width: 140px;
+  line-height: 1.2;
+  margin: 0 0 40px;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.award-name{
+  display: table;
+    width: 100%;
+    height: 35px;
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.award-event{
+  font-size: 85%;
+  line-height: 130%;
+  display: table;
+  text-transform: uppercase;
+  height: 50px;
+  width: 100%;
+}
+
 .background-luminosity .background-image-holder {
     background-color: #87949c !important;
     background-blend-mode: luminosity;
 }
+
+/*Borders for pages*/
 
 .white-border{
   border-bottom-width:20px;
@@ -63,13 +101,13 @@
 .dark-border{
 border-bottom-width:20px;
 border-bottom-style:solid;
-border-bottom-color:#292929;
+border-bottom-color:#000000;
 }
 
 .maroon-border{
   border-bottom-width:20px;
   border-bottom-style:solid;
-  border-bottom-color:#ad2525;
+  border-bottom-color:#800000;
 }
 
 img.sponsor {
@@ -85,7 +123,6 @@ transition: all 500ms ease;
 
 .nav-bar .menu a {
   font-size:12px;
-
 }
 
 #aboutUs div	    			{display: table-cell; vertical-align: middle;}

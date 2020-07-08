@@ -1,59 +1,77 @@
 window.App.templates.pages.awards = `
 <div class="main-container">
-<section class="img-bg bg-crimson" style="border-bottom-style:solid;border-bottom-width:20px;border-bottom-color:#292929;">
-  <center><h1 style="color:white;margin-bottom:-5vh;"><b>Awards</b></h1></center>
-</section>
-<section class="img-bg" style="background-color:white;border-bottom-style:solid;border-bottom-color:#ad2525;border-bottom-width:20px;">
-  <div class="row">
-    <div class="col-md-12">
-      <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2020</h2>
-      <div v-for="award in awards">
-        <div v-if="award.year === '2020'"  class="card-body">
-            <center><h4 class="card-title" ><b>{{ award.event }}</b></h4>
-            <p class="lead card-text" >{{ award.name }}</p></center>
-            <img v-bind:src="award.picture"/>
-        </div>
-      </div></center>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2018</h2>
-      <div v-for="award in awards">
-        <div v-if="award.year === '2018'"  class="card-body">
-            <center><h4 class="card-title" ><b>{{ award.event }}</b></h4>
-            <p class="lead card-text" >{{ award.name }}</p></center>
-            <img v-bind:src="award.picture"/>
-        </div>
-      </div></center>
-      <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2017</h2>
-      <div v-for="award in awards">
-        <div v-if="award.year === '2017'"  class="card-body">
-          <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
-            <center><p class="lead card-text" >{{ award.name }}</p></center>
-            <img v-bind:src="award.picture" />
+  <!--Awards Header-->
+  <section class="img-bg bg-crimson dark-border text-center">
+    <h1 style="color:white;margin-bottom:-5vh;"><b>Awards</b></h1>
+  </section>
+
+  <section class="img-bg bg-white maroon-border">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="text-center" v-for="award in awards">
+            <div class="banner">
+              <div class="award-name">
+                <span>{{award.name}}</span>
+              </div>
+              <div class="award-event">
+                <span>{{award.event}}</span>
+              </div>
+            </div>
           </div>
-        </div></center>
-      </div>
-      <div class="col-md-6">
-        <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2015</h2>
-        <div v-for="award in awards">
-          <div v-if="award.year === '2015'"  class="card-body">
-            <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
-            <center><p class="lead card-text" >{{ award.name }}</p></center>
-            <img v-bind:src="award.picture"/>
-          </div>
-        </div></center>
-        <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon;  font-weight:500">2014</h2>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-md-12">
+          <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2020</h2>
           <div v-for="award in awards">
-            <div v-if="award.year === '2014'"  class="card-body">
-              <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
-              <center><p class="lead card-text" >{{ award.name }}</p></center>
-              <img v-bind:src="award.picture"/>
+            <div v-if="award.year === '2020'"  class="card-body">
+                <center><h4 class="card-title" ><b>{{ award.event }}</b></h4>
+                <p class="lead card-text" >{{ award.name }}</p></center>
+                <img v-bind:src="award.picture"/>
             </div>
           </div></center>
         </div>
-        </div>
-</section>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2018</h2>
+          <div v-for="award in awards">
+            <div v-if="award.year === '2018'"  class="card-body">
+                <center><h4 class="card-title" ><b>{{ award.event }}</b></h4>
+                <p class="lead card-text" >{{ award.name }}</p></center>
+                <img v-bind:src="award.picture"/>
+            </div>
+          </div></center>
+          <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2017</h2>
+          <div v-for="award in awards">
+            <div v-if="award.year === '2017'"  class="card-body">
+              <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
+                <center><p class="lead card-text" >{{ award.name }}</p></center>
+                <img v-bind:src="award.picture" />
+              </div>
+            </div></center>
+          </div>
+          <div class="col-md-6">
+            <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon; font-weight:500">2015</h2>
+            <div v-for="award in awards">
+              <div v-if="award.year === '2015'"  class="card-body">
+                <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
+                <center><p class="lead card-text" >{{ award.name }}</p></center>
+                <img v-bind:src="award.picture"/>
+              </div>
+            </div></center>
+            <center class="feature boxed cast-shadow-light mb0" style="margin-bottom:30px;margin-top:30px;"><h2 style="color:maroon;  font-weight:500">2014</h2>
+              <div v-for="award in awards">
+                <div v-if="award.year === '2014'"  class="card-body">
+                  <center><h4 class="card-title" ><b>{{ award.event }}</b></h4></center>
+                  <center><p class="lead card-text" >{{ award.name }}</p></center>
+                  <img v-bind:src="award.picture"/>
+                </div>
+              </div></center>
+            </div>
+      </div>
+    </div>
+  </section>
 </div>
 `;

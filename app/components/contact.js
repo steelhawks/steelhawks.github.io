@@ -16,6 +16,11 @@ $(function(){
         return {
         }
     },
+    mounted: function(){
+      return{
+          
+      }
+    },
   });
 
     App.routes.push( { name: component.name,

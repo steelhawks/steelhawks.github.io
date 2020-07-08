@@ -859,7 +859,7 @@ body.btn-rounded .btn {
   max-width: 100%;
 }
 nav {
-  background: #fff;
+  background: #ffffff;
   -webkit-backface-visibility: hidden;
   max-width: 100%;
 }
@@ -1589,7 +1589,7 @@ nav.bg-dark .nav-bar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 nav.transparent.fixed.bg-dark {
-  background: #292929;
+  background: #000000;
 }
 nav.transparent.fixed.bg-dark .menu > li > a,
 nav.transparent.fixed.bg-dark .module.widget-handle i {

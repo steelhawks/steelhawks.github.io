@@ -5,73 +5,145 @@ var subteams = [
   { name: 'Mechanical',
     icon: 'ti-settings',
     description: "We are the subteam responsible for designing and creating a machine set to accomplish a task based on the game that comes out each year. We design and prototype beta robots before moving to the final design. Once we have each element of the robot finalized, we're responsible for putting it together in the most efficient way possible. We have to keep in mind factors such as drop centers, turning radius, height, speed, weight.",
-    members: "James Hopkins, Shane Werther, Carolina Narvaez, Courtney Chan, Adam Ganpat, Alex Muntean, Benjamin Zeller, Bob Fang, Danielle Chiu, David Muratov, Elsa Oreen, Esmond Lau, Heidy Mendez, Jackson DeMasi, Jasmine Fleming, Jeremy Aziel, Jessica Jimenez, Jocelyn Wang, Joshua Ashvil, Julie Li, Karan Ajmera, Krishna Baliga, Togay Atmaca, Adrian Hernandez, Alex Muntean, Annie Dong, Annie Lei, Bebe Adewale, Christian McKay, Daniel Cohen, David Y, Evan Chan, Jack, Jason Widjaja, Jeffrey Jun, Jessie Li, Jonathan Suero, Ketan Sukhu, Kevin Chen, Lucas Havens, Matthew Algenio, Nowyshin Mridula, Rachel Ly, Vishnupriya"
+    members: "James Hopkins, Shane Werther, Carolina Narvaez, Courtney Chan, Adam Ganpat, Alex Muntean, Benjamin Zeller, Bob Fang, Danielle Chiu, David Muratov, Elsa Oreen, Esmond Lau, Heidy Mendez, Jackson DeMasi, Jasmine Fleming, Jeremy Aziel, Jessica Jimenez, Jocelyn Wang, Joshua Ashvil, Julie Li, Karan Ajmera, Krishna Baliga, Togay Atmaca, Adrian Hernandez, Alex Muntean, Annie Dong, Annie Lei, Bebe Adewale, Christian McKay, Daniel Cohen, David Y, Evan Chan, Jack, Jason Widjaja, Jeffrey Jun, Jessie Li, Jonathan Suero, Ketan Sukhu, Kevin Chen, Lucas Havens, Matthew Algenio, Nowyshin Mridula, Rachel Ly, Vishnupriya",
+    ref: '#mechanicalinformation',
+    aria: 'mechanicalinformation',
+    tname: 'mechanicalinformation',
+    mref: '#mechanicalmembers',
+    maria: 'mechanicalmembers',
+    mtname: 'mechanicalmembers',
   },
   {
     name: 'Electrical',
     icon: 'ti-pulse',
     description: 'Our subteam focuses on wiring circuits and creating the board for our robot. We also work with pneumatics, which involves the use of pressurized air to move mechanisms.',
-    members: "Betty Jin, Eric Zhao, Keith Yeung, Minnie Lee, John Pabololat, Neeharika Kotimreddy, Shara Bhuiyan, Megan Chang, Harry Zhu, Joyce Ke, Olivia Leon, Pierre Marbid, Sharon Li"
+    members: "Betty Jin, Eric Zhao, Keith Yeung, Minnie Lee, John Pabololat, Neeharika Kotimreddy, Shara Bhuiyan, Megan Chang, Harry Zhu, Joyce Ke, Olivia Leon, Pierre Marbid, Sharon Li",
+    ref: '#electricalinformation',
+    aria: 'electricalinformation',
+    tname: 'electricalinformation',
+    mref: '#electricalmembers',
+    maria: 'electricalmembers',
+    mtname: 'electricalmembers',
   },
   {
     name: '</> Programming',
     icon: '',
     description: "The Programming Sub-Team is the software side to the team. In programming, we develop the robot code for the autonomous (self-controlled) and teleoperated (driver controlled) periods of the game, vision for the robot so that it is able to detect specific game pieces and landmarks on the field (depending on the year's game), the Scout App which the scouters use to collect and process data, and the team website.",
-    members: "Amar Maksumic, Shara Bhuiyan, Kelvin Yip, Hali Huang, Andy Hoo, Ethan Diep, Adeebah Zaman, Bryan Sukhdeo, Kaitlin Kaii, Amanda Grivej, Brian Hsu, Esther Liu, Harry Zhu, Jonathan Suero, Kevin Byun, Leo Zhang, Michael Kim, Nick Was, Sarah Kwong, Yuri Choi, Matthew Goldstein"
+    members: "Amar Maksumic, Shara Bhuiyan, Kelvin Yip, Hali Huang, Andy Hoo, Ethan Diep, Adeebah Zaman, Bryan Sukhdeo, Kaitlin Kaii, Amanda Grivej, Brian Hsu, Esther Liu, Harry Zhu, Jonathan Suero, Kevin Byun, Leo Zhang, Michael Kim, Nick Was, Sarah Kwong, Yuri Choi, Matthew Goldstein",
+    ref: '#programminginformation',
+    aria: 'programminginformation',
+    tname: 'programminginformation',
+    mref: '#programmingmembers',
+    maria: 'programmingmembers',
+    mtname: 'programmingmembers',
   },
   {
     name: 'Drive Team',
     icon: 'ti-car',
     description:"Potential drive team members will review the rules and learn different strategies in order to be well equipped for a match. We will learn the different parts of the robot and understand how they work with one another in order to provide feedback on the robots performance. On occasion, we will get to drive the robot. ",
-    members: "Keith Yeung"
+    members: "Keith Yeung",
+    ref: '#driveinformation',
+    aria: 'driveinformation',
+    tname: 'driveinformation',
+    mref: '#drivemembers',
+    maria: 'drivemembers',
+    mtname: 'drivemembers',
   },
   {
     name: "Scouting",
     icon: 'ti-eye',
     description: "We focus on data collection and strategy which is then used during competition. We’ll teach you the ins and outs of last year's game and how to make strategies for it with the assistance of our app. ",
-    members: "Michael Kim, Samantha Wong, Andy Hoo, Anabella Li, Sharon Li"
+    members: "Michael Kim, Samantha Wong, Andy Hoo, Annabella Li, Sharon Li",
+    ref: '#scoutinginformation',
+    aria: 'scoutinginformation',
+    tname: 'scoutinginformation',
+    mref: '#scoutingmembers',
+    maria: 'scoutingmembers',
+    mtname: 'scoutingmembers',
   },
   {
     name: "Public Relations",
     icon: 'ti-face-smile',
     description:"Public Relations is the subteam that focuses on developing the brand of the team and making it marketable.\n\nWe will do outreach at public events, where we explain to any interested visitors about our team and what robotics entails. We will do outreach at school, where we will use the power of flyers, social media, and announcements to inform our peers about any robotics events. We will also  help the financial subteam with writing grants, as well as reach out to sponsors with thank-you letters, keeping them updated with the team as well as thanking them for their valuable contributions.",
-    members: "Aarti Patel, Amrita Roy, Christopher Gilson, Clara Graceanu, Illan Matsuyoshi, Neeharika Kotimreddy, Raymond Z, Togay Atmaca"
+    members: "Aarti Patel, Amrita Roy, Christopher Gilson, Clara Graceanu, Illan Matsuyoshi, Neeharika Kotimreddy, Raymond Z, Togay Atmaca",
+    ref: '#prinformation',
+    aria: 'prinformation',
+    tname: 'prinformation',
+    mref: '#prmembers',
+    maria: 'prmembers',
+    mtname: 'prmembers',
   },
   {
     name: "Finance",
     icon: 'ti-money',
     description: "The finance department focuses on fundraising which will help all aspects of robotics run at their full capacity.  Join our finance family which encompasses both humanities and STEM so get the best of both worlds when learning about marketing while improving your writing abilities! ",
-    members: "Christopher Gilson, Anabella Li"
+    members: "Christopher Gilson",
+    ref: '#financeinformation',
+    aria: 'financeinformation',
+    tname: 'financeinformation',
+    mref: '#financemembers',
+    maria: 'financemembers',
+    mtname: 'financemembers',
   },
   {
     name: "Media",
     icon: 'ti-video-clapper',
     description: "In this subteam we document our team in an artistic way. We also work with the Public Relations subteam to chairmans to create the chairmans video. ",
-    members: "Raymond Zhuo, Aarti Patel, Amrita Roy, Agathe Catechis"
+    members: "Raymond Zhuo, Aarti Patel, Amrita Roy, Agathe Catechis",
+    ref: '#mediainformation',
+    aria: 'mediainformation',
+    tname: 'mediainformation',
+    mref: '#mediamembers',
+    maria: 'mediamembers',
+    mtname: 'mediamembers',
   },
   {
     name: 'CAD',
     icon: 'ti-ruler-pencil',
     description: "Our subteam makes dreams become reality. We make 3D models of mechanisms and prototypes. We also make parts to be 3D printed. We further aid the mechanical subteam with the prototyping process.",
-    members: "Megan Chang, Jackson DeMasi, Agathe Catechis, Noah Stein"
+    members: "Megan Chang, Jackson DeMasi, Agathe Catechis, Noah Stein",
+    ref: '#cadinformation',
+    aria: 'cadinformation',
+    tname: 'cadinformation',
+    mref: '#cadmembers',
+    maria: 'cadmembers',
+    mtname: 'cadmembers',
   },
   {
     name: "Animation",
     icon: 'ti-widget',
     description: "We use Blender, a 3D animation software, to create any animations the team needs. We model, texture, and animate different objects, including characters.",
-    members: "Elizabeth Brandwein, Anjali Luckhoo, Agathe Cathechis, William Olsen"
+    members: "Elizabeth Brandwein, Anjali Luckhoo, Agathe Cathechis, William Olsen",
+    ref: '#animationinformation',
+    aria: 'animationinformation',
+    tname: 'animationinformation',
+    mref: '#animationmembers',
+    maria: 'animationmembers',
+    mtname: 'animationmembers',
   },
   {
     name: "Safety",
     icon: 'ti-heart',
     description: "We ensure the safety of the team. We keep members safe whether they are in the lab working on the robot or not.",
-    members: "Neeharika Kotimreddy, Minnie Lee"
+    members: "Neeharika Kotimreddy, Minnie Lee",
+    ref: '#safetyinformation',
+    aria: 'safetyinformation',
+    tname: 'safetyinformation',
+    mref: '#safetymembers',
+    maria: 'safetymembers',
+    mtname: 'safetymembers',
   },
   {
     name: 'CNC',
     icon: 'ti-ruler-pencil',
     description: 'We are in charge of cutting parts for robot.',
-    members: 'David Muratov'
+    members: 'David Muratov',
+    ref: '#cncinformation',
+    aria: 'cncinformation',
+    tname: 'cncinformation',
+    mref: '#cncmembers',
+    maria: 'cncmembers',
+    mtname: 'cncmembers',
   }
 ];
   var brochure = [
@@ -104,29 +176,6 @@ var subteams = [
   //   }
   // ];
   //
-  // var leader_image_dir = "ctn/img/team/board/";
-  // var leaders = [
-  //   {
-  //     name:"Phyllis Alinsao",
-  //     title:"President",
-  //     bio: "Phyllis joined the Steel Hawks in her freshman year, during the 2014-2015 season (FRC Recycle Rush). She soon developed a close friendship with Vice President Janki and the two dedicated hours of time to learning how to build the best drivetrain for any game. Her work didn't stop there, however, as she attended workshops and various programs to learn mechanics and CAD, and even plans on teaching a robotics course in the Philippines ine the summer of 2017. For these and many other reasons, she was easily elected as the president of the Steel Hawks.",
-  //     pic: leader_image_dir + "phyllis.jpg"
-  //   },
-  //   {
-  //     name:"Daniel Sotelo-Reiner",
-  //     title:"Vice President",
-  //     bio: "Daniel joined the Steel Hawks his Sophomore year, during the 2015-2016 season (FRC Stronghold), quickly adapting his love for photography to the needs of the team. While his growing love for STEM moved him into working on the robot, he never abandoned taking photos. He loves the team and will be proud to take them to new heights as a Vice President.",
-  //     pic: leader_image_dir + "dan.jpg"
-  //   },
-  //   {
-  //     name:"Janki Patel",
-  //     title:"Vice President",
-  //     bio: "Janki joined the Steel Hawks in her freshman year, during the 2014-2015 season (FRC Recycle Rush). She quickly learned as much as she could about building an efficient robot, dedicating her afternoons and weekends to working and learning. Her growing knowledge made her an essential member of the pit crew every year. She hopes to bring the team to new heights as a Vice President.",
-  //     pic: leader_image_dir + "janki.png"
-  //   }
-  // ]
-
-
 
   // var init_slider = function(){
   //   $('.slider-all-controls').flexslider({
@@ -162,6 +211,28 @@ var subteams = [
       mounted: function(){
           initializeMasonry();
           // init_slider();
+
+          $('.tabbed-content').each(function() {
+              $(this).append('<ul class="content"></ul>');
+          });
+
+          $('.tabs li').each(function() {
+              var originalTab = $(this),
+                  activeClass = "";
+              if (originalTab.is('.tabs>li:first-child')) {
+                  activeClass = ' class="active"';
+              }
+              var tabContent = originalTab.find('.tab-content').detach().wrap('<li' + activeClass + '></li>').parent();
+              originalTab.closest('.tabbed-content').find('.content').append(tabContent);
+          });
+
+          $('.tabs li').click(function() {
+              $(this).closest('.tabs').find('li').removeClass('active');
+              $(this).addClass('active');
+              var liIndex = $(this).index() + 1;
+              $(this).closest('.tabbed-content').find('.content>li').removeClass('active');
+              $(this).closest('.tabbed-content').find('.content>li:nth-of-type(' + liIndex + ')').addClass('active');
+          });
       }
     });
 

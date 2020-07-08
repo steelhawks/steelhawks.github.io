@@ -1,18 +1,18 @@
 window.App.templates.pages.outreach = `
 <div class="main-container">
-  <section class="img-bg white-border" style="background-color:black;">
-    <center><h1 class="uppercase" style="color:white;margin-bottom:-8vh;"><b>Outreach</b></h1></center>
+  <section class="img-bg white-border bg-black text-center">
+    <h1 class="uppercase" style="color:white;margin-bottom:-8vh;"><b>Outreach</b></h1>
   </section>
   <section class="img-bg bg-crimson white-border">
     <div class="container">
       <div class="row">
-        <div class="col-lg-18">
+        <div class="col-lg-12">
           <center><h2 style="color:white;margin-top:-50px;"><b>Beyond FIRST</b></h2></center>
             <div v-for="event in events" data-aos="fade-right">
               <div v-if="event.mainFocus==='Out FIRST'" class="card-body feature boxed cast-shadow-light">
                 <center><h3><b>{{event.smallFocus}}</b></h3></center>
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 text-center">
                     <img v-bind:src="event.img"></img>
                   </div>
                   <div class="col-lg-6">
@@ -37,8 +37,6 @@ window.App.templates.pages.outreach = `
                 </div>
               </div>
             </div>
-
-
         </div>
       </div>
     </div>

@@ -2,20 +2,20 @@ window.App.templates.pages.team = `
 
 <div class="main-container">
 
-  <section class="image-bg overlay pt-xs-180 pb-xs-180 bg-crimson dark-border">
-      <div class="background-image-holder">
-          <img alt="image" class="background-image" src="ctn/img/team/subteam-header.jpg" />
-      </div>
+  <section class="image-bg overlay pt-xs-180 bg-crimson dark-border">
+      <!-- <div class="background-image-holder">
+          <img alt="image" class="background-image" src="ctn/img/team/subteam-header.jpg" />-->
     <div class="container">
       <div class="row">
         <center><h2 class="uppercase" style="color:white;"><strong>Who is team 2601?</strong></h2></center>
-        <center><p class="lead" style="text-align:justify;color:white;padding-left:30px;padding-right:30px;margin-top:50px;">The Steel Hawks robotics team, operating out of Townsend Harris High School in Flushing, NY, competes annually in the FIRST Robotics Competition (FRC) after diligently working for six weeks designing, building, and programming a robot to perform certain tasks pertaining to that year’s game. We take this robot to various competitions: the Hudson Valley and Long Island Regionals, as well as the Detroit FRC World Championship upon qualification.
+        <center><p class="lead" style="text-align:justify;color:white;padding-left:30px;padding-right:30px;">The Steel Hawks robotics team, operating out of Townsend Harris High School in Flushing, NY, competes annually in the FIRST Robotics Competition (FRC) after diligently working for six weeks designing, building, and programming a robot to perform certain tasks pertaining to that year’s game. We take this robot to various competitions: the Hudson Valley and Long Island Regionals, as well as the Detroit FRC World Championship upon qualification.
               As a team, we raise funds by building strong relationships with corporate and engineering sponsors, as well as fundraising within our school through candy, coffee, and bake sales. We do this to ensure that our team has the necessary funds and resources to purchase materials for our robot as well as travel to each of our competitions.
         </p></center>
       </div>
     </div>
   </section>
 
+  <!--Brochure Scrollable(To change)-->
   <section class="image-bg">
     <div class="scrollable-nL">
       <div v-for="page in brochure">
@@ -25,32 +25,85 @@ window.App.templates.pages.team = `
     </div>
   </section>
 
-  <section class="maroon-border" style="background-color:white;">
-    <center><h2 class="color-white" style="margin-top:-50px;"><b>Subteams</b></h2></center>
+  <!-- <section>
     <div class="container">
-      <div class="row masonry">
-          <div class="col-md-6 col-sm-13 masonry-item mb30 " v-for="group in groups" style="margin-bottom:20em;">
-              <div style=""class="feature boxed cast-shadow-light mb0">
-                  <center><h2 class="color-primary mb0">
-                      <i v4-bind:class="group.icon" class="icon-sm"></i>
-                      {{ group.name }}</h2></center>
-                  <center><h6 class="uppercase color-primary">Subteam</h6></center>
-                  <p class="text-justify">
-                  {{ group.description }}
+      <div class="row">
+        <div class="col-sm-12">
+          <h4 class="uppercase mb80">Subteams</h4>
+          <div class="tabbed-content button-tabs vertical">
+            <ul class="tabs">
+              <li>
+                <div class="tab-title">
+                  <span>Information</span>
+                </div>
+              </li>
+              <li>
+                <div class="tab-title">
+                  <span>Members</span>
+                </div>
+              </li>
+            </ul>
+            <ul class="content">
+              <li>
+                <div class="tab-content">
+                  <h4 class="uppercase">Let's Talk Tabs</h4>
+                  <hr>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
                   </p>
-                  <center><details>
-                      <center><h6 class="uppercase color-primary">Members</h6></center>
-                    <summary class="btn btn-rounded uppercase" style="font-weight:800;font-size:1.3em;margin-left:30px;margin-right:30px;"> {{ group.name }} Members </summary>
-                    <p> {{group.members}} </p>
+                </div>
+              </li>
+              <li>
+                <div class="tab-content">
+                  <h4 class="uppercase">Cool Tabs</h4>
+                  <hr>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
 
-                    <!-- */ <p style="margin-left:40px;margin-right:40px;margin-top:10px;;height:20px">{{group.members}}<p> -->
-                  </details></center>
+<section class="maroon-border" style="background-color:white;">
+  <center><h2 style="color:#800000;"><b>Subteams</b></h2></center>
+  <div class="container">
+    <div class="row masonry">
+      <div class="col-md-12 col-sm-12 masonry-item" v-for="group in groups">
+        <div class="">
+          <div class="col-md-4 col-sm-4 feature boxed cast-shadow-light mb0">
+            <ul class="nav nav-tabs nav-stacked" role="tablist">
+              <li role="presentation" class="active"><a v-bind:href="group.ref" v-bind:aria-controls="group.aria" role="tab" data-toggle="tab">Information</a></li>
+              <li role="presentation"><a v-bind:href="group.mref" v-bind:aria-controls="group.maria" role="tab" data-toggle="tab">Members</a></li>
+            </ul>
+          </div>
+          <div class="col-md-8 col-sm-8 feature boxed cast-shadow-light mb0">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" v-bind:id="group.tname">
+                <center><h2 class="color-primary mb0">
+                  <i v4-bind:class="group.icon" class="icon-sm"></i>
+                  {{ group.name }}</h2></center>
+                  <center><h6 class="uppercase color-primary">Subteam</h6></center>
+                <p class="text-justify">
+                  {{ group.description }}
+                </p>
               </div>
-              </div>
+              <div role="tabpanel" class="tab-pane fade" v-bind:id="group.mtname">
+                <center><h6 class="uppercase color-primary">Members</h6></center>
+                <p> {{group.members}} </p>
               </div>
             </div>
           </div>
-  </section>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+</div>
 
   <!-- <section class="bg-rain">
     <div class="container">
@@ -91,9 +144,4 @@ window.App.templates.pages.team = `
           </div>
       </div>
   </section> -->
-</div>
-
-
 `;
-
-<!-- -->
