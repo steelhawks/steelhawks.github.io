@@ -13,7 +13,7 @@
 }
 
 .bg-black {
-  background-color: #000000
+  background-color: #000000;
 }
 
 .bg-white {
@@ -21,7 +21,6 @@
 }
 
 .bg-crimson {
-  color: white;
   background-color: #ad2525;
   background-image: linear-gradient(135deg, #751515 0%, #d43637 50%);
 }
