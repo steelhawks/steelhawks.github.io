@@ -1,12 +1,10 @@
 window.App.templates.pages.eboard = `
 <div class="main-container">
-  <section class="img-bg white-border bg-black text-center">
-    <h1 class="uppercase" style="color:white;margin-bottom:-5vh;"><b>Executive Board</b></h1>
-  </section>
+  <website-header class="white-border bg-black" title="Executive Board"></website-header>
   <section class="img-bg bg-crimson white-border">
     <div class="container">
       <div class="row">
-          <div class="col-md-6 col-sm-12 mb30 " v-for="leader in leaders">
+          <div class="col-md-6 col-sm-12 mb30" v-for="leader in leaders">
               <div class="feature boxed cast-shadow-light mb0" style="height:650px;">
                   <center><img v-bind:src="leader.pic"></img></center><br>
                   <center><h2 style="margin-bottom:5px;color:maroon;">
