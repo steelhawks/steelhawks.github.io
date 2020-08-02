@@ -1,4 +1,6 @@
-$(function(){
+$(function()
+{
+  //Constructor for creating new Executive Board Leader Objects
   function Leader(name, title, bio, pic, subteam)
   {
     this.name = name;

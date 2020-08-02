@@ -24,9 +24,7 @@ $(function(){
     function get_template(){
         return `
         <div class="main-container">
-          <section class="img-bg bg-black maroon-border text-center">
-            <h1 style="color:white;margin-bottom:-5vh;"><b>Townsend Harris High School</b></h1>
-          </section>
+          <website-header title="Townsend Harris High School" class="bg-black maroon-border"></website-header>
           <section class="pt32 pb32 maroon-border">
                 <div class="col-md-offset-2 col-md-8 col-sm-12 pb32">
                   <center><img alt="Screenshot" class="cast-shadow mb-xs-24" src="ctn/img/thhs_building2.jpg" style="border-rounded"></center>

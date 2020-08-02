@@ -2,109 +2,88 @@ App.templates.navbar = `
 <!--Navbar start-->
 <div class="nav-container">
   <a id="top"></a>
-    <nav class="absolute scrolled bg-dark">
-      <div class="nav-bar">
-        <!--Sets icon and Steel Hawks Hyperlinks-->
+  <nav class="absolute scrolled bg-dark">
+    <div class="nav-bar">
+      <!--Sets icon and Steel Hawks Hyperlinks-->
+      <div class="module left">
+        <router-link to="/" style="height:80px">
+          <img class="logo logo-light" alt="Foundry" src="ctn/img/banner/logowhite.png" />
+        </router-link>
+        <router-link to="/">
+          <span class="uppercase bold lead" style="font-weight:600px;padding-left:10px">STEEL HAWKS</span>
+        </router-link>
+      </div>
+      <!--For mobile-->
+      <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+          <i class="ti-menu"></i>
+      </div>
+      <!--The different pages-->
+      <div class="module-group right" style="overflow:visible;">
         <div class="module left">
-          <router-link to="/" style="height:80px">
-            <img class="logo logo-light" alt="Foundry" src="ctn/img/banner/logowhite.png" />
-          </router-link>
-          <router-link to="/">
-            <span class="uppercase bold lead" style="font-weight:600px;padding-left:10px">STEEL HAWKS</span>
-          </router-link>
-        </div>
-        <!--For mobile-->
-        <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-            <i class="ti-menu"></i>
-        </div>
-        <!--The different pages-->
-        <div class="module-group right" style="overflow:visible;">
-          <div class="module left">
-            <ul class="menu">
-              <li>
-                <router-link to="/">Home</router-link>
-              </li>
-              <li class="has-dropdown">
-                  <router-link to="/team">About</router-link>
-                  <ul class="mega-menu">
-                      <li>
-                        <ul>
-                          <li>
-                            <router-link to="/team">Team 2601</router-link>
-                          </li>
-                          <li>
-                            <router-link to="/frc">FIRST</router-link>
-                          </li>
-                          <li>
-                            <router-link to="/eboard">Leadership</router-link>
-                          </li>
-                          <li>
-                            <router-link to="/mentors">Mentors</router-link>
-                          </li>
-                          <li>
-                            <router-link to="/school">Townsend Harris</router-link>
-                          </li>
-                        </ul>
-                      </li>
-                  </ul>
-              </li>
-              <li>
-                <router-link to="/outreach">Outreach</router-link>
-              </li>
-              <li class="has-dropdown">
-                <router-link to="/sponsor">Sponsors</router-link>
+          <ul class="menu">
+            <li>
+              <router-link to="/">Home</router-link>
+            </li>
+            <li class="has-dropdown">
+                <router-link to="/team">About</router-link>
                 <ul class="mega-menu">
-                  <li>
-                    <ul>
-                      <li>
-                        <router-link to="/sponsor">Our Sponsors</router-link>
-                      </li>
-                      <li>
-                        <router-link to="/becomesponsor">Become a Sponsor</router-link>
-                      </li>
-                    </ul>
-                  </li>
+                    <li>
+                      <ul>
+                        <li>
+                          <router-link to="/team">Team 2601</router-link>
+                        </li>
+                        <li>
+                          <router-link to="/frc">FIRST</router-link>
+                        </li>
+                        <li>
+                          <router-link to="/eboard">Leadership</router-link>
+                        </li>
+                        <li>
+                          <router-link to="/mentors">Mentors</router-link>
+                        </li>
+                        <li>
+                          <router-link to="/school">Townsend Harris</router-link>
+                        </li>
+                      </ul>
+                    </li>
                 </ul>
-              </li>
-              <li>
-                  <router-link to="/ourrobots">Our Robots</router-link>
-              </li>
-              <li>
-                <router-link to='/awards'>Awards</router-link>
-              </li>
-              <li>
-                <router-link to="/media">Media</router-link>
-              </li>
-              <li>
-                <router-link to="/contact">Contact</router-link>
-              </li>
-                <!-- <li v-show="page == 'main'">
-                  <a class="inner-link"
-                      href="#news">
-                      News
-                    </a>
+            </li>
+            <li>
+              <router-link to="/outreach">Outreach</router-link>
+            </li>
+            <li class="has-dropdown">
+              <router-link to="/sponsor">Sponsors</router-link>
+              <ul class="mega-menu">
+                <li>
+                  <ul>
+                    <li>
+                      <router-link to="/sponsor">Our Sponsors</router-link>
+                    </li>
+                    <li>
+                      <router-link to="/becomesponsor">Become a Sponsor</router-link>
+                    </li>
+                  </ul>
                 </li>
-                <li v-show="page != 'main'">
-                  <a href="/#news">
-                        News
-                    </a>
-                </li> -->
-                <!-- <li v-show="page == 'main'">
-                  <a class="inner-link" href="#sponsors">
-                        Sponsors
-                    </a>
-                </li>
-                <li v-show="page != 'main'">
-                  <a href="/#/sponsors">
-                        Sponsors
-                    </a>
-                </li> -->
-            </ul>
-            </div>
-            <!--end of menu module-->
-            </div>
-            <!--end of module group-->
+              </ul>
+            </li>
+            <li>
+                <router-link to="/ourrobots">Our Robots</router-link>
+            </li>
+            <li>
+              <router-link to='/awards'>Awards</router-link>
+            </li>
+            <li>
+              <router-link to="/media">Media</router-link>
+            </li>
+            <li>
+              <router-link to="/contact">Contact</router-link>
+            </li>
+          </ul>
         </div>
-    </nav>
+        <!--end of menu module-->
+      </div>
+        <!--end of module group-->
+    </div>
+  </nav>
 </div>
 `;

@@ -1,19 +1,20 @@
 window.App.templates.pages.media=`
 <div class="main-container">
-<section class="img-bg bg-crimson pb0 dark-border">
-  <h1 class="uppercase text-center" style="color:white;"><b>Media</b></h1>
-</section>
-<center><h2 class="uppercase" style="color:maroon;margin-top:5vh"><b>February 2019 Newsletter</b></h2></center>
-<div class="scrollable-nL">
-  <div v-for="page in pages">
-    <img style="width:70vw"v-bind:src="page.name"></img>
-    <br>
+  <!--Website Header for Media-->
+  <website-header class="bg-crimson dark-border" title="Media"></website-header>
+  
+  <center><h2 class="uppercase" style="color:maroon;margin-top:5vh"><b>February 2019 Newsletter</b></h2></center>
+  <div class="scrollable-nL">
+    <div v-for="page in pages">
+      <img style="width:70vw"v-bind:src="page.name"></img>
+      <br>
+    </div>
   </div>
+  <section class="img-bg bg-white maroon-border">
+    <center><h2 class="uppercase" style="color:maroon;margin-top:-5vh;"><b>2018 Build Season Vlogs</b></h2></center>
+    <div class="video-container" style="margin-top:-5vh;"><center><iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=PL1CVNaoFuZz2bqWUBPXGZCBykJEdSEPek" frameborder="0" allowfullscreen></iframe></center></div>
+  </section>
 </div>
-<section class="img-bg bg-white maroon-border">
-  <center><h2 class="uppercase" style="color:maroon;margin-top:-5vh;"><b>2018 Build Season Vlogs</b></h2></center>
-  <div class="video-container" style="margin-top:-5vh;"><center><iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=PL1CVNaoFuZz2bqWUBPXGZCBykJEdSEPek" frameborder="0" allowfullscreen></iframe></center></div>
-</section>
 <!--1080 607.5-->
 <!-- <section class="img-bg" style="background-color:black;">
   <center><h2 class="uppercase" style="color:white;margin-top:-5vh;margin-bottom:5vh;"><b>Find us online</b></h2></center>
@@ -48,5 +49,4 @@ window.App.templates.pages.media=`
       </center>
   </div>
 </section> -->
-</div>
 `;

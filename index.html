@@ -49,7 +49,7 @@
 		<!--Leaflet CSS-->
 		<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/> -->
 
-		<!--CSS files from Bootstrap, foundry, and google font-->
+		<!--CSS files from Bootstrap, foundry, and google fonts-->
 		<link href="lib/theme/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="lib/theme/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="lib/theme/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
@@ -61,123 +61,124 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,300,400,700,700italic" rel="stylesheet" type="text/css">
 	</head>
 
-<body>
+	<body>
+		<div id="app">
+			<navbar></navbar>
+			<transition name="fade">
+				<router-view></router-view>
+			</transition>
+			<!--Footer-->
+			<section class="pt40 pb16 image-bg bg-black">
+			    <div class="container">
+			        <!-- <div class="row">
+			            <div class="overflow-hidden">
+			                <center><div class="col-sm-6 p0">
+			                    <p class="lead">
+			                        <a href="https://www.google.com/maps/place/Townsend+Harris+High+School/@40.7349907,-73.8235537,17z/data=!3m1!4b1!4m5!3m4!1s0x89c26061029c1fa5:0xdf1a323bf2fdf3c5!8m2!3d40.7349867!4d-73.821365"
+			                        target="_blank">149-11 Melbourne Ave
+			                        <br> Flushing, NY 11367</a>
+			                    </p>
+			                </div></center>
+			            </div>
+			        </div> -->
+			        <div class="row">
+			            <div class="col-sm-8 col-sm-offset-2 text-center">
+			                <ul class="list-inline social-list mb0">
+			                        <li>
+			                            <a href="https://twitter.com/thhsrobotics?lang=en" target="_blank">
+			                                <i class="icon icon-sm ti-twitter-alt"></i>
+			                            </a>
+			                        </li>
+			                        <li>
+			                            <a href="https://www.facebook.com/frc2601/" target="_blank">
+			                                <i class="icon icon-sm ti-facebook"></i>
+			                            </a>
+			                        </li>
+			                        <li>
+			                            <a href="https://www.instagram.com/steelhawks2601/" target="_blank">
+			                                <i class="icon icon-sm ti-instagram"></i>
+			                            </a>
+			                        </li>
+			                        <li>
+			                          <a href="https://www.youtube.com/channel/UCEWGzCi4HUPlMh-btGRb1dg" target="_blank">
+			                            <i class="icon icon-sm ti-youtube"></i>
+			                          </a>
+			                        </li>
+			                        <li>
+			                          <a href="https://github.com/steelhawks" target="_blank">
+			                            <i class="icon ti-github icon-sm"></i>
+			                          </a>
+			                        </li>
+			                    </ul>
+			            </div>
+			        </div>
+							<br>
+							<div class="row text-center">
+								<p class="lead">© Steel Hawks 2020</p>
+							</div>
+			        <!--end of row-->
+			    </div>
+			    <!--end of container-->
+			  </section>
+		</div>
 
-	<div id="app">
-		<navbar></navbar>
-		<transition name="fade">
-			<router-view></router-view>
-		</transition>
-		<!--Footer-->
-		<section class="pt40 pb16 image-bg bg-black">
-		    <div class="container">
-		        <!-- <div class="row">
-		            <div class="overflow-hidden">
-		                <center><div class="col-sm-6 p0">
-		                    <p class="lead">
-		                        <a href="https://www.google.com/maps/place/Townsend+Harris+High+School/@40.7349907,-73.8235537,17z/data=!3m1!4b1!4m5!3m4!1s0x89c26061029c1fa5:0xdf1a323bf2fdf3c5!8m2!3d40.7349867!4d-73.821365"
-		                        target="_blank">149-11 Melbourne Ave
-		                        <br> Flushing, NY 11367</a>
-		                    </p>
-		                </div></center>
-		            </div>
-		        </div> -->
-		        <div class="row">
-		            <div class="col-sm-8 col-sm-offset-2 text-center">
-		                <ul class="list-inline social-list mb0">
-		                        <li>
-		                            <a href="https://twitter.com/thhsrobotics?lang=en" target="_blank">
-		                                <i class="icon icon-sm ti-twitter-alt"></i>
-		                            </a>
-		                        </li>
-		                        <li>
-		                            <a href="https://www.facebook.com/frc2601/" target="_blank">
-		                                <i class="icon icon-sm ti-facebook"></i>
-		                            </a>
-		                        </li>
-		                        <li>
-		                            <a href="https://www.instagram.com/steelhawks2601/" target="_blank">
-		                                <i class="icon icon-sm ti-instagram"></i>
-		                            </a>
-		                        </li>
-		                        <li>
-		                          <a href="https://www.youtube.com/channel/UCEWGzCi4HUPlMh-btGRb1dg" target="_blank">
-		                            <i class="icon icon-sm ti-youtube"></i>
-		                          </a>
-		                        </li>
-		                        <li>
-		                          <a href="https://github.com/steelhawks" target="_blank">
-		                            <i class="icon ti-github icon-sm"></i>
-		                          </a>
-		                        </li>
-		                    </ul>
-		            </div>
-		        </div>
-						<br>
-						<div class="row text-center">
-							<p class="lead">© Steel Hawks 2020</p>
-						</div>
-		        <!--end of row-->
-		    </div>
-		    <!--end of container-->
-		  </section>
-	</div>
+		<!-- <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+		crossorigin=""></script> -->
 
-	<!-- <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-	integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-	crossorigin=""></script> -->
+		<script type="text/javascript" src="app/init.js"></script>
+		<script type="text/javascript" src="app/sponsors.js"></script>
+		<script type="text/javascript" src="app/vuecomponents.js"></script>
 
-	<script type="text/javascript" src="app/init.js"></script>
-	<script type="text/javascript" src="app/sponsors.js"></script>
+		<script type="text/javascript" src="app/components/navbar.html"></script>
+		<script type="text/javascript" src="app/components/navbar.js"></script>
+		<script type="text/javascript" src="app/components/main.js"></script>
 
-	<script type="text/javascript" src="app/components/navbar.html"></script>
-	<script type="text/javascript" src="app/components/navbar.js"></script>
-	<script type="text/javascript" src="app/components/main.js"></script>
+		<script type="text/javascript" src="app/components/team.html"></script>
+		<script type="text/javascript" src="app/components/team.js"></script>
 
-	<script type="text/javascript" src="app/components/team.html"></script>
-	<script type="text/javascript" src="app/components/team.js"></script>
+		<script type="text/javascript" src="app/components/school.js"></script>
+		<script type="text/javascript" src="app/components/contact.html"></script>
+		<script type="text/javascript" src="app/components/contact.js"></script>
 
-	<script type="text/javascript" src="app/components/school.js"></script>
-	<script type="text/javascript" src="app/components/contact.html"></script>
-	<script type="text/javascript" src="app/components/contact.js"></script>
+		<script type="text/javascript" src="app/components/mentors.html"></script>
+		<script type="text/javascript" src="app/components/mentors.js"></script>
+		<script type="text/javascript" src="app/components/outreach.html"></script>
+		<script type="text/javascript" src="app/components/outreach.js"></script>
+		<script type="text/javascript" src="app/components/eboard.html"></script>
+		<script type="text/javascript" src="app/components/eboard.js"></script>
+		<script type="text/javascript" src="app/components/becomesponsor.html"></script>
+		<script type="text/javascript" src="app/components/becomesponsor.js"></script>
+		<script type="text/javascript" src="app/components/awards.html"></script>
+		<script type="text/javascript" src="app/components/awards.js"></script>
+		<script type="text/javascript" src="app/components/media.html"></script>
+		<script type="text/javascript" src="app/components/media.js"></script>
+		<script type="text/javascript" src="app/components/merchandise.html"></script>
+		<script type="text/javascript" src="app/components/merchandise.js"></script>
+		<script type="text/javascript" src="app/components/ourrobots.html"></script>
+		<script type="text/javascript" src="app/components/ourrobots.js"></script>
+		<script type="text/javascript" src="app/components/sponsor.html"></script>
+		<script type="text/javascript" src="app/components/sponsor.js"></script>
+		<script type="text/javascript" src="app/components/frc.html"></script>
+		<script type="text/javascript" src="app/components/frc.js"></script>
+		<script type="text/javascript" src="app/components/resources.html"></script>
+		<script type="text/javascript" src="app/components/resources.js"></script>
 
-	<script type="text/javascript" src="app/components/mentors.html"></script>
-	<script type="text/javascript" src="app/components/mentors.js"></script>
-	<script type="text/javascript" src="app/components/outreach.html"></script>
-	<script type="text/javascript" src="app/components/outreach.js"></script>
-	<script type="text/javascript" src="app/components/eboard.html"></script>
-	<script type="text/javascript" src="app/components/eboard.js"></script>
-	<script type="text/javascript" src="app/components/becomesponsor.html"></script>
-	<script type="text/javascript" src="app/components/becomesponsor.js"></script>
-	<script type="text/javascript" src="app/components/awards.html"></script>
-	<script type="text/javascript" src="app/components/awards.js"></script>
-	<script type="text/javascript" src="app/components/media.html"></script>
-	<script type="text/javascript" src="app/components/media.js"></script>
-	<script type="text/javascript" src="app/components/merchandise.html"></script>
-	<script type="text/javascript" src="app/components/merchandise.js"></script>
-	<script type="text/javascript" src="app/components/ourrobots.html"></script>
-	<script type="text/javascript" src="app/components/ourrobots.js"></script>
-	<script type="text/javascript" src="app/components/sponsor.html"></script>
-	<script type="text/javascript" src="app/components/sponsor.js"></script>
-	<script type="text/javascript" src="app/components/frc.html"></script>
-	<script type="text/javascript" src="app/components/frc.js"></script>
-	<script type="text/javascript" src="app/components/resources.html"></script>
-	<script type="text/javascript" src="app/components/resources.js"></script>
+		<script type="text/javascript" src="app/ready.js"></script>
 
-	<script type="text/javascript" src="app/ready.js"></script>
+		<!--Library JS Files-->
+		<script src="lib/theme/js/bootstrap.min.js"></script>
+		<script src="lib/theme/js/flickr.js"></script>
+		<script src="lib/theme/js/flexslider.min.js"></script>
+		<script src="lib/theme/js/lightbox.min.js"></script>
+		<script src="lib/theme/js/masonry.min.js"></script>
+		<script src="lib/theme/js/twitterfetcher.min.js"></script>
+		<script src="lib/theme/js/spectragram.min.js"></script>
+		<script src="lib/theme/js/ytplayer3.2.min.js"></script>
+		<script src="lib/theme/js/countdown.min.js"></script>
+		<script src="lib/theme/js/smooth-scroll.min.js"></script>
+		<script src="lib/theme/js/parallax.js"></script>
+		<script src="lib/theme/js/scripts.js"></script>
 
-	<script src="lib/theme/js/bootstrap.min.js"></script>
-	<script src="lib/theme/js/flickr.js"></script>
-	<script src="lib/theme/js/flexslider.min.js"></script>
-	<script src="lib/theme/js/lightbox.min.js"></script>
-	<script src="lib/theme/js/masonry.min.js"></script>
-	<script src="lib/theme/js/twitterfetcher.min.js"></script>
-	<script src="lib/theme/js/spectragram.min.js"></script>
-	<script src="lib/theme/js/ytplayer3.2.min.js"></script>
-	<script src="lib/theme/js/countdown.min.js"></script>
-	<script src="lib/theme/js/smooth-scroll.min.js"></script>
-	<script src="lib/theme/js/parallax.js"></script>
-	<script src="lib/theme/js/scripts.js"></script>
-
-</body>
+	</body>
 </html>

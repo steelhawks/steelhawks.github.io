@@ -11,7 +11,7 @@ $(function(){
   {
     mainFocus: 'Out FIRST',
     smallFocus: 'Project India',
-    img: '/ctn/img/projectIndiaPicOne.jpeg',
+    img: '/ctn/img/outreach/projectIndiaPicOne.jpeg',
     description1: "In 2019, our teammate, Neeharika Kotimreddy, traveled to her hometown of Muthukur in Nellore, India to host Project India. Our team developed curricula for the engineering workshops she hosted at the Zilla Praja Parishth HS in Nellore. She taught the fundamentals of mechanical and electrical engineering giving students the knowledge necessary to build a robot. Her students also learned to code in Java and C++, enabling them to control their robot, their first hands-on experience with technology in the classroom. Project India was recognized by the Government of Andhra Pradesh and catalyzed a discussion among local political leaders about including this type of career-applicable learning in their government schools."
 },
 {
