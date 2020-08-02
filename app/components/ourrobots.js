@@ -1,11 +1,20 @@
 $(function(){
   var robots = [
     {
+      year: "2020",
+      game: "Infinite Recharge",
+      tubeLink: "https://www.youtube.com/embed/gmiYWTmFRVE",
+      bio: "Robots shoot powercells, spin the control panel, and climb on the generator switch to save FIRST City from an asteroid attack.",
+      name: "HyLo Wren",
+      cad:"",
+      media:"vid",
+    },
+    {
       year: "2019",
       game: "Deep Space",
       tubeLink: "https://www.youtube.com/embed/Mew6G_og-PI",
       bio: "Robots, stuck on planet Primus, must gather hatches and cargo to prepare their spaceships before the next Sandstorm arrives.",
-      name: "",
+      name: "Cygnus",
       cad:"",
       media:"vid",
     },

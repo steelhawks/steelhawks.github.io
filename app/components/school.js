@@ -1,3 +1,12 @@
+var brochure = [
+  {
+    name: '/ctn/img/brochurep1.png'
+  },
+  {
+    name: '/ctn/img/brochurep2.png'
+  },
+];
+
 $(function(){
 
     Vue.component('page-school', {
@@ -43,8 +52,15 @@ $(function(){
                       decisions, and to develop an enduring commitment to serving the community.
                     </p>
                 </div>
+                <div class="col-md-offset-2 col-md-8 col-sm-12 pb32">
+                  <center>
+                    <img alt="Screenshot" class="cast-shadow mb-xs-24" src="/ctn/img/brochurep1.png" style="border-rounded">
+                    <img alt="Screenshot" class="cast-shadow mb-xs-24" src="/ctn/img/brochurep2.png" style="border-rounded">
+                  </center>
+                </div>
                 <!--end of container-->
             </section>
+
         </div>
     `;
   }
