@@ -17,37 +17,82 @@ window.App.templates.pages.team = `
 
   <!-- <section>
     <div class="container">
-      <div class="row masonry">
-        <div class="col-md-12 col-sm-12 masonry-item" v-for="group in groups">
-          <div class="">
-            <div class="col-md-4 col-sm-4 feature boxed cast-shadow-light mb0">
-              <ul class="nav nav-tabs nav-stacked" role="tablist">
-                <li role="presentation" class="active"><a v-bind:href="group.ref" v-bind:aria-controls="group.aria" role="tab" data-toggle="tab">Information</a></li>
-                <li role="presentation"><a v-bind:href="group.mref" v-bind:aria-controls="group.maria" role="tab" data-toggle="tab">Members</a></li>
-              </ul>
-            </div>
-            <div class="col-md-8 col-sm-8 feature boxed cast-shadow-light mb0">
-              <div class="tab-content">
-                <div role="tabpanel" class="tab-pane fade in active" v-bind:id="group.tname">
-                  <center><h2 class="color-primary mb0">
-                    <i v4-bind:class="group.icon" class="icon-sm"></i>
-                    {{ group.name }}</h2></center>
-                    <center><h6 class="uppercase color-primary">Subteam</h6></center>
-                  <p class="text-justify">
-                    {{ group.description }}
+      <div class="row">
+        <div class="col-sm-12">
+          <h4 class="uppercase mb80">Subteams</h4>
+          <div class="tabbed-content button-tabs vertical">
+            <ul class="tabs">
+              <li>
+                <div class="tab-title">
+                  <span>Information</span>
+                </div>
+              </li>
+              <li>
+                <div class="tab-title">
+                  <span>Members</span>
+                </div>
+              </li>
+            </ul>
+            <ul class="content">
+              <li>
+                <div class="tab-content">
+                  <h4 class="uppercase">Let's Talk Tabs</h4>
+                  <hr>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
                   </p>
                 </div>
-                <div role="tabpanel" class="tab-pane fade" v-bind:id="group.mtname">
-                  <center><h6 class="uppercase color-primary">Members</h6></center>
-                  <p> {{group.members}} </p>
+              </li>
+              <li>
+                <div class="tab-content">
+                  <h4 class="uppercase">Cool Tabs</h4>
+                  <hr>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                  </p>
                 </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<section class="maroon-border" style="background-color:white;">
+  <center><h2 style="color:#800000;"><b>Subteams</b></h2></center>
+  <div class="container">
+    <div class="row masonry">
+      <div class="col-md-12 col-sm-12 masonry-item" v-for="group in groups">
+        <div class="">
+          <div class="col-md-4 col-sm-4 feature boxed cast-shadow-light mb0">
+            <ul class="nav nav-tabs nav-stacked" role="tablist">
+              <li role="presentation" class="active"><a v-bind:href="group.ref" v-bind:aria-controls="group.aria" role="tab" data-toggle="tab">Information</a></li>
+              <li role="presentation"><a v-bind:href="group.mref" v-bind:aria-controls="group.maria" role="tab" data-toggle="tab">Members</a></li>
+            </ul>
+          </div>
+          <div class="col-md-8 col-sm-8 feature boxed cast-shadow-light mb0">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" v-bind:id="group.tname">
+                <center><h2 class="color-primary mb0">
+                  <i v4-bind:class="group.icon" class="icon-sm"></i>
+                  {{ group.name }}</h2></center>
+                  <center><h6 class="uppercase color-primary">Subteam</h6></center>
+                <p class="text-justify">
+                  {{ group.description }}
+                </p>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" v-bind:id="group.mtname">
+                <center><h6 class="uppercase color-primary">Members</h6></center>
+                <p> {{group.members}} </p>
               </div>
             </div>
           </div>
-      </div>
-      </div>
+        </div>
     </div>
-  </section>
+    </div>
+  </div>
+</section>
 </div>
 
   <!-- <section class="bg-rain">
@@ -57,7 +102,6 @@ window.App.templates.pages.team = `
                 <h3>Team Leaders</h3>
             </div>
         </div>
-
         <div class="row" v-for="leader in leaders">
             <div class="col-sm-3 text-center mb40 mb-xs-24">
                 <img alt="Pic" class="mb24" v-bind:src="leader.pic">
@@ -68,7 +112,6 @@ window.App.templates.pages.team = `
               <p>{{ leader.bio }}</p>
             </div>
           </div>
-
     </div>
   </section> -->
   <!-- <section class="bg-dark">
