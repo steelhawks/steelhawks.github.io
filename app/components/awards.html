@@ -1,9 +1,25 @@
 window.App.templates.pages.awards = `
+
 <div class="main-container">
   <!--Awards Header-->
   <website-header title="Awards" class="bg-crimson dark-border"></website-header>
 
   <section class="img-bg bg-white maroon-border">
+    <center>
+      <div v-for="award in awards" style="display: inline-block !important">
+        <div class="banner" style="margin: 20px;">
+          <img src="/ctn/img/first/first_icon.svg">
+          <div class="banner-award-name">
+              <span>{{ award.name }}</span>
+          </div>
+          <div class="banner-award-event">
+              <span>{{ award.year }}&nbsp{{ award.event }}</span>
+          </div>
+        </div>
+      </div>
+      
+    </center>
+    
     <div class="container">
       <div class="row">
         <div class="col-md-12">
