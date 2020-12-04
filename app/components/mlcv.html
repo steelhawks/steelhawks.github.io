@@ -1,0 +1,54 @@
+window.App.templates.pages.mlcv = `
+<div class="main-container">
+    <!--Website Header for Media-->
+    <website-header class="bg-black dark-border" title="ML-CV"></website-header>
+    
+    <section style="padding: 20px; !important">
+      <center><h2 class="uppercase" style="color:333;margin-top:5vh"><b>What is ML-CV?</b></h2></center>
+      <div class="col-md-offset-2 col-md-8 col-sm-12">
+          <p class="lead text-justify">
+              ML-CV is our 2021 Vision system which combines the benefits of a traditional OpenCV system with that of a Machine Learning model.
+              We use traditioanl OpenCV filtering and masking tecniques alongside a TensorFlow Lite Object Detection model to accurately detect and pinpoint the location of a vision target or gamepiece.
+          </p>
+      </div>
+      <br>
+      <center><img alt="ML-CV diagram" class="cast-shadow mb-xs-24" src="ctn/img/mlcv/image.svg" style="border-rounded" width="75%"></center>
+    </section>
+
+    <section style="padding: 20px; !important">
+      <center><h2 class="uppercase" style="color:333;margin-top:5vh"><b>How was ML-CV created?</b></h2></center>
+      <div class="col-md-offset-2 col-md-8 col-sm-12">
+          <p class="lead text-justify"> 
+              Since 2016, we have been experimenting with the more traditional model of developing a Computer Vision system which requires a series of filters and masks to single out patches of colors on the screen.
+              As vision targets became more intricate and gamepieces became a priority to track, we learned that a traditioanl Computer Vision model would not suffice.
+              Our system lacked the ability to successfully detect where these objects existed; sometimes you would get a Power Cube or Vision Target, and sometimes you'd get that pesky, yellow classroom poster at the back of the room or a silver door handle.
+              However, when it identified where an object existed, it did a fine job at accurately pinpointing the location of said object.
+              In 2020, we made the decision to scrap our whole Vision system and build it from the ground up — leaving room for any future improvements.
+              <br><br>
+              <center>
+                  And oh boy, there was a <i>LOT</i> of time to make imporvements #Quarantine2020.
+              </center>
+              <br>
+              Soon after quarantine started, we looked for ways to improve upon our system and to resolve the issue target intracicy and gamepiece importance.
+              Of course, we went down the cliché path of "lets try AI or Machine Learning!"
+              In contrast to our traditional OpenCV system, our ML system did a great job at identifying <i>where</i> a Power Cell or an Upper Port existed, but sucked at pinpointing its exact location on a coordinate plane. 
+              You see where this is going?
+              We merged both methods so that one counters the other's weakness, and in the end developed a precise and accurate hybrid vision system.
+          </p>
+      </div>
+    </section>
+
+    <section style="padding: 20px; !important">
+      <center><h2 class="uppercase" style="color:333;margin-top:5vh"><b>Are we running at 10 FPS?</b></h2></center>
+      <div class="col-md-offset-2 col-md-8 col-sm-12">
+          <p class="lead text-justify"> 
+              Theoertically, no. We have not tested our system on the appropriate hardware yet. 
+              However, our 2020 system — which is the same as the traditional component of ML-CV — runs at a comfortable 120+ FPS on our Nvidia Jetson Nano.
+              In addition, multiple hobbyists and reviewers have provided critical aclaim for the Google Coral's ability to run TFLite models in the range of 220 to 400 FPS.
+              Therefore, we are certain that by combining both pieces of hardware, we can maintain our previous figure of 120+ FPS despite having a traditional Computer Vision program running on the Jetson's GPU and a Machine Learning model running on the Coral's TPU.
+          </p>
+      </div>
+    </section>
+  </div>
+</div>
+`;
