@@ -1,4 +1,5 @@
 import AwardsPage from "../pages/awards.component";
+import ContactPage from "../pages/contact.component";
 import ExecutiveBoardPage from "../pages/executive-board.component";
 import HomePage from "../pages/home.component";
 import MentorPage from "../pages/mentors.component";
@@ -55,5 +56,11 @@ export const ROUTES = [
         component_name: OutreachPage,
         name: 'Outreach',
         id: 8
+    },
+    {
+        path: '/contact',
+        component_name: ContactPage,
+        name: 'Contact',
+        id: 9
     }
 ]

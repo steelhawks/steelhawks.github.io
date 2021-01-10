@@ -1,11 +1,14 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+
 import { Link } from 'react-router-dom'
 
 export const Navigation = (props) => {
     return (
-        <Navbar bg="light" expand="md">
-            <Navbar.Brand>Steel Hawks</Navbar.Brand>
+        <Navbar variant="dark" bg="dark" expand="md">
+            <Navbar.Brand><img src="/media/whitehack.png"/> Steel Hawks</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
                 <Nav>
