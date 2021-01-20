@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -20,7 +20,7 @@ class App extends React.Component{
     const {routes} = this.state
     return (
       <div>
-        <Navigation routes={routes}></Navigation>
+        <Navigation routes={routes}/>
         <Switch>
           {routes.map(route => (
             <Route exact path={route.path} key={route.id} component={route.component_name}/>

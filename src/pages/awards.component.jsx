@@ -16,19 +16,18 @@ class AwardsPage extends React.Component{
     render(){
         const { awards } = this.state
         return (
-            <Container fluid>
+            <section>
                 <Header title="Awards"/>
-                <Container fluid>
+                <Container style={{ paddingTop: '10px'}}fluid>
                     <Row>
                         {awards.map(award => (
-                            <Col md={3} sm={4}>
+                            <Col style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} md={3} sm={4}>
                                 <Award info={Object.entries(award)}/>
                             </Col>
                         ))}
                     </Row>
                 </Container>
-
-            </Container>
+            </section>
         )
     }
 }

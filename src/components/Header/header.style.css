@@ -1,34 +1,36 @@
-.gray-header{
+.grayOneHeader{
     background-color: #D3D3D3;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
+    color: #000000;
     border-top: 5px solid #800000;
     border-bottom: 5px solid #800000;
 }
 
-.maroon-header{
+.grayTwoHeader{
+    background-color: #D3D3D3;
+    color: #800000;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000; 
+}
+
+.maroonHeader{
     background-color: #800000;
     color: #FFFFFF;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     text-align: center;
     border-top: 5px solid #000000;
     border-bottom: 5px solid #000000;
 }
 
-.black-header{
+.blackHeader {
     background-color: #000000;
-    color: #800000;
+    color: #D3D3D3;
+    border-top: 5px solid #800000;
+    border-bottom: 5px solid #800000;
+}
+
+.headerPadding {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    border-top: 5px solid #D3D3D3;
-    border-bottom: 5px solid #D3D3D3;
 }

@@ -1,10 +1,10 @@
 import AwardsPage from "../pages/awards.component";
 import ContactPage from "../pages/contact.component";
-import ExecutiveBoardPage from "../pages/executive-board.component";
+import ExecutiveBoardPage from "../pages/ExecutiveBoard.componentPage";
 import HomePage from "../pages/home.component";
-import MentorPage from "../pages/mentors.component";
-import OutreachPage from "../pages/outreach.component";
-import RobotsPage from "../pages/robots.component";
+import MentorPage from "../pages/MentorsPage.component";
+import OutreachPage from "../pages/OutreachPage.component";
+import RobotsPage from "../pages/RobotPage.component";
 import SponsorPage from "../pages/sponsors.component";
 import TeamPage from "../pages/team.component";
 

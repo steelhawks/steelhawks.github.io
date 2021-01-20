@@ -2,27 +2,30 @@ import React from 'react';
 import './header.style.css'
 
 function generateRandomHeader(){
-    let x = Math.floor(Math.random() * 3);
+    let x = Math.floor(Math.random() * 4);
     let y;
     switch(x){
         case 0:
-            y = "gray-header";
+            y = "grayOneHeader";
             break;
         case 1:
-            y = "maroon-header";
+            y = "maroonHeader";
             break;
         case 2:
-            y = "black-header";
+            y = "blackHeader";
+            break;
+        case 3:
+            y = "grayTwoHeader";
             break;
         default:
-            y = "gray-header"
+            y = "blackHeader"
     }
     return y
 }
 
 export const Header = (props) => {
     return (
-        <section className={generateRandomHeader()}>
+        <section className={generateRandomHeader() + ' headerPadding'}>
             <h1><b>{props.title}</b></h1>
         </section>
     )

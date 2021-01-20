@@ -3,8 +3,7 @@ export const OUTREACH = [
         mainFocus: 'Out FIRST',
         smallFocus: 'Project Philippines',
         img: '/media/outreach/PP.jpeg',
-        description1: "In the summer of 2017, one of our teammates, Phyllis Alinsao, traveled to Iloilo, Philippines to host hands-on engineering workshops; we called this program Project Philippines! Our team supported Phyllis by donating over $4,500 of materials, including tools and a chassis so that the students could receive a hands-on engineering experience. We also worked with Phyllis to create the curriculum for the four-week workshops.",
-        description2: "After Phyllis returned, she told us that Iloilo and surrounding neighborhoods had no libraries; In response, we held a schoolwide book drive for these students and others across the three regions of the Philippines: Mindanao, Luzon, and the Western Visayas."
+        description1: "In the summer of 2017, one of our teammates, Phyllis Alinsao, traveled to Iloilo, Philippines to host hands-on engineering workshops; we called this program Project Philippines! Our team supported Phyllis by donating over $4,500 of materials, including tools and a chassis so that the students could receive a hands-on engineering experience. We also worked with Phyllis to create the curriculum for the four-week workshops. After Phyllis returned, she told us that Iloilo and surrounding neighborhoods had no libraries; In response, we held a schoolwide book drive for these students and others across the three regions of the Philippines: Mindanao, Luzon, and the Western Visayas."
     },
     {
         mainFocus: 'Out FIRST',

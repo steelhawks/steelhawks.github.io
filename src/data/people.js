@@ -42,55 +42,55 @@ const MENTORS = [
         name: 'Joel Heitman',
         title: 'Head Coach',
         bio: 'Mr. Heitman is the Head Coach of the Steel Hawks. He joined the Steel Hawks in 2013. His passion for Robotics has allowed the team to soar, and he hopes that with the help of his mentors, he can inspire the next generation of innovators.',
-        pic: '/media/mentors/heitman.JPG'
+        image: '/media/mentors/heitman.JPG'
       },
       {
         name: 'Susan Brustein',
         title: 'Coach',
         bio: 'Ms. Brustein is a Coach for the Steel Hawks. She was one of the founding coaches in 2008. Ms. Brustein is the Assistant Principal of Math, Science, and Technology at our school. She is currently the mentor of our Public Relations subteam.',
-        pic: '/media/mentors/brustein.jpg'
+        image: '/media/mentors/brustein.jpg'
       },
       {
         name: 'Joshua Raghunath',
         title: 'Coach',
         bio: 'Mr. Raghunath is a Coach for the Steel Hawks. He joined the Steel Hawks in September of 2014. As an AP Physics teacher, he helps team members apply what they learn in his class to build the most efficient robot. His background in finance helps team members learn how to develop the Steel Hawks brand and represent the team professionally.',
-        pic: '/media/mentors/raghunath.JPG'
+        image: '/media/mentors/raghunath.JPG'
       },
       {
         name: 'David Stern',
         title: 'Coach',
         bio: 'Mr. Stern is a Coach for the Steel Hawks. He joined the Steel Hawks in September of 2016. As a Regents Physics teacher, he helps team members apply what they learn in class to their robot designs.',
-        pic: '/media/mentors/stern.JPG'
+        image: '/media/mentors/stern.JPG'
       },
       {
         name: 'John Tsai',
         title: 'Coach',
         bio: 'Mr. Tsai is a coach for the Steel Hawks.',
-        pic: '/media/mentors/tsai.JPG'
+        image: '/media/mentors/tsai.JPG'
       },
       {
         name: 'Olan-Ray Frith',
         title: 'Mentor',
         bio: 'Olan is the fabrication mentor for the Steel Hawks. He guides us through the prototyping, designing, and building processes.',
-        pic: '/media/mentors/olan.JPG'
+        image: '/media/mentors/olan.JPG'
       },
       {
         name: 'Weijian Zeng',
         title: 'Mentor',
         bio: 'Weijian is the programming mentor for the Steel Hawks. We are grateful for his work in helping aspiring software engineers develop clean, well-written code for the team.',
-        pic: '/media/mentors/weijian.JPG'
+        image: '/media/mentors/weijian.JPG'
       },
       {
         name: 'Kevin Goetzger and Kenneth Leuci',
         title: 'Mentor',
         bio: 'Kevin and Kenneth are mentors for the Steel Hawks. We are grateful for their work in creating the practice field that we use for Open Field Weekend.',
-        pic: '/media/mentors/kevinken.jpg'
+        image: '/media/mentors/kevinken.jpg'
       },
       {
         name: 'Jack Gold',
         title: 'Mentor',
         bio: 'Jack is a mentor for the Steel Hawks. We are grateful for his efforts in helping to development our team.',
-        pic: '/media/mentors/genericProfile.jpg'
+        image: '/media/mentors/genericProfile.jpg'
       }
 ]
 
