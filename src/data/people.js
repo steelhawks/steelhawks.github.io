@@ -103,7 +103,7 @@ const MENTORS = [
       {
         name: 'Jack Gold',
         title: 'Mentor',
-        bio: 'Jack is a mentor for the Steel Hawks. We are grateful for his efforts in helping to development our team.',
+        bio: 'Jack is a mentor for the Steel Hawks. We are grateful for his efforts in helping to develop our team.',
         image: '/media/mentors/genericProfile.jpg',
         id: 9
       }

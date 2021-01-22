@@ -27,7 +27,7 @@ export const SponsorGrid = (props) => {
     return (
         
         <Container fluid>
-            <Row>
+            <Row className="row">
                 {props.sponsors.map(sponsor => (
                     <Col key={sponsor.id} md={6} sm={10}>
                         <SponsorCard sponsor={sponsor}/>
