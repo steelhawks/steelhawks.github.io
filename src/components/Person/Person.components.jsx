@@ -1,11 +1,12 @@
 import React from 'react'
 import { Row, Col, Card, Container } from 'react-bootstrap'
 
-import './person-card.style.css'
+import './Person.style.css'
 
 const PersonCard = (props) => {
     
     return (
+
         <Card className="personCard">
             <Card.Img variant="top" src={props.person.image}/>
             <Card.Body>
@@ -15,11 +16,12 @@ const PersonCard = (props) => {
                 <Card.Subtitle>
                     {props.person.title}
                 </Card.Subtitle>
-                <Card.Text>
+                <Card.Text className="personText">
                     {props.person.bio}
                 </Card.Text>
             </Card.Body>
         </Card>
+
     )
 
 }
@@ -31,7 +33,7 @@ export const PersonGrid = (props) => {
         <Container fluid>
             <Row>
                 {props.people.map(member => (
-                    <Col md={6}>
+                    <Col key={member.id} md={6}>
                         <PersonCard person={member}/>
                     </Col>
                 ))}

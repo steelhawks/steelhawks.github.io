@@ -1,20 +1,23 @@
 import React from 'react';
 
-import './footer.style.css'
+import './Footer.style.css'
+
 import { SOCIALMEDIA } from '../../data/social'
+import { WebsiteIcon } from '../Website/Website.components';
 
 export const Footer = () => {
 
-    const MEDIAS = SOCIALMEDIA
-
     return (
+
         <section className="footer">
             {
-                MEDIAS.map(media => (
-                    <a href={media.linkTo} target="_blank"><i class={media.iconClass}/></a>
+                SOCIALMEDIA.map(media => (
+                    <WebsiteIcon key={media.id} linkTo={media.linkTo} iconClass={'mediaIcon ' + media.iconClass}/>
                 ))
             }
             <h4><b>© 2021</b></h4>
         </section>
+
     )
+    
 }

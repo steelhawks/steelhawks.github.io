@@ -2,7 +2,7 @@ import React from 'react'
 
 import { MENTORS } from '../data/people'
 
-import { Header } from '../components/Header/header.component';
+import { Header } from '../components/Header/Header.component';
 import { PersonGrid } from '../components/Person/Person.components';
 
 const MentorPage = () => {

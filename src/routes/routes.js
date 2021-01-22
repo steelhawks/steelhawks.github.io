@@ -1,12 +1,12 @@
-import AwardsPage from "../pages/awards.component";
-import ContactPage from "../pages/contact.component";
+import AwardsPage from "../pages/AwardPage.component";
+import ContactPage from "../pages/ContactPage.component";
 import ExecutiveBoardPage from "../pages/ExecutiveBoard.componentPage";
-import HomePage from "../pages/home.component";
+import HomePage from "../pages/HomePage.component";
 import MentorPage from "../pages/MentorsPage.component";
 import OutreachPage from "../pages/OutreachPage.component";
 import RobotsPage from "../pages/RobotPage.component";
-import SponsorPage from "../pages/sponsors.component";
-import TeamPage from "../pages/team.component";
+import SponsorPage from "../pages/SponsorsPage.component";
+import TeamPage from "../pages/TeamPage.component";
 
 export const ROUTES = [
     {

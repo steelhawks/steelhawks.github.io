@@ -1,0 +1,11 @@
+.robotCard {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.robotText {
+    text-align: justify;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}

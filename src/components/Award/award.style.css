@@ -1,5 +1,11 @@
 /*FRC Banners*/
 
+.awardColumn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -28,6 +34,7 @@ img {
 	text-align: center;
 	vertical-align: top;
 	white-space: normal;
+	margin-top: 10px;
 }
 .banner::after {
 	content: "";

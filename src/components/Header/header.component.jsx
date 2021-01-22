@@ -1,7 +1,8 @@
 import React from 'react';
-import './header.style.css'
 
-function generateRandomHeader(){
+import './Header.style.css'
+
+function generateRandomHeader () {
     let x = Math.floor(Math.random() * 4);
     let y;
     switch(x){
@@ -24,9 +25,12 @@ function generateRandomHeader(){
 }
 
 export const Header = (props) => {
+
     return (
+
         <section className={generateRandomHeader() + ' headerPadding'}>
-            <h1><b>{props.title}</b></h1>
+            <h1 className="headerText">{props.title}</h1>
         </section>
+
     )
 }

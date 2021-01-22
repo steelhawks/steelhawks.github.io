@@ -5,15 +5,20 @@ import Navbar from 'react-bootstrap/Navbar'
 
 import { Link } from 'react-router-dom'
 
+import './Navbar.style.css'
+
 export const Navigation = (props) => {
+
     return (
+
         <Navbar className="justify-content-between" variant="dark" bg="dark" expand="md">
-            <Navbar.Brand><img src="/media/whitehack.png"/> Steel Hawks</Navbar.Brand>
+            <Navbar.Brand><Link style={{ textDecoration: 'none', color: 'inherit' }} to={'/'}><img className="navLogo" src="/media/whitehack.png" alt="Steel Hawks Logo"/> Steel Hawks</Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
+                <Nav className="mr-auto"/>
                 <Nav fill>
                     {props.routes.map(route => (
-                        <Nav.Item>
+                        <Nav.Item key={route.id}>
                             <Nav.Link>
                                 <Link style={{ textDecoration: 'none', color: 'inherit' }} to={route.path}>
                                     {route.name}
@@ -24,5 +29,7 @@ export const Navigation = (props) => {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
+
     )
+
 }

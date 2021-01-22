@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Header } from '../components/Header/header.component'
+import { Header } from '../components/Header/Header.component'
 
-import { RobotGrid } from '../components/RobotCard/Robots.component'
+import { RobotGrid } from '../components/Robots/Robots.component'
 import { ROBOTS } from '../data/robots'
 
 const RobotsPage = () => {
