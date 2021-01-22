@@ -3,18 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Header } from '../components/Header/Header.component';
 import { Introduction } from '../components/IntroJumbotron/Introduction.component';
 
-const PhoneIcon = () => (
+const ContactIcon = (props) => (
 
     <React.Fragment>
-        <i className="fas fa-phone fa-sm"/> (718) 575 - 5580
-    </React.Fragment>
-
-)
-
-const EmailIcon = () => (
-
-    <React.Fragment>
-        <i className="fas fa-inbox fa-sm"/> <a href="mailto:townsendharrisrobotics@gmail.com">townsendharrisrobotics@gmail.com</a>
+        <i className={props.name}/> {props.renderThis}
     </React.Fragment>
 
 )
@@ -35,8 +27,8 @@ const TownsendHarrisAddress = () => (
         <strong>TOWNSEND HARRIS HIGH SCHOOL</strong><br/>
         149-11 Melbourne Avenue<br/>
         Flushing, NY 11367<br/>
-        <PhoneIcon/><br/>
-        <EmailIcon/>
+        <ContactIcon name="fas fa-phone fa-sm" renderThis={<span>(718) 575 - 5580</span>}/><br/>
+        <ContactIcon name="fas fa-inbox fa-sm" renderThis={<a href="mailto:townsendharrisrobotics@gmail.com">townsendharrisrobotics@gmail.com</a>}/>
     </address>
 )
 
