@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header } from '../components/Header/Header.component';
+import { Header } from '../components/Header/header.component';
 
 import { PersonGrid } from '../components/Person/Person.components';
 import { EXECUTIVEBOARD } from '../data/people'

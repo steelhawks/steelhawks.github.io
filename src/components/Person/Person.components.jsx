@@ -31,7 +31,7 @@ export const PersonGrid = (props) => {
     return (
 
         <Container fluid>
-            <Row>
+            <Row className="row">
                 {props.people.map(member => (
                     <Col key={member.id} md={6}>
                         <PersonCard person={member}/>

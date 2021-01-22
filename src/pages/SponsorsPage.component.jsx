@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header } from '../components/Header/Header.component'
+import { Header } from '../components/Header/header.component'
 import { Introduction } from '../components/IntroJumbotron/Introduction.component'
 import { SponsorGrid } from '../components/SponsorCard/Sponsor.components'
 import { SPONSORS } from '../data/sponsors'

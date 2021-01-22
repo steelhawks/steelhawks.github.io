@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Header.style.css'
+import './header.style.css'
 
 function generateRandomHeader () {
     let x = Math.floor(Math.random() * 4);

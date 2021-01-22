@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Footer.style.css'
+import './footer.style.css'
 
 import { SOCIALMEDIA } from '../../data/social'
 import { WebsiteIcon } from '../Website/Website.components';

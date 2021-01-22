@@ -2,10 +2,10 @@ import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Navigation } from './components/Navigation/Navigation.component';
+import { Navigation } from './components/Navigation/navigation.component';
 import { ROUTES } from './routes/routes'
 import { Route, Switch } from 'react-router';
-import { Footer } from './components/Footer/Footer.component';
+import { Footer } from './components/Footer/footer.component';
 
 class App extends React.Component{
   constructor(props){

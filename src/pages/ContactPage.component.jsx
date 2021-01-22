@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Header } from '../components/Header/Header.component';
+import { Header } from '../components/Header/header.component';
 import { Introduction } from '../components/IntroJumbotron/Introduction.component';
 
 const ContactIcon = (props) => (

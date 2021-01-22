@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 
-import './Outreach.style.css'
+import './outreach.style.css'
 
 const OutreachCard = (props) => {
 

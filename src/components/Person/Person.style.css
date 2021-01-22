@@ -7,3 +7,7 @@
 .personText{
     text-align: justify;
 }
+
+.row:before, row:after{
+    display: inline-block;
+}

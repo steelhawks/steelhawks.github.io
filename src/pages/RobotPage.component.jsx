@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header } from '../components/Header/Header.component'
+import { Header } from '../components/Header/header.component'
 
 import { RobotGrid } from '../components/Robots/Robots.component'
 import { ROBOTS } from '../data/robots'

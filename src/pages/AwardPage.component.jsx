@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { AwardGrid } from '../components/Award/Award.components'
-import { Header } from '../components/Header/Header.component'
+import { Header } from '../components/Header/header.component'
 
 import AWARDS from '../data/awards'
 

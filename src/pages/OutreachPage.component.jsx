@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header } from '../components/Header/Header.component'
+import { Header } from '../components/Header/header.component'
 
 import { OutreachGrid } from '../components/Outreach/Outreach.components'
 import { OUTREACH } from '../data/outreach'

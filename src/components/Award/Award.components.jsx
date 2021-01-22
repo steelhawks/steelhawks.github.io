@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-import './Award.style.css'
+import './award.style.css'
 
 const Award = (props) => {
 
@@ -26,7 +26,7 @@ export const AwardGrid = (props) => {
     return (
 
         <Container fluid>
-            <Row>
+            <Row className="row">
                 {props.awards.map(award => (
                     <Col key={ award.id } className="awardColumn" md={ 3 } sm={ 4 }>
                         <Award award={ award }/>

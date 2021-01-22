@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header } from '../components/Header/Header.component'
+import { Header } from '../components/Header/header.component'
 import { SUBTEAMS } from '../data/team'
 import { SubteamHeader, TeamGrid } from '../components/Team/Team.components'
 import { Introduction } from '../components/IntroJumbotron/Introduction.component'
