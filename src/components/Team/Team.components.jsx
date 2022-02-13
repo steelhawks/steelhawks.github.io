@@ -33,14 +33,13 @@ const TeamTabs = (props) => {
 
     return (
 
-        <Tabs defaultActiveKey="1" className="teamTab">
-            <Tab eventKey="1" title="Information">
-                <TeamCard title={props.subteam.name} text={props.subteam.description}/>
-            </Tab>
-            <Tab eventKey="2" title="Members">
-                <TeamCard title="Members" text={props.subteam.members}/>
-            </Tab>
-        </Tabs>
+            <><TeamCard title={props.subteam.name} text={props.subteam.description}></TeamCard></>
+        //     <Tab eventKey="1" title="Information">
+        //     <TeamCard title={props.subteam.name} text={props.subteam.description} />
+        // </Tab><Tab eventKey="2" title="Members">
+        //         <TeamCard title="Members" text={props.subteam.members} />
+        //     </Tab>
+        
 
     )
 

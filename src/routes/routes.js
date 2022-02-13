@@ -8,7 +8,9 @@ import RobotsPage from "../pages/RobotPage.component";
 import SponsorPage from "../pages/SponsorsPage.component";
 import TeamPage from "../pages/TeamPage.component";
 
+
 export const ROUTES = [
+
     {
         path: '/',
         component_name: HomePage,
@@ -30,7 +32,7 @@ export const ROUTES = [
     {
         path: '/team',
         component_name: TeamPage,
-        name: 'Team',
+        name: 'Subteams',
         id: 4
     },
     {

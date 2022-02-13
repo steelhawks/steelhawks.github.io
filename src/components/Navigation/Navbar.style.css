@@ -1,4 +1,52 @@
+*:focus {
+    outline: 0;
+}
 .navLogo {
     max-width: 50%;
     max-height: 50%;
+}
+
+#dropdownBasic {
+    color:white;
+    margin: auto;
+}
+
+#dropdownElement {
+    color: black;
+}
+
+#dropdownElement:hover {
+    text-decoration: none;
+}
+
+#dropdown:active {
+    text-decoration: none;
+}
+
+
+#nav, #dropdown {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    outline: none;
+}
+
+#nav:hover {
+    text-decoration: none;
+}
+
+#steel {
+    font-size: 50px;
+    font-family: 'Secular One';
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.justify-content-between {
+    background-color: rgb(179, 17, 44);
+    border-top: 7px solid #000000;
+    border-right: 7px solid #000000;
+    border-left: 7px solid #000000;
+    
 }

@@ -6,17 +6,14 @@ import './Home.style.css'
 
 export const HomeBanner = () => {
 
-    const missionStatement = "The Steel Hawks (FRC 2601) focuses on empowering our diverse team to develop abilities through a collaborative learning environment. We create opportunities to explore a myriad of fields to ignite and fuel our passions. Our enthusiasm drives us to share our knowledge globally to inspire the next generation of innovators."
+    const missionStatement = "insert something here."
 
     return (
-
-        <Jumbotron fluid className="homeJumbotron">
-            <img className="homeImage" alt="Steel Hawks Banner" src="/media/home_page.png"/>
-            <p className="homeMissionStatement">
+            <section class="newsheaderbg"><h3 id='newsheader'>OUR 2022 ROBOT IS IN THE WORKS!</h3>
+            <img className="homeImage" alt="Steel Hawks Banner" src="/media/teampicResized.jpg"/>
+            <p id="homeMissionStatement">
                 {missionStatement}
-            </p>
-        </Jumbotron>
-
+            </p></section>
     )
 
 }

@@ -29,10 +29,10 @@ export const ROBOTS = [
     {
         year: "2017",
         game: "Steamworks",
-        picture: "/media/robots/2017.JPG",
+        video: "https://www.youtube.com/embed/sIoXR36DF2A",
         bio: "In an era where steampower reigns, robots collect fuel and deliver gears to prepare their airships for a long distance race.",
         name: "Aquila",
-        media: "pic",
+        media: "vid",
         id: 4
     },
     {
