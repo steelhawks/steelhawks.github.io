@@ -1,48 +1,6 @@
 * {
-    font-family: 'Rubik';
-}
-
-.newsheaderbg {
-    background-color: #000000;
-}
-
-#newsheader {
-    color: #ffffff;
-    margin-bottom: 0;
-
-     /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  
-  -moz-animation: my-animation 20s linear infinite;
-  -webkit-animation: my-animation 20s linear infinite;
-  animation: my-animation 20s linear infinite;
-}
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
+  font-family: 'Rubik';
+  animation: fade 0.5s ease-in;
 }
 
 .homeImage {
@@ -51,15 +9,6 @@
     max-width: 100%; 
     max-height: 100%;
     border-top: 0px;
-}
-
-#homeMissionStatement {
-    color: white;
-    text-align: center;
-    background-color: rgb(42, 44, 44);
-    padding-left: 50px; 
-    padding-right: 50px;
-    margin: 0;
 }
 
 .homeColumn {
@@ -80,4 +29,45 @@
 
 .homeBody {
     text-align: center;
+}
+
+#twentytwo {
+  height: 500px;
+  background-color: white;
+  border: 5px solid #a80c0c;
+  display: flex;
+}
+
+#a2022 {
+  font-size: 180px;
+  color: black;
+  padding-left: 150px;
+  margin: auto 0;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+#twentytwoText {
+  font-size: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+#teaserImage {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+} 
+
+#imgDesc {
+  text-align: justify;
+  width: 2845;
+  margin: auto 0;
+  margin-left: auto;
+  padding-right: 200px;
+}
+
+#imgDesc img {
+  display: block;
+  margin: 0 auto;
 }

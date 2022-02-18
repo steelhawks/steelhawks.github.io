@@ -3,7 +3,6 @@ import React from 'react'
 import { Header } from '../components/Header/header.component'
 import { SUBTEAMS } from '../data/team'
 import { SubteamHeader, TeamGrid } from '../components/Team/Team.components'
-import { Introduction } from '../components/IntroJumbotron/Introduction.component'
 
 const TeamPage = () => {
 
@@ -15,7 +14,6 @@ const TeamPage = () => {
 
         <section>
             <Header title="Team 2601"/>
-            <Introduction content={bio}/>
             <SubteamHeader/>
             <TeamGrid subteams={SUBTEAMS} />
         </section>

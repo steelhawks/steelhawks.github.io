@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { Header } from '../components/Header/header.component'
-import { Introduction } from '../components/IntroJumbotron/Introduction.component'
 import { SponsorGrid } from '../components/SponsorCard/Sponsor.components'
 import { SPONSORS } from '../data/sponsors'
 
@@ -16,7 +15,6 @@ const SponsorPage = () => {
 
         <section>
             <Header title="Sponsors"/>
-            <Introduction content={content} />
             <SponsorGrid sponsors={SPONSORS} />
         </section>
 

@@ -12,13 +12,12 @@ export const Navigation = (props) => {
     return (
 
         <Navbar className="justify-content-between" expand="md">
-            <Navbar.Brand><Link id='steel' to={'/'}><img className="navLogo" src="/media/whitehack.png" alt="Steel Hawks Logo"/> STEEL HAWKS</Link></Navbar.Brand>
+            <Navbar.Brand><Link id='steel' to={'/'}><img className="navLogo" src="/media/whitehack.png" alt="Steel Hawks Logo"/><p1 id='steelhawkstext'>STEEL HAWKS</p1></Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
                 <Nav className="mr-auto"/>
                 <Nav fill>
                     
-                    <NavLink id='nav' to='/' >HOME</NavLink>
                     <Dropdown>
                         <Dropdown.Toggle variant="Success" id='dropdownBasic'>
                             OUR TEAM

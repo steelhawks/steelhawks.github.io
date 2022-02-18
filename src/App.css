@@ -1,11 +1,6 @@
-* {
-  animation: fade 0.9s ease-in;
-}
-
-@keyframes fade {
-  0% {
-      opacity: 0;
-  }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .App {

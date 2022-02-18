@@ -6,14 +6,18 @@ import './Home.style.css'
 
 export const HomeBanner = () => {
 
-    const missionStatement = "insert something here."
 
     return (
-            <section class="newsheaderbg"><h3 id='newsheader'>OUR 2022 ROBOT IS IN THE WORKS!</h3>
-            <img className="homeImage" alt="Steel Hawks Banner" src="/media/teampicResized.jpg"/>
-            <p id="homeMissionStatement">
-                {missionStatement}
-            </p></section>
+            <section class="newsheaderbg">
+            <img className="homeImage" alt="Steel Hawks Team" src="/media/home_page.png"/>
+            
+            <div id="twentytwo">
+                <h1 id="a2022">2022</h1>
+                <div id = "imgDesc">
+                    <p1 id="twentytwoText">Our 2022 FRC Robot is in the works! Stay tuned for our reveal video!</p1>
+                    <img id='teaserImage' src="/media/test.jpg" alt="Robot"></img>
+                </div>  
+            </div></section>
     )
 
 }

@@ -1,18 +1,31 @@
 *:focus {
     outline: 0;
 }
+  
+
+#steelhawkstext {
+    padding-left: 10px;
+    font-family: 'Secular One';
+}
+
 .navLogo {
     max-width: 50%;
     max-height: 50%;
 }
 
 #dropdownBasic {
+    animation: none;
     color:white;
     margin: auto;
 }
 
 #dropdownElement {
+    animation: none;
     color: black;
+}
+
+#dropdownElement:active {
+    animation: none;
 }
 
 #dropdownElement:hover {
@@ -25,6 +38,7 @@
 
 
 #nav, #dropdown {
+    animation: none;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
@@ -44,9 +58,10 @@
 }
 
 .justify-content-between {
-    background-color: rgb(179, 17, 44);
-    border-top: 7px solid #000000;
-    border-right: 7px solid #000000;
-    border-left: 7px solid #000000;
+    background-color: #a80c0c;
+    /* border-top: 5px solid #000000;
+    border-right: 5px solid #000000;
+    border-left: 5px solid #000000; */
+    border: 5px solid black;
     
 }
