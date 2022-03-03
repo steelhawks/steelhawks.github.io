@@ -9,7 +9,7 @@ export const HomeBanner = () => {
 
     return (
             <section class="newsheaderbg">
-            <img className="homeImage" alt="Steel Hawks Team" src="/media/home_page.png"/>
+            <img className="homeImage" alt="Steel Hawks Team" src="/media/teampicture.jpg"/>
             
             <div id="twentytwo">
                 <h1 id="a2022">2022</h1>

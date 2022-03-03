@@ -2,10 +2,15 @@
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    background: transparent;
+    border: none;
 }
 
 .robotText {
     text-align: justify;
     padding-top: 10%;
     padding-bottom: 10%;
+}
+
+body {
 }

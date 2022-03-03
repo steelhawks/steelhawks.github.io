@@ -1,7 +1,6 @@
 *:focus {
     outline: 0;
 }
-  
 
 #steelhawkstext {
     padding-left: 10px;
@@ -13,41 +12,30 @@
     max-height: 50%;
 }
 
-#dropdownBasic {
-    animation: none;
-    color:white;
+#Dropdown {
+    background-color: transparent;
+    border: none;
     margin: auto;
-}
-
-#dropdownElement {
-    animation: none;
-    color: black;
-}
-
-#dropdownElement:active {
-    animation: none;
-}
-
-#dropdownElement:hover {
     text-decoration: none;
+    margin-top: 25px;
 }
 
-#dropdown:active {
-    text-decoration: none;
+#Dropdown:active {
+    border: none;
 }
 
 
-#nav, #dropdown {
+.nav, .nav:active, .nav:visited {
     animation: none;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    outline: none;
+    text-decoration: none;
 }
 
-#nav:hover {
-    text-decoration: none;
+.nav:hover {
+    color: #b8b8b8;
 }
 
 #steel {
@@ -57,11 +45,30 @@
     text-decoration: none;
 }
 
-.justify-content-between {
-    background-color: #a80c0c;
-    /* border-top: 5px solid #000000;
-    border-right: 5px solid #000000;
-    border-left: 5px solid #000000; */
-    border: 5px solid black;
-    
+.navbar {
+    position: fixed;
 }
+
+.headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.headroom--unfixed {
+    position: relative;
+    transform: translateY(0);
+  }
+  .headroom--scrolled {
+    transition: transform 200ms ease-in-out;
+  }
+  .headroom--unpinned {
+    position: fixed;
+    transform: translateY(-100%);
+  }
+  .headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+  }
+
+/* npm install react-headroom */
