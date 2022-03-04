@@ -11,11 +11,12 @@ export const HomeBanner = () => {
             <section class="newsheaderbg">
             <img className="homeImage" alt="Steel Hawks Team" src="/media/teampicture.jpg"/>
             
-            <div id="twentytwo">
-                <h1 id="a2022">2022</h1>
-                <div id = "imgDesc">
-                    <p1 id="twentytwoText">Our 2022 FRC Robot is in the works! Stay tuned for our reveal video!</p1>
-                    <img id='teaserImage' src="/media/test.jpg" alt="Robot"></img>
+            <div className="season2022">
+                <h1 id="TWENTYTWENTYTWO">2022</h1>
+                {/* <img id="TWENTYTWENTYTWO" alt="2022" src="/media/2022.png"></img> */}
+                <div id = "body2022">
+                    <img id='teaserImage' src="/media/robotTeaser.png" alt="Robot Teaser"></img>
+                    <p1 id="twentytwoText">Our 2022 FRC Robot <br></br> is in the works!<br></br>Stay tuned for our reveal video!</p1>
                 </div>  
             </div></section>
     )

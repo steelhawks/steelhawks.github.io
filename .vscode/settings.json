@@ -1,2 +1,8 @@
 {
+    "discord.detailsEditing": "being a nerd 🤓",
+    "discord.lowerDetailsEditing": "🤓",
+    "discord.lowerDetailsDebugging": "🤓",
+    "discord.removeRemoteRepository": true,
+    "discord.removeLowerDetails": true,
+    "discord.detailsDebugging": "being a nerd 🤓"
 }

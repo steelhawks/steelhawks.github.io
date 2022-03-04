@@ -15,15 +15,21 @@
 #Dropdown {
     background-color: transparent;
     border: none;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
-    margin-top: 25px;
+    animation: none;
+    line-height: 100px;
 }
 
 #Dropdown:active {
     border: none;
 }
 
+.dropdownElement {
+    position: relative;
+    z-index: 999;
+}
 
 .nav, .nav:active, .nav:visited {
     animation: none;
@@ -38,15 +44,12 @@
     color: #b8b8b8;
 }
 
-#steel {
-    font-size: 50px;
-    font-family: 'Secular One';
-    color: #ffffff;
-    text-decoration: none;
-}
-
 .navbar {
+    text-align: center;
+    width: 100%;
     position: fixed;
+    display: inline-block;
+    z-index: 999;
 }
 
 .headroom {
@@ -57,7 +60,7 @@
 }
 .headroom--unfixed {
     position: relative;
-    transform: translateY(0);
+    transform: translateY();
   }
   .headroom--scrolled {
     transition: transform 200ms ease-in-out;
@@ -72,3 +75,16 @@
   }
 
 /* npm install react-headroom */
+
+#steel {
+    font-size: 50px;
+    font-family: 'Secular One';
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 40px;
+    line-height: 100px;
+}
+
+#sponsors {
+    padding-left: 10px;
+}

@@ -31,43 +31,64 @@
     text-align: center;
 }
 
-#twentytwo {
+.season2022 {
   height: 500px;
-  background-color: white;
-  border: 5px solid #a80c0c;
+  background-color: #343836;
   display: flex;
 }
 
-#a2022 {
-  font-size: 180px;
-  color: black;
-  padding-left: 150px;
-  margin: auto 0;
-  font-family: "Raleway";
-  font-weight: 700;
+#TWENTYTWENTYTWO {
+  line-height: 500px;
+  align-items: center;
+  overflow: hidden;
+
+  font-size: 370px;
+  color: white;
+  font-family: 'Iceland';
+  
+  width: 0;
+  max-width: 830px;
+  height: 500px;
+  
+  border-right: .15em solid orange;
+  animation: 
+    typing 3s forwards,
+    cursorblink 0.8s infinite;
+  animation-iteration-count: infinite;
+  /* https://www.sitepoint.com/css-typewriter-effect/ */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes cursorblink {
+  from { border-color: transparent }
+  to { border-color: rgb(105, 39, 39); }
 }
 
 #twentytwoText {
-  font-size: 15px;
-  margin: auto;
-  text-align: center;
+  font-size: 30px;
+  margin-left: -150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 500px;
 }
 
 #teaserImage {
-  height: 400px;
-  width: 400px;
-  margin: auto;
+  height: 500px;
+  width: 500px;
+  float: left;
+  display: flex;
+  align-items: center;
+  height: 500px;
 } 
 
-#imgDesc {
-  text-align: justify;
+#body2022 {
   width: 2845;
   margin: auto 0;
   margin-left: auto;
-  padding-right: 200px;
-}
-
-#imgDesc img {
-  display: block;
-  margin: 0 auto;
+  padding-right: 100px;
 }

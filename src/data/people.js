@@ -2,35 +2,30 @@ const EXECUTIVEBOARD = [
     {
         name: 'Brian Hsu',
         title: 'Head of Software Engineering',
-        bio: "Hello, this is Esther writing for Brian Hsu (legendary coder) because he's very busy coding. Brian fixes all the code problems with ease, efficiency, and excellence. He is voted the team's #1 favorite programmer.",
         image: '/media/eboard21/test.jpg',
         id: 1
     },
     {
         name: 'Matthew Goldstein',
         title: 'Head of Chairmans / Finance',
-        bio: "Hi, I'm Matt, I do the things for the team that any sane person wouldn't want to do. I am a grateful member of the Steel Hawks because of when I stole Karen's heart.",
         image: '/media/eboard21/matt.jpg',
         id: 2
     },
     {
         name: 'Karan Ajmera',
         title: 'Head of Communications',
-        bio: "Hey everyone! My name is Karan (not Karen!) and I'm the Communications lead for the Steel Hawks. I am everyone's favorite senior and Elsa knows it :)",
         image: '/media/eboard21/placeholder.jpg',
         id: 3
     },
     {
         name: 'Elsa Oreen',
         title: 'Head of Fabrication',
-        bio: "Hi y'all! I'm Elsa and I'm head of the Mechanical subteam. I'm a senior and I'm pretty much the 'mom' of the team. It's hard being the favorite exec member but just know that Karan and Matthew are lying <33",
         image: '/media/eboard21/placeholder.jpg',
         id: 4
     },
     {
         name: 'Jessica Jimenez',
         title: 'Head of Electrical',
-        bio: "Hey guys! I'm Jess and I'm the head of Electrical. I am super easygoing and I always love to live, laugh, love. Contrary to the other executive members, I am the most normal",
         image: '/media/eboard21/placeholder.jpg',
         id: 5
     },

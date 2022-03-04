@@ -1,7 +1,14 @@
+body {
+    background-color: #343836;
+}
+
 .personCard{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: none;
+    background-color: #343836;
+    color: white;
 }
 
 .personText{
