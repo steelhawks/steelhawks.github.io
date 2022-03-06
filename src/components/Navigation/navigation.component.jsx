@@ -17,11 +17,11 @@ export const Navigation = (props) => {
             >
             <Nav>
             <Dropdown id='Dropdown'>
-                <Dropdown.Toggle variant="success" id="Dropdown">
+                <Dropdown.Toggle variant="success" id="dropdownToggle">
                 OUR TEAM
                 </Dropdown.Toggle>
-                <Dropdown.Menu>
-                    <DropdownItem className='dropdownElement' href='#/ExecutiveBoard'>EXECUTIVE BOARD</DropdownItem>
+                <Dropdown.Menu id='ddmenu'>
+                    <DropdownItem className='dropdownElement' href='#/studentleadership'>STUDENT LEADERSHIP</DropdownItem>
                     <DropdownItem className='dropdownElement' href='#/Mentors'>MENTORS</DropdownItem>
                     <DropdownItem className='dropdownElement' href='#/Team'>SUBTEAMS</DropdownItem>
                 </Dropdown.Menu>

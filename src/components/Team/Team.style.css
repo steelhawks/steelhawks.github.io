@@ -1,10 +1,12 @@
 .teamCard{
     padding-top: 15px;
     text-align: center;
+    background-color: transparent;
+    border: none;
 }
 
 .textContent{
-    text-align: justify;
+    text-align: center;
 }
 
 .teamTab{
@@ -12,6 +14,17 @@
     padding-bottom: 10px;
 }
 
-.subteamHeader{
-    text-align: center;
+#title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(240, 102, 102);
+    font-family: 'Iceland';
+    padding-bottom: 0px;
+}
+
+#image {
+    width: 30vw;
+    height: 20vw;
+    border-radius: 120px 20px 120px 20px;
+    align-self: center;
 }

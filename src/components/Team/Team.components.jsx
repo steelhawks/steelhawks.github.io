@@ -4,20 +4,15 @@ import { Col, Container, Row, Tab, Tabs, Card } from 'react-bootstrap'
 
 import './Team.style.css'
 
-export const SubteamHeader = () => (
-
-    <h3 className="subteamHeader">Subteams</h3>
-
-)
-
 const TeamCard = (props) => {
 
     return (
 
         <Card className="teamCard">
-            <Card.Title>
+            <Card.Title id='title'>
                 {props.title}
             </Card.Title>
+            <img id='image' src={"/media/subteams/" + props.title + ".jpg"} alt={props.title}></img>
             <Card.Body className="textContent">
                 <Card.Text>
                     {props.text}

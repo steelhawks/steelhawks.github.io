@@ -1,36 +1,3 @@
-const EXECUTIVEBOARD = [
-    {
-        name: 'Brian Hsu',
-        title: 'Head of Software Engineering',
-        image: '/media/eboard21/test.jpg',
-        id: 1
-    },
-    {
-        name: 'Matthew Goldstein',
-        title: 'Head of Chairmans / Finance',
-        image: '/media/eboard21/matt.jpg',
-        id: 2
-    },
-    {
-        name: 'Karan Ajmera',
-        title: 'Head of Communications',
-        image: '/media/eboard21/placeholder.jpg',
-        id: 3
-    },
-    {
-        name: 'Elsa Oreen',
-        title: 'Head of Fabrication',
-        image: '/media/eboard21/placeholder.jpg',
-        id: 4
-    },
-    {
-        name: 'Jessica Jimenez',
-        title: 'Head of Electrical',
-        image: '/media/eboard21/placeholder.jpg',
-        id: 5
-    },
-]
-
 const MENTORS = [
     {
         name: 'Joel Heitman',
@@ -69,14 +36,14 @@ const MENTORS = [
       },
       {
         name: 'Olan-Ray Frith',
-        title: 'Mentor',
+        title: 'Fabrication Mentor',
         bio: 'Olan is the fabrication mentor for the Steel Hawks. He guides us through the prototyping, designing, and building processes.',
         image: '/media/mentors/olan.JPG',
         id: 6
       },
       {
         name: 'Weijian Zeng',
-        title: 'Mentor',
+        title: 'Programming Mentor',
         bio: 'Weijian is the programming mentor for the Steel Hawks. We are grateful for his work in helping aspiring software engineers develop clean, well-written code for the team.',
         image: '/media/mentors/weijian.JPG',
         id: 7
@@ -90,4 +57,4 @@ const MENTORS = [
       },
 ]
 
-export { EXECUTIVEBOARD, MENTORS }
+export { MENTORS }

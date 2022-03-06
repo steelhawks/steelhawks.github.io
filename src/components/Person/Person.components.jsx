@@ -8,17 +8,17 @@ const PersonCard = (props) => {
     return (
 
         <Card className="personCard">
-            <Card.Img variant="top" src={props.person.image}/>
+            <Card.Img variant="top" id='image' src={props.person.image}/>
             <Card.Body>
-                <Card.Title>
+                <Card.Title id='name'>
                     {props.person.name}
                 </Card.Title>
                 <Card.Subtitle>
                     {props.person.title}
                 </Card.Subtitle>
-                <Card.Text className="personText">
+                {/* <Card.Text className="personText">
                     {props.person.bio}
-                </Card.Text>
+                </Card.Text> */}
             </Card.Body>
         </Card>
 

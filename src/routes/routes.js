@@ -1,12 +1,13 @@
 import AwardsPage from "../pages/AwardPage.component";
 import ContactPage from "../pages/ContactPage.component";
-import ExecutiveBoardPage from "../pages/ExecutiveBoard.componentPage";
+import StudentLeadershipPage from "../pages/StudentLeadership.componentPage";
 import HomePage from "../pages/HomePage.component";
 import MentorPage from "../pages/MentorsPage.component";
 import OutreachPage from "../pages/OutreachPage.component";
 import RobotsPage from "../pages/RobotPage.component";
 import SponsorPage from "../pages/SponsorsPage.component";
 import TeamPage from "../pages/TeamPage.component";
+import BobaPage from "../pages/BobaPage.component";
 
 
 export const ROUTES = [
@@ -18,8 +19,8 @@ export const ROUTES = [
         id: 1
     },
     {
-        path: '/executiveboard',
-        component_name: ExecutiveBoardPage,
+        path: '/StudentLeadership',
+        component_name: StudentLeadershipPage,
         name: 'Executive Board',
         id: 2
     },
@@ -64,5 +65,11 @@ export const ROUTES = [
         component_name: ContactPage,
         name: 'Contact',
         id: 9
+    },
+    {
+        path: '/boba',
+        component_name: BobaPage,
+        name: 'Boba',
+        id: 10
     }
 ]

@@ -37,24 +37,26 @@
   display: flex;
 }
 
+#title2022 {
+  padding-top: 20vh;
+}
+
 #TWENTYTWENTYTWO {
-  line-height: 500px;
   align-items: center;
   overflow: hidden;
 
-  font-size: 370px;
+  font-size: 12rem;
   color: white;
   font-family: 'Iceland';
   
   width: 0;
-  max-width: 830px;
-  height: 500px;
+  height: 230px;
   
-  border-right: .15em solid orange;
+  border-right: .15em solid rgb(105, 39, 39);
   animation: 
-    typing 3s forwards,
+    typing 2s steps(10, end),
     cursorblink 0.8s infinite;
-  animation-iteration-count: infinite;
+    animation-iteration-count: infinite;  
   /* https://www.sitepoint.com/css-typewriter-effect/ */
 }
 
@@ -70,7 +72,6 @@
 
 #twentytwoText {
   font-size: 30px;
-  margin-left: -150px;
   color: white;
   display: flex;
   align-items: center;
@@ -87,8 +88,6 @@
 } 
 
 #body2022 {
-  width: 2845;
-  margin: auto 0;
-  margin-left: auto;
-  padding-right: 100px;
+  float: right;
+  padding-left: 5rem;
 }

@@ -18,3 +18,15 @@ body {
 .row:before, row:after{
     display: inline-block;
 }
+
+#image {
+    border-radius: 120px 20px 120px 20px;
+}
+
+h2 {
+    color: rgb(218, 108, 108);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Iceland';
+    font-size: 8vh;
+}

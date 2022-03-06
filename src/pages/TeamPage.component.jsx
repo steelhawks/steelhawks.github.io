@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Header } from '../components/Header/header.component'
 import { SUBTEAMS } from '../data/team'
-import { SubteamHeader, TeamGrid } from '../components/Team/Team.components'
+import { TeamGrid } from '../components/Team/Team.components'
 
 const TeamPage = () => {
 
@@ -13,8 +13,7 @@ const TeamPage = () => {
     return (
 
         <section>
-            <Header title="Team 2601"/>
-            <SubteamHeader/>
+            <Header title="SUBTEAMS"/>
             <TeamGrid subteams={SUBTEAMS} />
         </section>
 

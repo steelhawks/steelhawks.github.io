@@ -12,7 +12,7 @@ export const HomeBanner = () => {
             <img className="homeImage" alt="Steel Hawks Team" src="/media/teampicture.jpg"/>
             
             <div className="season2022">
-                <h1 id="TWENTYTWENTYTWO">2022</h1>
+                <div id='title2022'><h1 id="TWENTYTWENTYTWO">2022</h1></div>
                 {/* <img id="TWENTYTWENTYTWO" alt="2022" src="/media/2022.png"></img> */}
                 <div id = "body2022">
                     <img id='teaserImage' src="/media/robotTeaser.png" alt="Robot Teaser"></img>
