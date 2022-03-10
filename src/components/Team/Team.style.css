@@ -23,8 +23,9 @@
 }
 
 #image {
-    width: 30vw;
-    height: 20vw;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     border-radius: 120px 20px 120px 20px;
     align-self: center;
 }

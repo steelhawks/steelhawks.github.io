@@ -1,93 +1,13 @@
 * {
   font-family: 'Rubik';
+}
+
+body {
   animation: fade 0.5s ease-in;
 }
 
 .homeImage {
-    width: auto; 
-    height: auto; 
-    max-width: 100%; 
-    max-height: 100%;
-    border-top: 0px;
-}
-
-.homeColumn {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.homeTitle {
-    color: #3ec714;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.homeCardTitle {
-    font-weight: bold;
-}
-
-.homeBody {
-    text-align: center;
-}
-
-.season2022 {
-  height: 500px;
-  background-color: #343836;
-  display: flex;
-}
-
-#title2022 {
-  padding-top: 20vh;
-}
-
-#TWENTYTWENTYTWO {
-  align-items: center;
-  overflow: hidden;
-
-  font-size: 12rem;
-  color: white;
-  font-family: 'Iceland';
-  
-  width: 0;
-  height: 230px;
-  
-  border-right: .15em solid rgb(105, 39, 39);
-  animation: 
-    typing 2s steps(10, end),
-    cursorblink 0.8s infinite;
-    animation-iteration-count: infinite;  
-  /* https://www.sitepoint.com/css-typewriter-effect/ */
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes cursorblink {
-  from { border-color: transparent }
-  to { border-color: rgb(105, 39, 39); }
-}
-
-#twentytwoText {
-  font-size: 30px;
-  color: white;
-  display: flex;
-  align-items: center;
-  height: 500px;
-}
-
-#teaserImage {
-  height: 500px;
-  width: 500px;
-  float: left;
-  display: flex;
-  align-items: center;
-  height: 500px;
-} 
-
-#body2022 {
-  float: right;
-  padding-left: 5rem;
+  max-width: 100%; 
+  height: auto; 
+  max-height: 100%;
 }

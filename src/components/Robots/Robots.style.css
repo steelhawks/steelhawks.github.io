@@ -1,17 +1,28 @@
 .robotCard {
-    margin-top: 10px;
-    margin-bottom: 10px;
     text-align: center;
     background: transparent;
     border: none;
 }
 
 .robotText {
-    text-align: justify;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    text-align: center;
 }
 
 body {
     color: white;
+}
+
+.robotName {
+    padding-bottom: 0.5em ;
+    color: rgb(182, 185, 185);
+}
+
+.Year {
+    font-size: 2em;
+}
+
+.gameName {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: "Iceland";
 }

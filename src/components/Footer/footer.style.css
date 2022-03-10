@@ -1,6 +1,8 @@
 .footer{
     background-color: #800000;
     color: #d3d3d3;
+    background-color: transparent;
+    border-top: solid black 0.1em ;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;

@@ -20,8 +20,9 @@ const RobotCard = (props) => {
                     </Col>
                     <Col>
                         <Card.Body>
-                            <Card.Title>{props.info[0][1]}</Card.Title>
-                            <Card.Subtitle>{props.info[1][1]}</Card.Subtitle>
+                            <Card.Title className="Year">{props.info[0][1]}</Card.Title>
+                            <Card.Subtitle className="gameName">{props.info[1][1]}</Card.Subtitle>
+                            <Card.Subtitle className="robotName"><br/>{props.info[4][1]} </Card.Subtitle>
                             <Card.Text className="robotText">
                                 {props.info[3][1]}
                             </Card.Text>

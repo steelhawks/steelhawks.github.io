@@ -7,13 +7,13 @@ export const SPONSORS = [
     },
     { 
         name: 'BAE Systems',
-        logo: '/media/sponsors/bae.jpg',
+        logo: '/media/sponsors/bae.png',
         url: 'https://www.baesystems.com/en-us/home',
         id: 2
     },
     { 
         name: 'Titan Machine Corporation',
-        logo: '/media/sponsors/titan.png',
+        logo: '/media/sponsors/titanbg.png',
         url: 'http://www.titanmachine.com/',
         id: 3
     },
@@ -55,7 +55,7 @@ export const SPONSORS = [
     },
     {
         name: 'Github',
-        logo:'/media/sponsors/github.png',
+        logo:'/media/sponsors/github2.png',
         url: 'https://github.com/',
         id: 10
     },

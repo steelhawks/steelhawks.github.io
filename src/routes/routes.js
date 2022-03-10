@@ -1,6 +1,6 @@
 import AwardsPage from "../pages/AwardPage.component";
 import ContactPage from "../pages/ContactPage.component";
-import StudentLeadershipPage from "../pages/StudentLeadership.componentPage";
+import LeadershipPage from "../pages/Leadership.componentPage";
 import HomePage from "../pages/HomePage.component";
 import MentorPage from "../pages/MentorsPage.component";
 import OutreachPage from "../pages/OutreachPage.component";
@@ -19,8 +19,8 @@ export const ROUTES = [
         id: 1
     },
     {
-        path: '/StudentLeadership',
-        component_name: StudentLeadershipPage,
+        path: '/Leadership',
+        component_name: LeadershipPage,
         name: 'Executive Board',
         id: 2
     },

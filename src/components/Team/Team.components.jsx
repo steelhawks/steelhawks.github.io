@@ -1,6 +1,5 @@
 import React from 'react'
-
-import { Col, Container, Row, Tab, Tabs, Card } from 'react-bootstrap'
+import { Row, Col, Card, Container } from 'react-bootstrap'
 
 import './Team.style.css'
 
@@ -12,7 +11,7 @@ const TeamCard = (props) => {
             <Card.Title id='title'>
                 {props.title}
             </Card.Title>
-            <img id='image' src={"/media/subteams/" + props.title + ".jpg"} alt={props.title}></img>
+            <img id='image' src={"/media/subteams/" + props.title + ".jpg"} alt={props.title}/> {/* i have no clue why just {props.image} doesnt work */}
             <Card.Body className="textContent">
                 <Card.Text>
                     {props.text}

@@ -20,10 +20,10 @@ export const ROBOTS = [
     {
         year: "2018",
         game: "Power Up!",
-        picture: "/media/robots/2018.png",
+        video: "https://www.youtube.com/embed/HZbdwYiCY74",
         bio: "Robots place power cubes on scales and switches to take ownership and defeat the Final Boss.",
         name: "Steel Hawking",
-        media: "pic",
+        media: "vid",
         id: 3
     },
     {

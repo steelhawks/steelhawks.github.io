@@ -8,8 +8,9 @@
 }
 
 .navLogo {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 20em;
+    width: 100%;
+    height: auto;
 }
 
 #ddmenu {
@@ -29,20 +30,10 @@
     align-self: center;
 }
 
-#dropdownToggle:focus, #dropdownToggle:active, #dropdownToggle:hover {
-    box-shadow: none;
-    outline: none;
-    text-decoration: none;
-}
-
-#dropdownElement {
-    animation: none;
-    text-decoration: none;
-}
-
-#dropdownElement:active, #dropdownElement:visited {
+#dropdownToggle:focus, #dropdownToggle:active, #dropdownToggle:hover, #dropdownElement, #dropdownElement:active, #dropdownElement:visited {
     border: none;
     animation: none;
+    text-decoration: none;
 }
 
 .nav, .nav:active, .nav:visited {
@@ -61,10 +52,13 @@
 
 .navbar {
     text-align: center;
-    width: 100%;
     position: fixed;
     display: inline-block;
-    z-index: 999;
+    z-index: 100;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    animation: fade 0.5s ease-in;;
 }
 
 .headroom {
@@ -91,15 +85,19 @@
 
 /* npm install react-headroom */
 
-#steel {
-    font-size: 50px;
-    font-family: 'Secular One';
-    color: #ffffff;
-    text-decoration: none;
-    padding-left: 40px;
-    line-height: 100px;
-}
-
 #sponsors {
     padding-left: 10px;
+}
+
+#toggle, #toggle:active {
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    transform: translateX(30%);
+    background-color: #ffffff;
+    outline: none;
+}
+
+#responsive-navbar-nav {
+    animation: fade 0.5s ease-in;
 }
