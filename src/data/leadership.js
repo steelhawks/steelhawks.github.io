@@ -2,13 +2,13 @@ const EXECUTIVEBOARD = [
     {
         name: 'Brian Hsu',
         title: 'Head of Software Engineering',
-        image: '/media/eboard21/test.jpg',
+        image: '/media/leadership/placeholder.jpg',
         id: 1
     },
     {
         name: 'Matthew Goldstein',
         title: 'Head of Chairmans / Finance',
-        image: '/media/eboard21/matt.jpg',
+        image: '/media/leadership/placeholder.jpg',
         id: 2
     },
     {

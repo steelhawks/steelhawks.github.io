@@ -1,9 +1,7 @@
 * {
   font-family: 'Rubik';
-}
-
-body {
   animation: fade 0.5s ease-in;
+
 }
 
 .homeImage {

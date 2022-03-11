@@ -1,0 +1,71 @@
+*:focus {
+    border: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar {
+    z-index: 100;
+    text-align: center;
+    display: unset;
+    position:absolute;
+}
+
+#mobileToggle {
+    z-index: 999;
+    position: absolute;
+    position: -webkit-sticky;
+    right: 100;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.headroom {
+    background-color: rgb(131, 131, 131);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.link {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+.link:hover {
+    color: rgb(204, 204, 204);
+    text-decoration: none;}
+
+.navLogo {
+	display:inline;
+    width: 100%;
+    max-width: 500rem;
+}
+
+#dropdownButton {
+    background-color: transparent;
+    border: none;
+    align-content: center;
+}
+
+#dropdownMenu {
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    border: none;
+}
+
+.dropdownElement {
+    animation: none;
+    color: rgb(87, 87, 87);
+}
+
+.headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}

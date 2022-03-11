@@ -8,50 +8,50 @@ export const SUBTEAMS = [
     {
         name: 'Electrical',
         description: 'Our subteam focuses on wiring circuits and creating the board for our robot. We also work with pneumatics, which involves the use of pressurized air to move mechanisms.',
-        members: 'TBD',
+        image: "/media/subteams/Electrical.JPG",
         id: 2
     },
     {
         name: 'Programming',
-        description: "The Programming Sub-Team is the software side to the team. In programming, we develop the robot code for the autonomous (self-controlled) and teleoperated (driver controlled) periods of the game, vision for the robot so that it is able to detect specific game pieces and landmarks on the field (depending on the year's game), the Scout App which the scouters use to collect and process data, and the team website.",
-        members: 'TBD',
+        description: "The Programming subteam is the software side to the team. In programming, we develop the robot code for the autonomous (self-controlled) and teleoperated (driver controlled) periods of the game, vision for the robot so that it is able to detect specific game pieces and landmarks on the field (depending on the year's game), the Scout App which the scouters use to collect and process data, and the team website.",
+        image: "/media/subteams/Programming.JPG",
         id: 3
     },
     {
         name: 'Drive Team',
         description:"Potential drive team members will review the rules and learn different strategies in order to be well equipped for a match. We will learn the different parts of the robot and understand how they work with one another in order to provide feedback on the robots performance. On occasion, we will get to drive the robot.",
-        members: 'TBD',
+        image: "/media/subteams/Drive Team.JPG",
         id: 4
     },
     {
         name: "Scouting",
         description: "We focus on data collection and strategy which is then used during competition. We’ll teach you the ins and outs of last year's game and how to make strategies for it with the assistance of our app.",
-        members: 'TBD',
+        image: "/media/subteams/Scouting.JPG",
         id: 5
     },
     {
         name: "Chairman's & Finance",
         description:"The Chairman’s subteam focuses on representing the team by writing two essays every year; Chairman’s Essay and Woodie Flowers Essay. They also organize outreach events, teaching and mentoring others. They also manage finances – writing grants, as well as reaching out to sponsors and helping to fund our robots.",
-        members: 'TBD',
+        image: "/media/subteams/Chairman's & Finance.JPG",
         id: 6
     },
  
     {
         name: "Media",
         description: "In this subteam we document our team in an artistic way. We also work with the Chairman's subteam to create the Chairman's video every year.",
-        members: 'TBD',
+        image: "/media/subteams/Media.JPG",
         id: 8
     },
     {
         name: 'CAD',
         description: "Our subteam makes dreams become reality. We make 3D models of mechanisms and prototypes. We also make parts to be 3D printed. We further aid the mechanical subteam with the prototyping process.",
-        members: 'TBD',
+        image: "/media/subteams/CAD.JPG",
         id: 9
     },
     {
         name: 'CNC',
         description: 'We are in charge of cutting parts for robot.',
-        members: 'TBD',
+        image: "/media/subteams/CNC.JPG",
         id: 12
     }
 ]

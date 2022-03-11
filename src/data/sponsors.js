@@ -13,7 +13,7 @@ export const SPONSORS = [
     },
     { 
         name: 'Titan Machine Corporation',
-        logo: '/media/sponsors/titanbg.png',
+        logo: '/media/sponsors/titan.png',
         url: 'http://www.titanmachine.com/',
         id: 3
     },
@@ -55,7 +55,7 @@ export const SPONSORS = [
     },
     {
         name: 'Github',
-        logo:'/media/sponsors/github2.png',
+        logo:'/media/sponsors/github.png',
         url: 'https://github.com/',
         id: 10
     },

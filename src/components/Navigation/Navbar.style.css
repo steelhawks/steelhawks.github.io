@@ -19,6 +19,7 @@
     border: none;;
 }
 
+
 #Dropdown, #dropdownToggle {
     background-color: transparent;
     border: none;
@@ -30,10 +31,11 @@
     align-self: center;
 }
 
-#dropdownToggle:focus, #dropdownToggle:active, #dropdownToggle:hover, #dropdownElement, #dropdownElement:active, #dropdownElement:visited {
-    border: none;
-    animation: none;
+#ddmenu:active, #Dropdown, #dropdownToggle:focus, #dropdownToggle:active, #dropdownToggle:hover, #dropdownElement, #dropdownElement:active, #dropdownElement:visited {
+    border: 0px;
+    animation: fade 0s ease-in;
     text-decoration: none;
+    outline: 0 !important;
 }
 
 .nav, .nav:active, .nav:visited {

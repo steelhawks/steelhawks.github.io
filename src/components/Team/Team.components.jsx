@@ -9,31 +9,15 @@ const TeamCard = (props) => {
 
         <Card className="teamCard">
             <Card.Title id='title'>
-                {props.title}
+                {props.subteam.name}
             </Card.Title>
-            <img id='image' src={"/media/subteams/" + props.title + ".jpg"} alt={props.title}/> {/* i have no clue why just {props.image} doesnt work */}
+            <Card.Img id='image' src={props.subteam.image} alt={props.subteam.title}/> {/* i have no clue why just {props.image} doesnt work */}
             <Card.Body className="textContent">
                 <Card.Text>
-                    {props.text}
+                    {props.subteam.description}
                 </Card.Text>
             </Card.Body>
         </Card>
-
-    )
-
-}
-
-const TeamTabs = (props) => {
-
-    return (
-
-            <><TeamCard title={props.subteam.name} text={props.subteam.description}></TeamCard></>
-        //     <Tab eventKey="1" title="Information">
-        //     <TeamCard title={props.subteam.name} text={props.subteam.description} />
-        // </Tab><Tab eventKey="2" title="Members">
-        //         <TeamCard title="Members" text={props.subteam.members} />
-        //     </Tab>
-        
 
     )
 
@@ -47,7 +31,7 @@ export const TeamGrid = (props) => {
             <Row>
                 {props.subteams.map(subteam => (
                     <Col key={subteam.id} md={{ span: 8, offset: 2 }}>
-                        <TeamTabs subteam={subteam}/>
+                        <TeamCard subteam={subteam}/>
                     </Col>
                 ))}
             </Row>

@@ -17,8 +17,8 @@ class App extends React.Component{
   
   render(){
     function forcescroll() {
-      window.scrollTo(0,10000);
-      setTimeout(function(){window.scrollTo(0,0)}, 50);
+      window.scrollTo(0,1000);
+      setTimeout(function(){window.scrollTo(0,1000)}, 10);
       
     }
     document.addEventListener("DOMContentLoaded", function() {

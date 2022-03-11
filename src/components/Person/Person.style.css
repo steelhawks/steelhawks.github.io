@@ -20,7 +20,7 @@ body {
 }
 
 #image {
-    border-radius: 120px 20px 120px 20px;
+    border-radius: 50px 50px 50px 50px;
 }
 
 h2 {
@@ -28,5 +28,5 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Iceland';
-    font-size: 8vh;
+    font-size: 3.75em;
 }
