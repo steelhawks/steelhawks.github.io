@@ -1,8 +1,8 @@
 .card {
     margin-top: 10px;
     margin-bottom: 10px;
-    border: none;
     background-color: transparent;
+    border: none;
 }
 
 .cardTitle {
@@ -10,12 +10,12 @@
 }
 
 .cardContent{
-    text-align: justify;
+    text-align: center;
+    font-size: 1em;
 }
 
 .cardImage{
     min-width: 200px;
     max-width: 100%;
     border-radius: 50px 50px 50px 50px;
-
 }

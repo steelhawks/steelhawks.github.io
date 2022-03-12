@@ -9,7 +9,8 @@ export const News = ()=> {
                 <h1 id="TWENTYTWENTYTWO">2022</h1>
             </div>
                 <img id='teaserImage' src="/media/robotTeaser.png" alt="Robot Teaser"></img>
-                <p1 id="Text">Our 2022 FRC Robot is in the works! <br/> Stay tuned for our reveal video!</p1>
+                <p1 id="Text">We will be coming to New York Tech Valley Regional in Albany, NY!<br/>
+                See you there!</p1>
         </div>
     )
 }

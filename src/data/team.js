@@ -50,7 +50,7 @@ export const SUBTEAMS = [
     },
     {
         name: 'CNC',
-        description: 'We are in charge of cutting parts for robot.',
+        description: 'The CNC subteam is in charge of cutting parts from materials such as Lexan, aluminium, wood and other significant materials.',
         image: "/media/subteams/CNC.JPG",
         id: 12
     }

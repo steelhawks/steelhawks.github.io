@@ -2,7 +2,7 @@ export const OUTREACH = [
     {
         mainFocus: 'Out FIRST',
         smallFocus: 'Project Philippines',
-        img: '/media/outreach/PP.jpeg',
+        img: '/media/outreach/projectP.png',
         description1: "In the summer of 2017, one of our teammates, Phyllis Alinsao, traveled to Iloilo, Philippines to host hands-on engineering workshops; we called this program Project Philippines! Our team supported Phyllis by donating over $4,500 of materials, including tools and a chassis so that the students could receive a hands-on engineering experience. We also worked with Phyllis to create the curriculum for the four-week workshops. After Phyllis returned, she told us that Iloilo and surrounding neighborhoods had no libraries; In response, we held a schoolwide book drive for these students and others across the three regions of the Philippines: Mindanao, Luzon, and the Western Visayas.",
         id: 1
     },
@@ -48,5 +48,11 @@ export const OUTREACH = [
         img: '/media/outreach/WF.png',
         description1: "In 2015, we started the tradition of visiting William Floyd Elementary School in Shirley, Long Island. Here, we sparked the students interest in robotics and the STEM community by letting the students operate and drive our robot so they can gain a hands-on experience. We also give presentations detailing the valuable skills and capabilities FIRST can foster in them. The students of William Floyd went on to start Team 23094 and sparked interest within their school district, who later founded the start of seven other FIRST Lego League (FLL) teams.",
         id: 7
+    },
+    {
+        mainFocus: 'Im FIRST',
+        smallFocus: 'Visits That Inspire',
+        img: '/media/outreach/visitsThatInspire.jpg',
+        description1: "	We proudly represent FIRST at NYC science events like World Science Festival, Maker Faire, City of Science, and NYSCI’s STEM Night. We look forward to seeing childrens’ faces light up when they help us control our robot. Sharing our stories motivates parents to get their children involved in robotics. Our visits to Solomon Schechter Manhattan, have resulted in a K-8 STEAM program that includes a MakerSpace and a coding curriculum that starts in kindergarten."
     }
 ]

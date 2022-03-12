@@ -3,6 +3,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     color: white;
+    border: none;
 }
 
 .sponsorPhoto{
@@ -11,6 +12,7 @@
     width: auto;
     height: auto;
     max-width: 300px;
+    max-height: 200px;
 }
 
 

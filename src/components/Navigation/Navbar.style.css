@@ -1,66 +1,61 @@
 *:focus {
-    outline: 0;
-}
-
-#steelhawkstext {
-    padding-left: 10px;
-    font-family: 'Secular One';
-}
-
-.navLogo {
-    max-width: 20em;
-    width: 100%;
-    height: auto;
-}
-
-#ddmenu {
-    animation: none;
-    background-color: #ffffff;
-    border: none;;
-}
-
-
-#Dropdown, #dropdownToggle {
-    background-color: transparent;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-    animation: none;
-    align-items: center;
-    align-self: center;
-}
-
-#ddmenu:active, #Dropdown, #dropdownToggle:focus, #dropdownToggle:active, #dropdownToggle:hover, #dropdownElement, #dropdownElement:active, #dropdownElement:visited {
-    border: 0px;
-    animation: fade 0s ease-in;
-    text-decoration: none;
-    outline: 0 !important;
-}
-
-.nav, .nav:active, .nav:visited {
-    animation: none;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: auto;
-    text-decoration: none;
-    text-decoration: none;
-}
-
-.nav:hover {
-    color: #b8b8b8;
+    border: 0;
+    box-shadow: none;
+    outline: none;
 }
 
 .navbar {
-    text-align: center;
-    position: fixed;
-    display: inline-block;
     z-index: 100;
-    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    display: unset;
+    position: absolute;
+}
+
+#mobileToggle {
+    opacity: 0;
+}
+
+.headroom {
     width: 100%;
-    height: auto;
-    animation: fade 0.5s ease-in;;
+    background-color: #343836;
+    border-radius: 00px 0px 20px 20px;
+}
+
+.link {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    font-family: 'Secular One';
+    font-size: large    ;
+}
+
+.link:hover {
+    color: rgb(204, 204, 204);
+    text-decoration: none;}
+
+.navLogo {
+	display:inline;
+    width: 100%;
+    max-width: 500rem;
+}
+
+#dropdownButton {
+    background-color: transparent;
+    border: none;
+    align-content: center;
+}
+
+#dropdownMenu {
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    border: none;
+}
+
+.dropdownElement {
+    animation: none;
+    color: rgb(87, 87, 87);
 }
 
 .headroom {
@@ -68,38 +63,4 @@
     left: 0;
     right: 0;
     z-index: 1;
-}
-.headroom--unfixed {
-    position: relative;
-    transform: translateY();
-  }
-  .headroom--scrolled {
-    transition: transform 200ms ease-in-out;
-  }
-  .headroom--unpinned {
-    position: fixed;
-    transform: translateY(-100%);
-  }
-  .headroom--pinned {
-    position: fixed;
-    transform: translateY(0%);
-  }
-
-/* npm install react-headroom */
-
-#sponsors {
-    padding-left: 10px;
-}
-
-#toggle, #toggle:active {
-    z-index: 999;
-    position: absolute;
-    left: 0;
-    transform: translateX(30%);
-    background-color: #ffffff;
-    outline: none;
-}
-
-#responsive-navbar-nav {
-    animation: fade 0.5s ease-in;
 }

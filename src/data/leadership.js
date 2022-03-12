@@ -2,31 +2,31 @@ const EXECUTIVEBOARD = [
     {
         name: 'Brian Hsu',
         title: 'Head of Software Engineering',
-        image: '/media/leadership/placeholder.jpg',
+        image: '/media/leadership/brian.jpg',
         id: 1
     },
     {
         name: 'Matthew Goldstein',
         title: 'Head of Chairmans / Finance',
-        image: '/media/leadership/placeholder.jpg',
+        image: '/media/leadership/matthewg.jpg',
         id: 2
     },
     {
         name: 'Karan Ajmera',
         title: 'Head of Communications',
-        image: '/media/leadership/placeholder.jpg',
+        image: '/media/leadership/karan.jpg',
         id: 3
     },
     {
         name: 'Elsa Oreen',
         title: 'Head of Fabrication',
-        image: '/media/leadership/placeholder.jpg',
+        image: '/media/leadership/elsa.jpg',
         id: 4
     },
     {
         name: 'Jessica Jimenez',
         title: 'Head of Electrical',
-        image: '/media/leadership/placeholder.jpg',
+        image: '/media/leadership/jessica.jpg',
         id: 5
     },
 ]
@@ -34,22 +34,22 @@ const EXECUTIVEBOARD = [
 const MECHLEADS = [
   {
       name: 'Danielle Chiu',
-      image: '/media/leadership/placeholder.jpg',
+      image: '/media/leadership/danielle.jpg',
       id: 1
   },
   {
       name: 'Julie Li',
-      image: '/media/leadership/placeholder.jpg',
+      image: '/media/leadership/julie.jpg',
       id: 2
   },
   {
       name: 'Benjamin Zeller',
-      image: '/media/leadership/placeholder.jpg',
+      image: '/media/leadership/benjamin.jpg',
       id: 3
   },
   {
       name: 'Lucas Havens',
-      image: '/media/leadership/placeholder.jpg',
+      image: '/media/leadership/lucas.jpg',
       id: 4
   },
   {
@@ -64,7 +64,7 @@ const MECHLEADS = [
   },
   {
     name: 'David Yu',
-    image: '/media/leadership/placeholder.jpg',
+    image: '/media/leadership/david.jpg',
     id: 7
   }
 ]
@@ -129,7 +129,7 @@ const ELECTRICALLEADS = [
 const MEDIALEADS = [
   {
       name: 'Hasana Abdullah',
-      image: '/media/leadership/placeholder.jpg',
+      image: '/media/leadership/hasana.jpg',
       id: 1
   }
 ]
