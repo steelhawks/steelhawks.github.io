@@ -43,7 +43,7 @@ export const SPONSORS = [
     },
     {
         name: 'Consolidated Edison',
-        logo: '/media/sponsors/conedison.png',
+        logo: '/media/sponsors/conEdison.png',
         url: 'https://www.coned.com/en/',
         id: 8
     },

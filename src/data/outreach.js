@@ -30,7 +30,7 @@ export const OUTREACH = [
     {
         mainFocus: 'In FIRST',
         smallFocus: 'Hawk Talks',
-        img: '/media/outreach/hawkTalks2017.JPG',
+        img: '/media/outreach/hawkTalks2017.jpg',
         description1: 'We welcome neighboring teams to our annual robotics presentations, which we call our Hawk Talks, where we present information on a myriad of topics ranging from engineering to Public Relations',
         id: 5
     },

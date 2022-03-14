@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Card, Jumbotron } from 'react-bootstrap'
+import { Row, Col, Card } from 'react-bootstrap'
 import { WebsiteIcon } from '../Website/Website.components'
 import { News } from './News/News.component'
 

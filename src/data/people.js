@@ -3,7 +3,7 @@ const MENTORS = [
         name: 'Joel Heitman',
         title: 'Head Coach',
         bio: 'Mr. Heitman is the Head Coach of the Steel Hawks. He joined the Steel Hawks in 2013. His passion for Robotics has allowed the team to soar, and he hopes that with the help of his mentors, he can inspire the next generation of innovators.',
-        image: '/media/mentors/heitman.JPG',
+        image: '/media/mentors/heitman.jpg',
         id: 1
       },
       {
@@ -17,35 +17,35 @@ const MENTORS = [
         name: 'Joshua Raghunath',
         title: 'Coach',
         bio: 'Mr. Raghunath is a Coach for the Steel Hawks. He joined the Steel Hawks in September of 2014. As an AP Physics teacher, he helps team members apply what they learn in his class to build the most efficient robot. His background in finance helps team members learn how to develop the Steel Hawks brand and represent the team professionally.',
-        image: '/media/mentors/raghunath.JPG',
+        image: '/media/mentors/raghunath.jpg',
         id: 3
       },
       {
         name: 'David Stern',
         title: 'Coach',
         bio: 'Mr. Stern is a Coach for the Steel Hawks. He joined the Steel Hawks in September of 2016. As a Regents Physics teacher, he helps team members apply what they learn in class to their robot designs.',
-        image: '/media/mentors/stern.JPG',
+        image: '/media/mentors/stern.jpg',
         id: 4
       },
       {
         name: 'John Tsai',
         title: 'Coach',
         bio: 'Mr. Tsai is a coach for the Steel Hawks.',
-        image: '/media/mentors/tsai.JPG',
+        image: '/media/mentors/tsai.jpg',
         id: 5
       },
       {
         name: 'Olan-Ray Frith',
         title: 'Fabrication Mentor',
         bio: 'Olan is the fabrication mentor for the Steel Hawks. He guides us through the prototyping, designing, and building processes.',
-        image: '/media/mentors/olan.JPG',
+        image: '/media/mentors/olan.jpg',
         id: 6
       },
       {
         name: 'Weijian Zeng',
         title: 'Programming Mentor',
         bio: 'Weijian is the programming mentor for the Steel Hawks. We are grateful for his work in helping aspiring software engineers develop clean, well-written code for the team.',
-        image: '/media/mentors/weijian.JPG',
+        image: '/media/mentors/weijian.jpg',
         id: 7
       },
       {
