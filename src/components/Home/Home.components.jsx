@@ -8,7 +8,7 @@ import './Home.style.css'
 export const HomeBanner = () => {
     return (
             <section>
-                <img className="homeImage" alt="Steel Hawks Team" src="/media/teampicture279.jpg"/>
+                <img className="homeImage" alt="Steel Hawks Team" src="/media/teamPicture279.jpg"/>
                 <News/>
             </section>
     )

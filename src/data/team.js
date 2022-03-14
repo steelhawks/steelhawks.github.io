@@ -32,7 +32,7 @@ export const SUBTEAMS = [
     {
         name: "Chairman's & Finance",
         description:"The Chairman’s subteam focuses on representing the team by writing two essays every year; Chairman’s Essay and Woodie Flowers Essay. They also organize outreach events, teaching and mentoring others. They also manage finances – writing grants, as well as reaching out to sponsors and helping to fund our robots.",
-        image: "/media/subteams/Chairman's & Finance.jpg",
+        image: "/media/subteams/ChairmanFinance.jpg",
         id: 6
     },
  
