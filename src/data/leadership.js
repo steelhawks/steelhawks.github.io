@@ -6,9 +6,9 @@ const EXECUTIVEBOARD = [
         id: 1
     },
     {
-        name: 'Matthew Goldstein',
-        title: 'Head of Chairmans / Finance',
-        image: '/media/leadership/matthewg.jpg',
+        name: 'Elsa Oreen',
+        title: 'Head of Fabrication',
+        image: '/media/leadership/elsa.jpg',
         id: 2
     },
     {
@@ -17,10 +17,10 @@ const EXECUTIVEBOARD = [
         image: '/media/leadership/karan.jpg',
         id: 3
     },
-    {
-        name: 'Elsa Oreen',
-        title: 'Head of Fabrication',
-        image: '/media/leadership/elsa.jpg',
+    {   
+        name: 'Matthew Goldstein',
+        title: 'Head of Chairmans / Finance',
+        image: '/media/leadership/matthewg.jpg',
         id: 4
     },
     {
