@@ -20,7 +20,7 @@ export const SUBTEAMS = [
     {
         name: 'Drive Team',
         description:"Potential drive team members will review the rules and learn different strategies in order to be well equipped for a match. We will learn the different parts of the robot and understand how they work with one another in order to provide feedback on the robots performance. On occasion, we will get to drive the robot.",
-        image: "/media/subteams/Drive Team.jpg",
+        image: "/media/subteams/DriveTeam2.jpg",
         id: 4
     },
     {
@@ -31,7 +31,7 @@ export const SUBTEAMS = [
     },
     {
         name: "Chairman's & Finance",
-        description:"The Chairman’s subteam focuses on representing the team by writing two essays every year; Chairman’s Essay and Woodie Flowers Essay. They also organize outreach events, teaching and mentoring others. They also manage finances – writing grants, as well as reaching out to sponsors and helping to fund our robots.",
+        description:"The Chairman’s subteam focuses on representing the team by writing two essays every year: the Chairman’s Essay and Woodie Flowers Essay. They also present their Chairman's Presentation at competetions, as well as organize outreach events, teaching and mentoring others. Moreover, they manage finances: filing grants, reaching out to sponsors, and more.",
         image: "/media/subteams/ChairmanFinance.jpg",
         id: 6
     },

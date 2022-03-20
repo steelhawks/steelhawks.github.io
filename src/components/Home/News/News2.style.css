@@ -43,8 +43,25 @@
 }
 
 #Text {
-    display:inherit;
+    display: inherit;
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 1.5em;
+}
+
+#newsimg {
+    display: block;
+    width: 100%;
+    max-width: 45em;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: rgb(255, 78, 78);
+}
+
+a:hover {
+    color: rgb(228, 125, 125);
 }
