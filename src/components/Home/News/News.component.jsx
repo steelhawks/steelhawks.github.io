@@ -7,7 +7,7 @@ export const News = ()=> {
     return(
         <div>
             <div className='title2022'>
-                <h1 id="TWENTYTWENTYTWO">2022</h1>
+                <h1 id="TWENTYTWENTYTWO">YEAR_2022</h1>
             </div>
                 <h2 id="subtitle">WE WON!</h2>
                 <img id="newsimg" src="/media/NYTRalliance.jpg" alt="nytr"></img><br/> {/* find higher res image*/}

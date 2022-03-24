@@ -1,20 +1,21 @@
 const EXECUTIVEBOARD = [
-    {
-        name: 'Brian Hsu',
-        title: 'Head of Software Engineering',
-        image: '/media/leadership/brian.jpg',
-        id: 1
-    },
+
     {
         name: 'Elsa Oreen',
         title: 'Head of Fabrication',
         image: '/media/leadership/elsa.jpg',
+        id: 1
+    },
+    {
+        name: 'Jessica Jimenez',
+        title: 'Head of Electrical',
+        image: '/media/leadership/jessica.jpg',
         id: 2
     },
     {
-        name: 'Karan Ajmera',
-        title: 'Head of Communications',
-        image: '/media/leadership/karan.jpg',
+        name: 'Brian Hsu',
+        title: 'Head of Software Engineering',
+        image: '/media/leadership/brian.jpg',
         id: 3
     },
     {   
@@ -24,11 +25,12 @@ const EXECUTIVEBOARD = [
         id: 4
     },
     {
-        name: 'Jessica Jimenez',
-        title: 'Head of Electrical',
-        image: '/media/leadership/jessica.jpg',
+        name: 'Karan Ajmera',
+        title: 'Head of Communications',
+        image: '/media/leadership/karan.jpg',
         id: 5
     },
+
 ]
 
 const MECHLEADS = [

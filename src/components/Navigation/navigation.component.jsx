@@ -32,19 +32,19 @@ export const Navigation = (props) => {
                         </Dropdown.Toggle>
                         <Dropdown.Menu id='dropdownMenu'>
                             <DropdownItem className='dropdownElement' href='#/leadership'>LEADERSHIP</DropdownItem>
-                            <DropdownItem className='dropdownElement' href='#/Mentors'>MENTORS</DropdownItem>
-                            <DropdownItem className='dropdownElement' href='#/Team'>SUBTEAMS</DropdownItem>
+                            <DropdownItem className='dropdownElement' href='#/mentors'>MENTORS</DropdownItem>
+                            <DropdownItem className='dropdownElement' href='#/subteams'>SUBTEAMS</DropdownItem>
                         </Dropdown.Menu>
                     </Dropdown>
-                            <NavLink className='link' to='/Robots'>ROBOTS</NavLink>
-                            <NavLink className='link' to='/Awards'>AWARDS</NavLink>
+                            <NavLink className='link' to='/robots'>ROBOTS</NavLink>
+                            <NavLink className='link' to='/awards'>AWARDS</NavLink>
                             <Navbar.Brand>
                                 <Link to={'/'}><img className="navLogo" src="/media/hawkAndText.svg" alt="Steel Hawks Logo"/>
                                 </Link>
                             </Navbar.Brand>
-                            <NavLink className='link' id='sponsors' to='/Sponsors'>SPONSORS</NavLink>
-                            <NavLink className='link' to='/Outreach'>OUTREACH</NavLink>
-                            <NavLink className='link' to='/Contact'>CONTACT US</NavLink>
+                            <NavLink className='link' id='sponsors' to='/sponsors'>SPONSORS</NavLink>
+                            <NavLink className='link' to='/outreach'>OUTREACH</NavLink>
+                            <NavLink className='link' to='/contact'>CONTACT US</NavLink>
                     </Nav>
                     </Headroom>
                 </Navbar.Collapse>

@@ -6,7 +6,7 @@ import MentorPage from "../pages/MentorsPage.component";
 import OutreachPage from "../pages/OutreachPage.component";
 import RobotsPage from "../pages/RobotPage.component";
 import SponsorPage from "../pages/SponsorsPage.component";
-import TeamPage from "../pages/TeamPage.component";
+import SubteamsPage from "../pages/SubteamsPage.component";
 import BobaPage from "../pages/BobaPage.component";
 
 
@@ -31,8 +31,8 @@ export const ROUTES = [
         id: 3
     },
     {
-        path: '/team',
-        component_name: TeamPage,
+        path: '/subteams',
+        component_name: SubteamsPage,
         name: 'Subteams',
         id: 4
     },
