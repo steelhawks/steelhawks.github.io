@@ -15,7 +15,8 @@ export const Footer = () => {
                     <WebsiteIcon key={media.id} linkTo={media.linkTo} iconClass={'mediaIcon ' + media.iconClass}/>
                 ))
             }
-            <h4><b>© 2022</b></h4>
+            <h4>FRC 2601</h4>
+            ©2022
         </section>
 
     )

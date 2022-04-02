@@ -33,23 +33,7 @@
     width: fit-content;
 }
 
-#teaserImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 15em;
-    height: auto;
-}
-
-#Text {
-    display: inherit;
-    font-size: 1.2em;
-    text-align: center;
-    margin-bottom: 1.5em;
-}
-
-#newsimg {
+.newsimg {
     display: block;
     width: 100%;
     max-width: 45em;
@@ -64,4 +48,21 @@ a {
 
 a:hover {
     color: rgb(228, 125, 125);
+}
+
+h3 {
+   font-family: "Iceland";
+   text-align: center;
+   font-size: 2.5em; 
+}
+
+p2 {
+    display: inherit;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+#SBPLI2 {
+    max-width: 500px;
 }
