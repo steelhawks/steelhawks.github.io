@@ -2,10 +2,10 @@ export const ROBOTS = [
     {
         year: "2022",
         game: "Rapid React",
-        video: "https://www.youtube.com/embed/LgniEjI9cCM",
+        image: "/media/2022robot/robot3f.jpg",
         bio: 'Climb low, climb high, shoot low, shoot high, defend. Our robot truly transforms to do it all.',
         name: 'Hawktimus Prime',
-        media: "vid",
+        media: "img",
         id: 0
     },
     {

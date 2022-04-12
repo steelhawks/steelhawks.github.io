@@ -26,3 +26,9 @@ body {
     text-transform: uppercase;
     font-family: "Iceland";
 }
+
+.container {
+    width: 500px;
+    position: relative;
+    display: block;
+}

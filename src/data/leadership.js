@@ -122,7 +122,7 @@ const SCOUTINGLEADS = [
 
 const ELECTRICALLEADS = [
   {
-      name: 'Jessie Li',
+      name: "Jessie Li",
       image: '/media/leadership/jessie.jpg',
       id: 1
   }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Boba.style.css'
 
-export const Boba = (props) => {
+export const Boba = () => {
 
     return (
         <div className='bobadiv'>

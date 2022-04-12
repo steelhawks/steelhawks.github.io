@@ -3,8 +3,22 @@ import { Row, Col, Card, Container } from 'react-bootstrap'
 
 import './Person.style.css'
 
+const jessieStyle = {
+    color: 'aqua',
+};
+
+const deanslist = {
+    fontSize: '0.75em',
+};
+
 const PersonCard = (props) => {
     
+    function checkForJessie() {if(props.person.name === 'Jessie Li') {
+        console.log('hi');
+        props.person.name = <span title="NYC Regional 2022 Dean's List Finalist!" style={jessieStyle}><i>Jessie Li
+            <br/><p1 style={deanslist}>DEAN'S LIST FINALIST!</p1></i></span> 
+    }};
+
     return (
 
         <Card className="personCard">
@@ -12,6 +26,7 @@ const PersonCard = (props) => {
             <Card.Body>
                 <Card.Title id='name'>
                     {props.person.name}
+                    {checkForJessie()}
                 </Card.Title>
                 <Card.Subtitle>
                     {props.person.title}

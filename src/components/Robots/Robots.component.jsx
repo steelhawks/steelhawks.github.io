@@ -1,10 +1,41 @@
 import React from 'react'
-
 import {Card, Container, Row, Col} from 'react-bootstrap'
-
 import './Robots.style.css'
 
+import Slider from "react-slick";
+
+
+var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
+export const Slideshows = (props) => {
+    return (
+        <div className="container">
+        <Slider {...settings}>
+          <div>
+              <img src="/media/2022robot/robot1f.jpg"/>
+          </div>
+          <div>
+              <img src="/media/2022robot/robot2f.jpg"/>
+          </div>
+          <div>
+              <img src="/media/2022robot/robot3f.jpg"/>
+          </div>
+        </Slider>
+    </div>   
+    )
+}
+
 const RobotCard = (props) => {
+
+    function check2022() {if(props.info[0][1] === '2022') {
+        props.info[2][1] = Slideshows;
+    }}
 
     return (
 
@@ -25,6 +56,7 @@ const RobotCard = (props) => {
                             <Card.Subtitle className="robotName"><br/>{props.info[4][1]} </Card.Subtitle>
                             <Card.Text className="robotText">
                                 {props.info[3][1]}
+                                {check2022()}
                             </Card.Text>
                         </Card.Body>
                     </Col>
