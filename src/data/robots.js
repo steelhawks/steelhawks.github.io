@@ -5,7 +5,7 @@ export const ROBOTS = [
         image: "/media/2022robot/robot3f.jpg",
         bio: 'Climb low, climb high, shoot low, shoot high, defend. Our robot truly transforms to do it all.',
         name: 'Hawktimus Prime',
-        media: "img",
+        media: "slide",
         id: 0
     },
     {

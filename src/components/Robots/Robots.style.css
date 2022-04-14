@@ -27,8 +27,22 @@ body {
     font-family: "Iceland";
 }
 
+.robot2022, .container {
+    max-width: 500px;
+    width:100%;
+}
+
 .container {
-    width: 500px;
-    position: relative;
-    display: block;
+    padding-bottom: 10px;
+}
+
+.slick-prev:before, .slick-next:before  {
+    content: '' !important;
+}
+
+.dirArrow {
+    font-size: 20px !important;
+    z-index: 1000;
+    max-width: 100%;
+    color: white;
 }
