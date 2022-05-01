@@ -1,0 +1,19 @@
+
+.personCard{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.personText{
+    text-align: justify;
+}
+
+.row:before, row:after{
+    display: inline-block;
+}
+
+#image {
+    border-radius: 50px 50px 50px 50px;
+}

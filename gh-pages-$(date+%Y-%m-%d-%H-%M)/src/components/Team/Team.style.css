@@ -1,0 +1,31 @@
+.teamCard{
+    padding-top: 15px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+.textContent{
+    text-align: center;
+}
+
+.teamTab{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(240, 102, 102);
+    font-family: 'Iceland';
+    padding-bottom: 0px;
+}
+
+#image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 50px 50px 50px 50px;
+    align-self: center;
+}

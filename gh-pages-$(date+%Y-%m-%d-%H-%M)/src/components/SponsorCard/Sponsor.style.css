@@ -1,0 +1,21 @@
+.sponsorCard{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+}
+
+.sponsorPhoto{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+
+.row:before, row:after{
+    display: inline-block;
+}

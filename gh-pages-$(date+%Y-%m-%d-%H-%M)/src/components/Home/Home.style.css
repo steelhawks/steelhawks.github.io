@@ -1,0 +1,10 @@
+* {
+  font-family: 'Rubik';
+  animation: fade 0.5s ease-in;
+
+}
+
+.homeImage {
+  width: 100vw;
+  height: auto; 
+}
