@@ -19,6 +19,7 @@
     "react-headroom": "^3.2.0",
     "react-instagram-embed": "^3.0.0",
     "react-router-dom": "^5.2.0",
+    "react-slick": "^0.28.1",
     "react-scripts": "^4.0.1",
     "web-vitals": "^0.2.4"
   },

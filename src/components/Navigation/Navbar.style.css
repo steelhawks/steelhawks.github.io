@@ -1,12 +1,5 @@
-*:focus {
-    border: 0;
-    box-shadow: none;
-    outline: none;
-}
-
 .navbar {
     z-index: 100;
-    width: 100vw;
     text-align: center;
     display: unset;
     position: absolute;
@@ -14,53 +7,72 @@
 
 #mobileToggle {
     opacity: 100;
+    background-color: transparent;
+    position: fixed;
+    left: 0.5em;
+    top: 0.5em;
+    z-index: 99999;
+}
+
+.headroom, .headroom-wrapper { 
+    width: 100%;
+    height: fit-content;  
 }
 
 .headroom {
-    width: 100%;
-    background-color: #343836;
-    border-radius: 00px 0px 20px 20px;
+    background-color: var(--mainBG);
+}
+
+.navbar-collapse {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
 }
 
 .link {
     margin: auto;
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     width: 100%;
     font-family: 'Secular One';
-    font-size: large    ;
+    font-size: 1.4em;
 }
 
 .link:hover {
     color: rgb(204, 204, 204);
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 .navLogo {
 	display:inline;
     width: 100%;
-    max-width: 500rem;
+    max-width: 10em;
+    padding: none;
+    margin: none;
 }
 
-#dropdownButton {
-    background-color: transparent;
-    border: none;
-    align-content: center;
+#basic-nav-dropdown {
+    color: var(--text-color);
+    font-family: 'Secular One';
+    font-size: 1.045em;
 }
 
-#dropdownMenu {
+.navbar-brand, #navHawk {
+    max-width: 125px;
+    width: 100%;
+}
+
+.dropdown-menu {
+    background: var(--mainBG);
     text-align: center;
-    background-color: rgb(202, 202, 202);
-    border: none;
+    width: 100%;
+    text-decoration: none;
 }
 
-.dropdownElement {
+.dropdown-item {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: large;
     animation: none;
-    color: rgb(87, 87, 87);
-}
-
-.headroom {
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
 }

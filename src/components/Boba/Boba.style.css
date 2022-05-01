@@ -1,11 +1,8 @@
 #bobamenu {
-    margin: auto;
+    padding-top: 4em;
+    width: 95%;
     display: block;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
-}
-
-.bobadiv {
-    color: black;
-    background-color: rgba(255,231,173,254);
 }

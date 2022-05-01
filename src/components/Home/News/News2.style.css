@@ -1,36 +1,43 @@
-#TWENTYTWENTYTWO {
-    font-size: 5em;
-    overflow: hidden;
-    color: white;
-    font-family: 'Iceland';
-    line-height: 5rem;
-    width: 100%;
-    max-height: 5rem;
-    max-width: fit-content;
-
-    /* animation */
-    border-right: .15em solid rgb(105, 39, 39);
-    animation: 
-      typing 3.5s steps(16, end),
-      cursorblink 0.8s infinite;
-      animation-iteration-count: infinite;  
+:root {
+    --type-speed: 2.4s;
 }
-  
-@keyframes typing {
-    from { width: 0 }
-    to { width: 120% }
-}
-  
-@keyframes cursorblink {
-    from { border-color: transparent }
-    to { border-color: rgb(105, 39, 39); }
+#season {
+    font-family: "Iceland", monospace;
+    font-size: clamp(4em, 50%, 5em);
+    position: relative;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.title2022 {
-    padding-left: 1em;
-    padding-top: 2vh;
-    margin: auto;
-    width: fit-content;
+#season::before,
+#season::after {
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#season::before {
+    background: var(--mainBG);
+    animation: type var(--type-speed) steps(11) 1s forwards;
+}
+
+#season::after {
+    width: .075em;
+    background: rgb(121, 27, 27);
+    animation: type var(--type-speed) steps(11) 1s forwards, blink 750ms step-end infinite;
+}
+
+@keyframes type {
+    to {left: 100%}
+}
+
+@keyframes blink {
+    from,to {opacity: 100;}
+    50% {opacity: 0;}
 }
 
 .newsimg {
@@ -61,8 +68,11 @@ p2 {
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 1.5em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#SBPLI2 {
+.newsimg {
     max-width: 500px;
 }

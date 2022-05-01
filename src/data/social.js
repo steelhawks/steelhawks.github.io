@@ -24,4 +24,9 @@ export const SOCIALMEDIA = [
     //     linkTo: 'https://twitter.com/thhsrobotics',
     //     id: 5
     // },
+    {
+        iconClass: 'TBA',
+        linkTo: 'https://www.thebluealliance.com/team/2601',
+        id: 6
+    }
 ]

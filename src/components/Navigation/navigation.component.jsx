@@ -1,50 +1,40 @@
 import React from 'react';
-import { Dropdown } from 'react-bootstrap';
+import { NavDropdown } from 'react-bootstrap';
 import DropdownItem from 'react-bootstrap/esm/DropdownItem';
 // import { BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Headroom from 'react-headroom'
 
-import ScrollToTop from './ScrollToTop';
 import { Link, NavLink } from 'react-router-dom'
 import './Navbar.style.css'
 
-var x
+var x = ''
 // eslint-disable-next-line no-restricted-globals
-if(innerWidth <= 991) {
+if(screen.width < 992) {
     x = 'true'
 } else {x = ''}
 
 
 export const Navigation = (props) => {
     return (
-        <Navbar className='navbar' collapseOnSelect expand="lg">
-                <ScrollToTop/>
+        <Navbar className='navbar' collapseOnSelect expand="lg"> 
             <>
                 <Navbar.Toggle id="mobileToggle" aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Headroom disable={x} pinStart={-1000}>
                     <Nav>
-                    <Dropdown className='link' id='dropdownContainer'> {/*rework into custom dropdown component??*/}
-                        <Dropdown.Toggle variant="secondary" className='link' id="dropdownButton">
-                        OUR TEAM
-                        </Dropdown.Toggle>
-                        <Dropdown.Menu id='dropdownMenu'>
-                            <DropdownItem className='dropdownElement' href='#/leadership'>LEADERSHIP</DropdownItem>
-                            <DropdownItem className='dropdownElement' href='#/mentors'>MENTORS</DropdownItem>
-                            <DropdownItem className='dropdownElement' href='#/subteams'>SUBTEAMS</DropdownItem>
-                        </Dropdown.Menu>
-                    </Dropdown>
-                            <NavLink className='link' to='/robots'>ROBOTS</NavLink>
-                            <NavLink className='link' to='/awards'>AWARDS</NavLink>
-                            <Navbar.Brand>
-                                <Link to={'/'}><img className="navLogo" src="/media/hawkAndText.svg" alt="Steel Hawks Logo"/>
-                                </Link>
-                            </Navbar.Brand>
-                            <NavLink className='link' id='sponsors' to='/sponsors'>SPONSORS</NavLink>
-                            <NavLink className='link' to='/outreach'>OUTREACH</NavLink>
-                            <NavLink className='link' to='/contact'>CONTACT US</NavLink>
+                        <NavDropdown title="OUR TEAM" className="link" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/leadership">Leadership</NavDropdown.Item>
+                            <NavDropdown.Item href="/mentors">Mentors</NavDropdown.Item>
+                            <NavDropdown.Item href="/subteams">Subteams</NavDropdown.Item>
+                        </NavDropdown>
+                        <NavLink className='link' to='/robots'>ROBOTS</NavLink>
+                        <NavLink className='link' to='/awards'>AWARDS</NavLink>
+                        <Navbar.Brand className="link" href="/"><img alt='' id="navHawk" src="media/2601Hawk.svg"/></Navbar.Brand>
+                        <NavLink className='link' id='sponsors' to='/sponsors'>SPONSORS</NavLink>
+                        <NavLink className='link' to='/outreach'>OUTREACH</NavLink>
+                        <NavLink className='link' to='/contact'>CONTACT US</NavLink>
                     </Nav>
                     </Headroom>
                 </Navbar.Collapse>

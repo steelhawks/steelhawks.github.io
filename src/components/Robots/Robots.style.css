@@ -1,32 +1,30 @@
 .robotCard {
-    text-align: center;
     background: transparent;
     border: none;
 }
 
-.robotText {
-    text-align: center;
-}
-
-body {
-    color: white;
-}
-
-.robotName {
-    padding-bottom: 0.5em ;
-    color: rgb(182, 185, 185);
+.robotName, .Year, .gameName {
+    font-family: "Iceland";
+    text-transform: uppercase;
 }
 
 .Year {
-    font-size: 2em;
+    color: var(--tertiary);
+    font-size: 3em;
 }
 
 .gameName {
-    font-size: 2em;
-    text-transform: uppercase;
-    font-family: "Iceland";
+    font-size: 2.5em;
 }
 
+.robotName {
+    color: rgb(186, 186, 186);
+    font-size: 1.75em;
+    padding-bottom: 20px;
+}
+
+
+/* slideshow stuff */
 .robot2022, .container {
     max-width: 500px;
     width:100%;
@@ -45,4 +43,9 @@ body {
     z-index: 1000;
     max-width: 100%;
     color: white;
+}
+
+.robotImg {
+    width: 100%;
+    height: auto;
 }

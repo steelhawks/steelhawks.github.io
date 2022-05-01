@@ -3,7 +3,7 @@ export const ROBOTS = [
         year: "2022",
         game: "Rapid React",
         image: "/media/2022robot/robot3f.jpg",
-        bio: 'Climb low, climb high, shoot low, shoot high, defend. Our robot truly transforms to do it all.',
+        bio: 'Climb low, climb high, shoot low, shoot high, defend. Our robot has transformed to do it all.',
         name: 'Hawktimus Prime',
         media: "slide",
         id: 0

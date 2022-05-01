@@ -31,6 +31,7 @@ function SamplePrevArrow(props) {
 }
 
 var settings = {
+    width: 1000,
     dots: true,
     infinite: true,
     speed: 500,
@@ -85,13 +86,13 @@ const RobotCard = (props) => {
                             <div className="container">
                                 <Slider className="robot2022" {...settings}> 
                                 <div>
-                                    <img src="/media/2022robot/robot1.jpg"/>
+                                    <img className="robotImg" src="/media/2022robot/robot1.jpg"/>
                                 </div>
                                 <div>
-                                    <img src="/media/2022robot/robot2.jpg"/>
+                                    <img className="robotImg" src="/media/2022robot/robot2.jpg"/>
                                 </div>
                                 <div>
-                                    <img src="/media/2022robot/robot3.jpg"/>
+                                    <img className="robotImg" src="/media/2022robot/robot3.jpg"/>
                                 </div>
                                 </Slider>
                             </div>
@@ -102,7 +103,7 @@ const RobotCard = (props) => {
                         <Card.Body>
                             <Card.Title className="Year">{props.info[0][1]}</Card.Title>
                             <Card.Subtitle className="gameName">{props.info[1][1]}</Card.Subtitle>
-                            <Card.Subtitle className="robotName"><br/>{props.info[4][1]} </Card.Subtitle>
+                            <Card.Subtitle className="robotName">{props.info[4][1]} </Card.Subtitle>
                             <Card.Text className="robotText">
                                 {props.info[3][1]}
                             </Card.Text>
