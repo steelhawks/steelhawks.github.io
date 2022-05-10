@@ -11,6 +11,7 @@
 .Year {
     color: var(--tertiary);
     font-size: 3em;
+    margin: 0;
 }
 
 .gameName {

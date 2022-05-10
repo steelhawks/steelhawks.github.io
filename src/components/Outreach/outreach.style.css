@@ -6,11 +6,13 @@
 }
 
 .cardTitle {
-    text-align: center;
+    font-family: 'Iceland';
+    text-transform: uppercase;
+    font-size: 3em;
+    color: var(--tertiary);
 }
 
 .cardContent{
-    text-align: center;
     font-size: 1em;
 }
 

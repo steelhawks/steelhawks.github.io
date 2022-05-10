@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavDropdown } from 'react-bootstrap';
-import DropdownItem from 'react-bootstrap/esm/DropdownItem';
 // import { BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
@@ -25,9 +24,9 @@ export const Navigation = (props) => {
                     <Headroom disable={x} pinStart={-1000}>
                     <Nav>
                         <NavDropdown title="OUR TEAM" className="link" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/leadership">Leadership</NavDropdown.Item>
-                            <NavDropdown.Item href="/mentors">Mentors</NavDropdown.Item>
-                            <NavDropdown.Item href="/subteams">Subteams</NavDropdown.Item>
+                            <NavDropdown.Item href="#/leadership">Leadership</NavDropdown.Item>
+                            <NavDropdown.Item href="#/mentors">Mentors</NavDropdown.Item>
+                            <NavDropdown.Item href="#/subteams">Subteams</NavDropdown.Item>
                         </NavDropdown>
                         <NavLink className='link' to='/robots'>ROBOTS</NavLink>
                         <NavLink className='link' to='/awards'>AWARDS</NavLink>
