@@ -10,9 +10,9 @@ const LeadershipPage = () => {
     return (
         
         <section>
-            <Header title="Executive Board"/>
+            <Header title="2022-2023 Executive Board"/>
             <PersonGrid people={ EXECUTIVEBOARD }/>
-            <Header title="Subteam Leads"/>
+            {/* <Header title="Subteam Leads"/>
             <h2>Mechanical Leads</h2>
                 <PersonGrid people={ MECHLEADS }/>
             <h2>Electrical Lead</h2>
@@ -24,7 +24,7 @@ const LeadershipPage = () => {
             <h2>Scouting Leads</h2>
                 <PersonGrid people={ SCOUTINGLEADS }/>
             <h2>Media Lead</h2>
-                <PersonGrid people={ MEDIALEADS }/>
+                <PersonGrid people={ MEDIALEADS }/> */}
         </section>
 
     )

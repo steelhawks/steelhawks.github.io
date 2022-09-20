@@ -1,35 +1,66 @@
 const EXECUTIVEBOARD = [
 
     {
-        name: 'Elsa Oreen',
-        title: 'Head of Fabrication',
-        image: '/media/leadership/elsa.jpg',
+        name: 'Matthew Algenio',
+        title: 'President',
+        image: '/media/leadership/matthewa.jpg',
         id: 1
     },
     {
-        name: 'Jessica Jimenez',
-        title: 'Head of Electrical',
-        image: '/media/leadership/jessica.jpg',
+        name: 'Matthew Goldstein',
+        title: 'Vice President',
+        image: '/media/leadership/matthewg.jpg',
         id: 2
     },
     {
-        name: 'Brian Hsu',
-        title: 'Head of Software Engineering',
-        image: '/media/leadership/brian.jpg',
+        name: 'Vivian Chen',
+        title: 'Head of Communications',
+        image: '/media/leadership/vivian.jpg',
         id: 3
     },
     {   
-        name: 'Matthew Goldstein',
-        title: 'Head of Chairmans / Finance',
-        image: '/media/leadership/matthewg.jpg',
+        name: 'Jeffrey Jun',
+        title: 'Head of Mechanical',
+        image: '/media/leadership/jeffrey.jpg',
         id: 4
     },
     {
-        name: 'Karan Ajmera',
-        title: 'Head of Communications',
-        image: '/media/leadership/karan.jpg',
+        name: 'Jessie Li',
+        title: 'Head of Electrical',
+        image: '/media/leadership/jessie.jpg',
         id: 5
     },
+    {
+        name: 'Esther Liu',
+        title: 'Head of Programming',
+        image: '/media/leadership/esther.jpg',
+        id: 6
+    },
+    {
+        name: 'David Yu',
+        title: 'Head of Design',
+        image: '/media/leadership/david.jpg',
+        id: 7
+    },
+    {
+        name: 'Adeebah Zaman',
+        title: 'Head of Scouting',
+        image: '/media/leadership/adeebah.jpg',
+        id: 10
+        
+    },
+    {   
+        name: 'Shannon Jackman',
+        title: "Head of Chairman's",
+        image: '/media/leadership/placeholder.jpg',
+        id: 9
+    },
+    {
+        name: 'Isaac Wong',
+        title: 'Head of Media',
+        image: '/media/leadership/placeholder.jpg',
+        id: 10
+    }
 
 ]
 
