@@ -52,13 +52,13 @@ const EXECUTIVEBOARD = [
     {   
         name: 'Shannon Jackman',
         title: "Head of Chairman's",
-        image: '/media/leadership/placeholder.jpg',
+        image: '/media/leadership/shannon.jpg',
         id: 9
     },
     {
         name: 'Isaac Wong',
         title: 'Head of Media',
-        image: '/media/leadership/placeholder.jpg',
+        image: '/media/leadership/isaac.jpg',
         id: 10
     }
 
