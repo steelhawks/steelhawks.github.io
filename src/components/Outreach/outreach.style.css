@@ -1,17 +1,23 @@
 .card {
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
 }
 
 .cardTitle {
-    text-align: center;
+    font-family: 'Iceland';
+    text-transform: uppercase;
+    font-size: 3em;
+    color: var(--tertiary);
 }
 
 .cardContent{
-    text-align: justify;
+    font-size: 1em;
 }
 
 .cardImage{
     min-width: 200px;
     max-width: 100%;
+    border-radius: 50px 50px 50px 50px;
 }

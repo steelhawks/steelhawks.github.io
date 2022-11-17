@@ -1,5 +1,14 @@
 export const ROBOTS = [
     {
+        year: "2022",
+        game: "Rapid React",
+        image: "/media/2022robot/robot3f.jpg",
+        bio: 'Climb low, climb high, shoot low, shoot high, defend. Our robot has transformed to do it all.',
+        name: 'Hawktimus Prime',
+        media: "slide",
+        id: 0
+    },
+    {
         year: "2020",
         game: "Infinite Recharge",
         video: "https://www.youtube.com/embed/gmiYWTmFRVE",
@@ -20,19 +29,19 @@ export const ROBOTS = [
     {
         year: "2018",
         game: "Power Up!",
-        picture: "/media/robots/2018.png",
+        video: "https://www.youtube.com/embed/HZbdwYiCY74",
         bio: "Robots place power cubes on scales and switches to take ownership and defeat the Final Boss.",
         name: "Steel Hawking",
-        media: "pic",
+        media: "vid",
         id: 3
     },
     {
         year: "2017",
         game: "Steamworks",
-        picture: "/media/robots/2017.JPG",
+        video: "https://www.youtube.com/embed/sIoXR36DF2A",
         bio: "In an era where steampower reigns, robots collect fuel and deliver gears to prepare their airships for a long distance race.",
         name: "Aquila",
-        media: "pic",
+        media: "vid",
         id: 4
     },
     {

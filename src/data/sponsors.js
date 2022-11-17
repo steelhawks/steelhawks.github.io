@@ -1,68 +1,91 @@
 export const SPONSORS = [
-    { 
-        name: 'Consolidated Edison',
-        logo: '/media/sponsors/conEdison.png',
-        url: 'https://www.coned.com/en',
+    {
+        name: 'BAE Systems',
+        logo: '/media/sponsors/bae.png',
+        url: 'https://www.baesystems.com/en/home',
         id: 1
     },
-    { 
-        name: 'BAE Systems',
-        logo: '/media/sponsors/bae.jpg',
-        url: 'https://www.baesystems.com/en-us/home',
-        id: 2
-    },
-    { 
-        name: 'Titan Machine Corporation',
-        logo: '/media/sponsors/titan.png',
-        url: 'http://www.titanmachine.com/',
-        id: 3
-    },
-    { 
+    {
         name: 'Magellan Aerospace',
         logo: '/media/sponsors/magellan.png',
         url: 'https://magellan.aero/',
-        id: 4
+        id: 2
     },
-    { 
-        name: 'Queens College',
-        logo: '/media/sponsors/qc.png',
-        url: 'https://www.qc.cuny.edu/Pages/home.aspx',
-        id: 5
-    },
-    { 
-        name: 'SolidWorks',
-        logo: '/media/sponsors/solidworks.png',
-        url: 'https://www.solidworks.com/',
-        id: 6
-    },
-    { 
+    {
         name: 'Grainger',
         logo: '/media/sponsors/grainger.png',
         url: 'https://www.grainger.com/',
-        id: 7
+        id: 3
     },
-    { 
-        name: 'Townsend Harris AA',
+    {
+        name: 'Queens College',
+        logo: '/media/sponsors/qc.png',
+        url: 'https://www.qc.cuny.edu/Pages/home.aspx',
+        id: 4
+    },
+    {
+        name: 'LMT Onsurd',
+        logo: '/media/sponsors/lmtonsrud.png',
+        url: 'https://www.onsrud.com/',
+        id: 5
+    },
+    {
+        name: 'GitHub',
+        logo: '/media/sponsors/github.png',
+        url: 'https://github.com/',
+        id: 6
+    },
+    {
+        name: 'THHS Alumni Association',
         logo: '/media/sponsors/thhs.png',
         url: 'https://thaa.org/',
+        id: 7
+    },
+    {
+        name: 'THHS PTA',
+        logo: '/media/sponsors/thhs.png',
+        url: 'https://www.thhs.qc.edu/apps/pages/pta',
         id: 8
     },
-    { 
-        name: 'Werther Family',
-        logo: '/media/sponsors/parkend.jpeg',
-        url: 'http://parkendgroup.com/',
+    {
+        name: 'Consolidated Edison',
+        logo: '/media/sponsors/conEdison.png',
+        url: 'https://www.coned.com/en/',
         id: 9
     },
     {
-        name: 'Github',
-        logo:'/media/sponsors/github.png',
-        url: 'https://github.com/',
+        name: 'The Mu Family',
+        logo: '/media/sponsors/mufamily.jpg',
         id: 10
     },
     {
-        name: 'Townsend Harris',
-        logo: '/media/sponsors/thhs.png',
-        url: 'https://www.thhs.qc.edu/',
+        name: 'Parkend Group',
+        logo: '/media/sponsors/parkend.png',
+        url: 'https://parkendgroup.com/',
         id: 11
+    },
+    {
+        name: 'Titan Machine Corp',
+        logo: '/media/sponsors/titan.png',
+        url: 'https://www.titanmachine.com/',
+        id: 12
+    },
+    {
+        name: 'Bloomberg',
+        logo: '/media/sponsors/bloomberg.png',
+        url: 'https://www.bloomberg.com/',
+        id: 13
+    },
+    {
+        name: 'Professional Steel Supply Co.',
+        logo: '/media/sponsors/professionalsteel.png',
+        url: 'https://www.thebluebook.com/iProView/810699/professional-steel-supply-corp/subcontractors/',
+        id: 14
+    },
+    {
+        name: 'NASA',
+        logo: '/media/sponsors/nasa.png',
+        url: 'https://www.nasa.gov/',
+        id: 15
     }
 ]

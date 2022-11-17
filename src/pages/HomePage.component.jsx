@@ -5,9 +5,9 @@ import { CARDS } from '../data/home'
 
 const HomePage = () => {
 
-    useEffect(() => {
-        window.PixleeAsyncInit()
-    }, [])
+    // useEffect(() => {
+    //     window.PixleeAsyncInit()
+    // }, [])
 
     return (
 

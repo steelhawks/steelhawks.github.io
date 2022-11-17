@@ -1,12 +1,10 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
-
 import './outreach.style.css'
 
 const OutreachCard = (props) => {
 
     return (
-
         <Card className="card">
             <Container fluid>
                 <Row>

@@ -1,3 +1,28 @@
+* {
+  --mainBG: #151515;
+  --accent: #C41818;
+  --tertiary: #C43F3F;
+  --text-color: #ffffff;
+  color: var(--text-color);
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: var(--mainBG);
+  color: var(--text-color)
+
+}
+
+h2 {
+  color: var(--tertiary);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Iceland';
+  font-size: 3.75em;
+}
+
+
 .App {
   text-align: center;
   overflow: auto;
@@ -15,7 +40,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,10 +47,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

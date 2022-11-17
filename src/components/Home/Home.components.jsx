@@ -1,22 +1,16 @@
 import React from 'react'
-import { Row, Col, Card, Jumbotron } from 'react-bootstrap'
+import { Row, Col, Card } from 'react-bootstrap'
 import { WebsiteIcon } from '../Website/Website.components'
+import { News } from './News/News.component'
 
 import './Home.style.css'
 
 export const HomeBanner = () => {
-
-    const missionStatement = "The Steel Hawks (FRC 2601) focuses on empowering our diverse team to develop abilities through a collaborative learning environment. We create opportunities to explore a myriad of fields to ignite and fuel our passions. Our enthusiasm drives us to share our knowledge globally to inspire the next generation of innovators."
-
     return (
-
-        <Jumbotron fluid className="homeJumbotron">
-            <img className="homeImage" alt="Steel Hawks Banner" src="/media/home_page.png"/>
-            <p className="homeMissionStatement">
-                {missionStatement}
-            </p>
-        </Jumbotron>
-
+            <section>
+                <img className="homeImage" alt="Home" src="/media/homeImgLow.jpg" srcset='media/homeImgHigh.jpg'/>
+                <News/>
+            </section>
     )
 
 }

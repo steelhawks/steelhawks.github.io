@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Header } from '../components/Header/header.component'
 
-import { RobotGrid } from '../components/Robots/Robots.component'
+import { RobotGrid, Slideshows } from '../components/Robots/Robots.component'
 import { ROBOTS } from '../data/robots'
 
 const RobotsPage = () => {

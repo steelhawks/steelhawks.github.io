@@ -1,11 +1,52 @@
 .robotCard {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+    background: transparent;
+    border: none;
 }
 
-.robotText {
-    text-align: justify;
-    padding-top: 10%;
-    padding-bottom: 10%;
+.robotName, .Year, .gameName {
+    font-family: "Iceland";
+    text-transform: uppercase;
+}
+
+.Year {
+    color: var(--tertiary);
+    font-size: 3em;
+    margin: 0;
+}
+
+.gameName {
+    font-size: 2.5em;
+}
+
+.robotName {
+    color: rgb(186, 186, 186);
+    font-size: 1.75em;
+    padding-bottom: 20px;
+}
+
+
+/* slideshow stuff */
+.robot2022, .container {
+    max-width: 500px;
+    width:100%;
+}
+
+.container {
+    padding-bottom: 10px;
+}
+
+.slick-prev:before, .slick-next:before  {
+    content: '' !important;
+}
+
+.dirArrow {
+    font-size: 20px !important;
+    z-index: 1000;
+    max-width: 100%;
+    color: white;
+}
+
+.robotImg {
+    width: 100%;
+    height: auto;
 }
