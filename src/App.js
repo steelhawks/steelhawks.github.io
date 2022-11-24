@@ -1,35 +1,19 @@
 import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import { Navigation } from './components/Navigation/navigation.component';
-import { ROUTES } from './routes/routes'
-import { Route, Switch } from 'react-router';
+import { webpages } from './routes/routes'
+import {createBrowserRouter, Route, RouterProvider, Routes} from 'react-router-dom';
 import { Footer } from './components/Footer/footer.component';
 
-class App extends React.Component{
-  constructor(props){
-    super(props)
-    this.state = {
-      routes: ROUTES
-    }
-  }
-  
-  render(){
-    
-    const {routes} = this.state
+const App = (props) => {
     return (
-      <div>
-        <Navigation routes={routes}/>
-        <Switch>
-          {routes.map(route => (
-            <Route exact path={route.path} key={route.id} component={route.component_name}/>
-          ))}
-        </Switch>
-        <Footer/>
-      </div>
+        <div>
+            <Navigation routes={webpages}/>
+            <RouterProvider router={createBrowserRouter(webpages)} />
+        </div>
+
     )
-  }
 }
 
 export default App;

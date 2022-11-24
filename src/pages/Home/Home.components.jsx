@@ -1,14 +1,11 @@
 import React from 'react'
 import { Row, Col, Card } from 'react-bootstrap'
-import { WebsiteIcon } from '../Website/Website.components'
-import { News } from './News/News.component'
-
-import './Home.style.css'
+import { News } from './News.component'
 
 export const HomeBanner = () => {
     return (
             <section>
-                <img className="homeImage" alt="Home" src="/media/homeImgLow.jpg" srcset='media/homeImgHigh.jpg'/>
+
                 <News/>
             </section>
     )
@@ -25,7 +22,6 @@ const HomeColumn = (props) => {
                     <h2 className="homeCardTitle">{props.card.title}</h2>
                 </Card.Title>
                 <Card.Body className="homeBody">
-                    <WebsiteIcon linkTo={props.card.url} iconClass={'homeIcon ' + props.card.logo}/>
                 </Card.Body>
             </Card>
         </Col>

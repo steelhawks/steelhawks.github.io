@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './News2.style.css'
-
 export const News = ()=> {
     return(
         <div>
@@ -10,8 +8,8 @@ export const News = ()=> {
             </div>
                 <h2>TECH VALLEY REGIONAL</h2>
                 <h3>WE WON!</h3>
-                <img className='newsimg' src="/media/2022events/NYTR.jpg" alt="nytr"></img><br/> {/* find higher res image*/}
-                <p2>We took home <b>first place</b> at NY Tech Valley Regional with <a href="src/pages/Home/News/News.component">MARS 2614</a> and <a href="src/pages/Home/News/News.component">Wolf Pack 5484</a>, securing a spot at the championships, and picking up an <b>Entrepreneurship Award</b> along the way!</p2>
+                <img className="" src="/media/2022events/NYTR.jpg" alt="nytr"></img><br/> {/* find higher res image*/}
+                <p2 className="">We took home <b>first place</b> at NY Tech Valley Regional with <a href="src/pages/Home/News.component">MARS 2614</a> and <a href="src/pages/Home/News.component">Wolf Pack 5484</a>, securing a spot at the championships, and picking up an <b>Entrepreneurship Award</b> along the way!</p2>
                 
                 <h2>LONG ISLAND REGIONAL 2</h2>
                 <img className="newsimg" id="SBPLI2" src="/media/2022events/SBPLI2.jpg" alt="SBPLI REGIONAL #2"></img><br/> {/* find higher res image*/}

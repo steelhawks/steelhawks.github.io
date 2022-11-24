@@ -1,27 +1,25 @@
-import AwardsPage from "../pages/AwardPage.component";
-import ContactPage from "../pages/ContactPage.component";
-import LeadershipPage from "../pages/Leadership.componentPage";
-import HomePage from "../pages/HomePage.component";
-import MentorPage from "../pages/MentorsPage.component";
-import OutreachPage from "../pages/OutreachPage.component";
-import RobotsPage from "../pages/RobotPage.component";
-import SponsorPage from "../pages/SponsorsPage.component";
-import SubteamsPage from "../pages/SubteamsPage.component";
-import BobaPage from "../pages/BobaPage.component";
+import AwardsPage from "../pagesx/AwardPage.component";
+import ContactPage from "../pagesx/ContactPage.component";
+import LeadershipPage from "../pagesx/Leadership.componentPage";
+import HomePage from "../pages/Home/HomePage.component";
+import MentorPage from "../pagesx/MentorsPage.component";
+import OutreachPage from "../pagesx/OutreachPage.component";
+import RobotsPage from "../pagesx/RobotPage.component";
+import SponsorPage from "../pagesx/SponsorsPage.component";
+import SubteamsPage from "../pagesx/SubteamsPage.component";
+import BobaPage from "../pagesx/BobaPage.component";
 
 
-export const ROUTES = [
-
+export const pages = [
     {
         path: '/',
-        component_name: HomePage,
         name: 'Home',
-        id: 1
+        element: <HomePage/>
     },
     {
         path: '/Leadership',
         component_name: LeadershipPage,
-        name: 'Executive Board',
+        name: 'Leadership',
         id: 2
     },
     {

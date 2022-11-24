@@ -1,22 +1,17 @@
 import React, { useEffect } from 'react'
-import { HomeBanner, HomeGrid } from '../components/Home/Home.components'
+import { HomeBanner, HomeGrid } from './Home.components'
+import { News } from './News.component'
 
-import { CARDS } from '../data/home'
+import { CARDS } from '../../data/home'
 
 const HomePage = () => {
-
-    // useEffect(() => {
-    //     window.PixleeAsyncInit()
-    // }, [])
-
     return (
-
         <section>
-            <HomeBanner/>
-            <div id="pixlee_container"></div>
+            <img alt="Home" src="/media/homeImgLow.jpg" srcSet='media/homeImgHigh.jpg'/>
+            <News/>
+
             <HomeGrid cards={CARDS}/>
         </section>
-
     )
 
 }
