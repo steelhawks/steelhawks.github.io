@@ -2,15 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    background-color: #151515;
-    color: #ffffff;
-    max-width: 100%;
-    overflow-x: hidden;
+@layer base {
+    * { @apply bg-background text-white max-w-full overflow-x-hidden }
+    h1 { @apply font-display uppercase font-black text-shadow }
+    h2 { @apply font-display uppercase font-bold text-center text-2xl }
+    p { @apply text-lg md:text-xl text-center}
 }
 
-h1 {
-    font-family: "Komet", serif;
-    text-transform: uppercase;
-    font-weight: 600;
+@layer components {
+    .navButton {
+        @apply hover:text-gray-300 text-2xl font-display uppercase;
+    }
+    .pageTitle {
+        @apply text-5xl md:text-8xl font-black text-center mt-10 mb-20 overflow-hidden;
+    }
+    .banner {
+        @apply bg-[#0f4bcb] w-64 aspect-[32/45] overflow-visible mx-5 md:mx-10 lg:mx-8 xl:mx-14 mb-20 p-2 text-center mt-4
+        after:content-[""] after:absolute after:block
+        after:border-[8rem] after:border-[#0f4bcb] after:border-t-[1rem] after:border-b-[20px] after:border-b-transparent
+        after:w-[160px] after:top-full after:left-0
+        drop-shadow-[0_5px_5px_rgba(0,0,0,0.1)] text-[85%] leading-[130%]
+    }
+    .bannerText {
+        @apply bg-inherit font-['Roboto'] leading-tight text-xl font-bold my-px uppercase
+    }
 }

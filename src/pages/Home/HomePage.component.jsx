@@ -1,16 +1,14 @@
-import React, { useEffect } from 'react'
-import { HomeBanner, HomeGrid } from './Home.components'
-import { News } from './News.component'
+import React from 'react'
+import { News2022 } from './News2022'
 
-import { CARDS } from '../../data/home'
 
 const HomePage = () => {
     return (
         <section>
             <img alt="Home" src="/media/homeImgLow.jpg" srcSet='media/homeImgHigh.jpg'/>
-            <News/>
+            <News2022/>
 
-            <HomeGrid cards={CARDS}/>
+            <p className="pb-4 text-secondary">Thank you to our sponsors, parents, school communities, and volunteers who made this season possible!</p>
         </section>
     )
 

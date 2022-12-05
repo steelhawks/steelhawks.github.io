@@ -1,22 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import { pages } from './routes/routes'
-import NewNavigation from './newcomponents/navigation'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { pages } from "./routes/routes";
+import NewNavigation from "./components/navigation";
 
-import reportWebVitals from './reportWebVitals';
-import {
-    createBrowserRouter,
-    RouterProvider,
-    Route,
-} from "react-router-dom";
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-    <React.StrictMode>
-        <NewNavigation routes={pages}/>
-        <RouterProvider router={createBrowserRouter(pages)} />
-    </React.StrictMode>
+  <React.StrictMode>
+    <NewNavigation routes={pages} />
+    <RouterProvider router={createBrowserRouter(pages)} />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

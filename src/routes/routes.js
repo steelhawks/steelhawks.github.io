@@ -1,73 +1,68 @@
-import AwardsPage from "../pagesx/AwardPage.component";
-import ContactPage from "../pagesx/ContactPage.component";
-import LeadershipPage from "../pagesx/Leadership.componentPage";
 import HomePage from "../pages/Home/HomePage.component";
-import MentorPage from "../pagesx/MentorsPage.component";
-import OutreachPage from "../pagesx/OutreachPage.component";
-import RobotsPage from "../pagesx/RobotPage.component";
-import SponsorPage from "../pagesx/SponsorsPage.component";
-import SubteamsPage from "../pagesx/SubteamsPage.component";
-import BobaPage from "../pagesx/BobaPage.component";
-
-
+import SponsorPage from "../pages/Sponsors/SponsorsPage.component";
+import LeadershipPage from "../pages/Leadership/leadershipPage";
+import MentorPage from "../pages/Mentors/mentorPage";
+import SubteamPage from "../pages/Subteams/subteamPage";
+import AwardPage from "../pages/Awards/awardPage";
 export const pages = [
-    {
-        path: '/',
-        name: 'Home',
-        element: <HomePage/>
-    },
-    {
-        path: '/Leadership',
-        component_name: LeadershipPage,
-        name: 'Leadership',
-        id: 2
-    },
-    {
-        path: '/mentors',
-        component_name: MentorPage,
-        name: 'Mentors',
-        id: 3
-    },
-    {
-        path: '/subteams',
-        component_name: SubteamsPage,
-        name: 'Subteams',
-        id: 4
-    },
-    {
-        path: '/awards',
-        component_name: AwardsPage,
-        name: 'Awards',
-        id: 5
-    },
-    {
-        path: '/sponsors',
-        component_name: SponsorPage,
-        name: 'Sponsors',
-        id: 6
-    },
-    {
-        path: '/robots',
-        component_name: RobotsPage,
-        name: 'Robots',
-        id: 7
-    },
-    {
-        path: '/outreach',
-        component_name: OutreachPage,
-        name: 'Outreach',
-        id: 8
-    },
-    {
-        path: '/contact',
-        component_name: ContactPage,
-        name: 'Contact',
-        id: 9
-    },
-    {
-        path: '/boba',
-        component_name: BobaPage,
-        name: 'Boba',
-        id: 10
-    }
-]
+  {
+    path: "/",
+    name: "Home",
+    element: <HomePage />,
+    id: 1,
+  },
+  {
+    path: "/mentors",
+    name: "Mentors",
+    element: <MentorPage />,
+    id: 2,
+  },
+  {
+    path: "/leadership",
+    name: "Leadership",
+    element: <LeadershipPage />,
+    id: 3,
+  },
+  {
+    path: "/subteams",
+    name: "Subteams",
+    element: <SubteamPage />,
+    id: 4,
+  },
+  {
+    path: "/awards",
+    name: "Awards",
+    element: <AwardPage />,
+    id: 5,
+  },
+  {
+    path: "/sponsors",
+    name: "Sponsors",
+    element: <SponsorPage />,
+    id: 6,
+  },
+  {
+    path: "/robots",
+    name: "Robots",
+    element: <HomePage />,
+    id: 7,
+  },
+  {
+    path: "/outreach",
+    name: "Outreach",
+    element: <HomePage />,
+    id: 8,
+  },
+  {
+    path: "/contact",
+    name: "Contact Us",
+    element: <HomePage />,
+    id: 9,
+  },
+  {
+    path: "/boba",
+    name: "Boba",
+    element: <HomePage />,
+    id: 10,
+  },
+];
