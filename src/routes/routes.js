@@ -4,6 +4,8 @@ import LeadershipPage from "../pages/Leadership/leadershipPage";
 import MentorPage from "../pages/Mentors/mentorPage";
 import SubteamPage from "../pages/Subteams/subteamPage";
 import AwardPage from "../pages/Awards/awardPage";
+import RobotPage from "../pages/Robots/robotPage";
+
 export const pages = [
   {
     path: "/",
@@ -44,7 +46,7 @@ export const pages = [
   {
     path: "/robots",
     name: "Robots",
-    element: <HomePage />,
+    element: <RobotPage />,
     id: 7,
   },
   {
