@@ -5,6 +5,7 @@ import MentorPage from "../pages/Mentors/mentorPage";
 import SubteamPage from "../pages/Subteams/subteamPage";
 import AwardPage from "../pages/Awards/awardPage";
 import RobotPage from "../pages/Robots/robotPage";
+import OutreachPage from "../pages/Outreach/outreachPage";
 
 export const pages = [
   {
@@ -52,7 +53,7 @@ export const pages = [
   {
     path: "/outreach",
     name: "Outreach",
-    element: <HomePage />,
+    element: <OutreachPage />,
     id: 8,
   },
   {

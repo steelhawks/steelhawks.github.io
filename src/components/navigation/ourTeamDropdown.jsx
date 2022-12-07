@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import clickOutside from "./clickOutside";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { pages } from "../routes/routes";
+import { pages } from "../../routes/routes";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 const OurTeamDropdown = forwardRef(({ open, setOpen }, ref) => {

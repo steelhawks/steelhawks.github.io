@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
-import { pages } from "../routes/routes";
+import { pages } from "../../routes/routes";
 import OurTeamDropdown from "./ourTeamDropdown";
 
 const NewNavigation = (props) => {
@@ -14,7 +14,7 @@ const NewNavigation = (props) => {
       {/*desktop nav*/}
       <ul className="py-2 px-6 mb-0 text-lg justify-between uppercase items-center hidden lg:flex align-middle h-auto">
         <li>
-          <a href="/">
+          <a href="/src/pages">
             <img alt="" className="h-[2.6rem]" src="media/2601Hawk.svg" />
           </a>
         </li>
@@ -53,7 +53,10 @@ const NewNavigation = (props) => {
           } fixed w-screen h-screen`}
         >
           <li className="">
-            <a className="h-fit mx-0 mt-2 flex justify-center" href="/">
+            <a
+              className="h-fit mx-0 mt-2 flex justify-center"
+              href="/src/pages"
+            >
               <img alt="" className="h-20 m-4" src="media/2601Hawk.svg" />
             </a>
           </li>
