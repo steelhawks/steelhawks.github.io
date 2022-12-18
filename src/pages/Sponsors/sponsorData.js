@@ -83,3 +83,59 @@ export const sponsorList = [
     id: 13,
   },
 ];
+
+export const sponsorLevels = [
+  {
+    name: "Platinum Hawk",
+    donation: "$5000+",
+    description: [
+      "Sponor is mentioned and thanked during alliance slection during competition",
+      "Large image of sponsor's logo is displayed our yearly robot.",
+      "Large image of sponsor's logo is displayed on our banner, which is displayed at events and tournaments.",
+      "Large image of sponsor's logo is displayed on the back of our apperal (T-shirts and hoodies).",
+      "Sponsor is shouted out on our team's website.",
+      "Sponsor is sent goodies, which includes a signed thank-you letter and Steel Hawks T-shirt."
+    ]
+  },
+  {
+    name: "Gold Hawk",
+    donation: "$2000-$4999",
+    description: [
+      "Medium-sized image of sponsor's logo is displayed our yearly robot.",
+      "Medium-sized image of sponsor's logo is displayed on our banner, which is displayed at events and tournaments.",
+      "Medium-sized of sponsor's logo is displayed on the back of our apperal (T-shirts and hoodies).",
+      "Sponsor is shouted out on our team's website.",
+      "Sponsor is sent goodies, which includes a signed thank-you letter and Steel Hawks T-shirt."
+    ]
+  },
+  {
+    name: "Silver Hawk",
+    donation: "$1000-$1999",
+    description: [
+      "Small image of sponsor's logo is displayed our yearly robot.",
+      "Small image of sponsor's logo is displayed on our banner, which is displayed at events and tournaments.",
+      "Small image of sponsor's logo is displayed on the back of our apperal (T-shirts and hoodies).",
+      "Sponsor is shouted out on our team's website.",
+      "Sponsor is sent goodies, which includes a signed thank-you letter and Steel Hawks T-shirt."
+    ]
+  },
+  {
+    name: "Bronze Hawk",
+    donation: "$500-$999",
+    description: [
+      "Business-card sized image of sponsor's logo is displayed our yearly robot.",
+      "Business-card sized image of sponsor's logo is displayed on our banner, which is displayed at events and tournaments.",
+      "Business-card sized image of sponsor's logo is displayed on the back of our apperal (T-shirts and hoodies).",
+      "Sponsor is shouted out on our team's website.",
+      "Sponsor is sent goodies, which includes a signed thank-you letter and Steel Hawks T-shirt."
+    ]
+  },
+  {
+    name: "Hawkling",
+    donation: "$100-$499",
+    description: [
+      "Sponsor is shouted out on our team's website.",
+      "Sponsor is sent a signed thank-you letter."
+    ]
+  },
+]

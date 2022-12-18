@@ -31,12 +31,12 @@ const NewNavigation = (props) => {
       </ul>
 
       {/*mobile nav*/}
-      <div className="lg:hidden flex justify-center align-middle lg:w-0">
+      <div className="lg:hidden flex justify-center align-middle z-30 lg:w-0">
         <h2 className="drop-shadow-none text-xl flex py-1.5">
           FRC 2601 STEEL HAWKS
         </h2>
         <button
-          className="z-10 m-2 fixed right-[5%] top-0"
+          className="z-30 m-2 fixed right-[5%] top-0"
           onClick={() => {
             setToggleState(!toggleState);
           }}
@@ -48,14 +48,14 @@ const NewNavigation = (props) => {
           />
         </button>
         <ul
-          className={` ease-in-out duration-[400ms] ${
+          className={` z-20 ease-in-out duration-[400ms] ${
             toggleState ? "top-0 overflow-hidden" : "top-[-100%]"
           } fixed w-screen h-screen`}
         >
-          <li className="">
+          <li className="flex justify-center">
             <a
-              className="h-fit mx-0 mt-2 flex justify-center"
-              href="/src/pages"
+              className="h-fit mx-0 mt-2 inline justify-center"
+              href="/"
             >
               <img alt="" className="h-20 m-4" src="media/2601Hawk.svg" />
             </a>

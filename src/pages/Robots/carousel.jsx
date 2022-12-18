@@ -28,7 +28,7 @@ const Carousel = (props) => {
     >
       {props.images.map((image) => {
         return (
-          <SwiperSlide className="flex justify-center">
+          <SwiperSlide className="flex justify-center ">
             <picture>
               <source
                 srcSet={"/media/" + props.location + "/avif/" + image + ".avif"}

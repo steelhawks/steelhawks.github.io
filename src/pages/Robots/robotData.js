@@ -13,7 +13,7 @@ export const robotData = [
     name: "RI6H",
     game: "Rapid React",
     fileNames: [],
-    bio: "Robot In 6 Hours. Hawktimus Prime got sent to Alabama during Worlds so we built a new one in six hours to compete with in case Hawktimus Prime didn't make it in time.",
+    bio: "You've heard of robot in 3 days... but have you heard of robot in 6 hours? Due to unexpected delivery issues at the FIRST Championship, our team quickly adapted to create RI6H. Through the hard work of our members and also the generous help of teams 254, 1678, 118, and 2590 as well as AndyMark we were able to create a fully functioning robot with a mid climber, taxi, and incredible defense all in 6 hours. Luckily, this bot has never needed to compete, but passed robot inspection at Worlds and now serves to test our Vision capabilities and driver training. ",
     type: "img",
   },
   {

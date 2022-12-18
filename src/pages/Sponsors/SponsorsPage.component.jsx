@@ -1,6 +1,6 @@
 import React from "react";
 
-import { sponsorList } from "./sponsorData";
+import { sponsorList, sponsorLevels } from "./sponsorData";
 
 const SponsorPage = () => {
   return (
@@ -9,7 +9,7 @@ const SponsorPage = () => {
       <h2 className="mb-10 md:mb-20 text-2xl md:text-3xl px-10 md:px-24">
         Thank you sponsors! We are eternally grateful for your support!
       </h2>
-      <div className="grid gap-4 grid-cols-3 px-1 md:px-2 place-content-center">
+      <section className="grid gap-4 grid-cols-3 px-1 md:px-2 place-content-center">
         {sponsorList.map((sponsor) => {
           return (
             <div className="overflow-hidden">
@@ -48,7 +48,36 @@ const SponsorPage = () => {
             </div>
           );
         })}
-      </div>
+      </section>
+
+      <section className="pb-10 mb-10 md:mb-20">
+        <div>
+          <h1 className="pageTitle mb-2 text-3xl md:text-4xl">INTERESTED IN SPONSORING?</h1>
+          <p>We are a non-profit organization, spreading the mission of FIRST and promoting STEM to everyone. With your financial support we can inspire another child.</p>
+          <p>We spend thousands of dollars building a robot each year, signing up for competition, and keeping the team running.</p>
+        </div>
+        <section>
+          <h2 className="text-2xl md:text-3xl pt-10 pb-5">Sponsorship Degrees</h2>
+          {sponsorLevels.map((level) => {
+            return (
+              <div className="mb-10">
+                <div className="flex justify-center">
+                  <div>
+                    <h2 className="inline mr-2 text-center">{level.name}</h2>
+                    <h3 className="align-baseline inline">{level.donation}</h3>
+                  </div>
+                  </div>
+                  <ul className="block text-center">
+                    {level.description.map((point) => {
+                      return <ul className="list-disc"><li>{point}</li></ul> 
+                    })}
+                  </ul>
+              </div>
+            )
+          })}
+
+        </section>
+      </section>
     </div>
   );
 };

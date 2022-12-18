@@ -33,7 +33,7 @@ const MediaChooser = (props) => {
       ></iframe>
     );
   else if (props.type === "carousel") {
-    return <Carousel images={props.images} location={props.location} />;
+    return <Carousel className="z-0" images={props.images} location={props.location} />;
   }
 };
 
