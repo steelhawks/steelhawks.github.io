@@ -7,14 +7,21 @@ import OurTeamDropdown from "./ourTeamDropdown";
 const NewNavigation = (props) => {
   const [toggleState, setToggleState] = useState(false); //mobile
 
-  const doNotDisplay = ["Home", "Leadership", "Mentors", "Subteams", "Boba"];
+  const doNotDisplay = [
+    "Home",
+    "Leadership",
+    "Mentors",
+    "Subteams",
+    "Boba",
+    "Steelbucks",
+  ];
 
   return (
     <div>
       {/*desktop nav*/}
       <ul className="py-2 px-6 mb-0 text-lg justify-between uppercase items-center hidden lg:flex align-middle h-auto">
         <li>
-          <a href="/src/pages">
+          <a href="/">
             <img alt="" className="h-[2.6rem]" src="media/2601Hawk.svg" />
           </a>
         </li>
@@ -49,14 +56,11 @@ const NewNavigation = (props) => {
         </button>
         <ul
           className={` z-20 ease-in-out duration-[400ms] ${
-            toggleState ? "top-0 overflow-hidden" : "top-[-100%]"
+            toggleState ? "top-0 overflow-hidden inline" : "top-[-280%]"
           } fixed w-screen h-screen`}
         >
           <li className="flex justify-center">
-            <a
-              className="h-fit mx-0 mt-2 inline justify-center"
-              href="/"
-            >
+            <a className="h-fit mx-0 mt-2 inline justify-center" href="/">
               <img alt="" className="h-20 m-4" src="media/2601Hawk.svg" />
             </a>
           </li>

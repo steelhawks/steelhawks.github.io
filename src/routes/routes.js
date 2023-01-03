@@ -6,6 +6,8 @@ import SubteamPage from "../pages/Subteams/subteamPage";
 import AwardPage from "../pages/Awards/awardPage";
 import RobotPage from "../pages/Robots/robotPage";
 import OutreachPage from "../pages/Outreach/outreachPage";
+import SteelbucksPage from "../pages/Steelbucks/steelbucksPage";
+import ContactPage from "../pages/Contact/contactPage";
 
 export const pages = [
   {
@@ -59,13 +61,13 @@ export const pages = [
   {
     path: "/contact",
     name: "Contact Us",
-    element: <HomePage />,
+    element: <ContactPage />,
     id: 9,
   },
   {
-    path: "/boba",
-    name: "Boba",
-    element: <HomePage />,
+    path: "/steelbucks",
+    name: "Steelbucks",
+    element: <SteelbucksPage />,
     id: 10,
   },
 ];

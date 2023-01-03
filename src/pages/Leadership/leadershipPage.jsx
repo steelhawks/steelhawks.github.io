@@ -12,8 +12,10 @@ const LeadershipPage = () => {
         {executiveBoard.map((exec) => {
           return (
             <div className="mb-20 px-4">
-              <h2 className="overflow-hidden">{exec.name}</h2>
-              <h3 className="text-center text-md">{exec.title}</h3>
+              <h2 className="overflow-hidden m-0">{exec.name}</h2>
+              <h3 className="mb-2 text-center text-md align-top">
+                {exec.title}
+              </h3>
               <div className="self-baseline flex justify-center">
                 <picture>
                   <source

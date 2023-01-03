@@ -9,7 +9,7 @@ const RobotPage = () => {
       {robotData.map((robot) => {
         return (
           <section className="">
-            <h2 className="text-2xl md:text-4xl mb-2 overflow-hidden text-center">
+            <h2>
               {robot.year} - {robot.name}
             </h2>
             <div className="flex justify-center">
@@ -17,7 +17,7 @@ const RobotPage = () => {
                 type={robot.type}
                 images={robot.fileNames}
                 video={robot.video}
-                location={"robots/" + robot.year + "/"}
+                location={"robots/" + robot.year}
               />
             </div>
             <p className="md:px-24 lg:px-48 pb-20 flex justify-center">

@@ -18,7 +18,7 @@ const OurTeamDropdown = forwardRef(({ open, setOpen }, ref) => {
       <div
         className={` ${
           open ? "absolute" : "hidden"
-        } px-2 text-center rounded-md w-fit h-fit`}
+        } px-2 text-center rounded-md w-48 translate-x-[-1.75rem] h-fit`}
       >
         {open && (
           <ul>

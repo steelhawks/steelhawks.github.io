@@ -35,9 +35,9 @@ export const subteamList = [
     id: 5,
   },
   {
-    name: "Chairman's & Finance",
+    name: "Impact",
     description:
-      "The Chairman’s subteam focuses on representing the team by writing two essays every year: the Chairman’s Essay and Woodie Flowers Essay. They also present their Chairman's Presentation at competetions, as well as organize outreach events, teaching and mentoring others. Moreover, they manage finances: filing grants, reaching out to sponsors, and more.",
+      "The FIRST Impact subteam focuses on representing the team by writing two essays every year: the Impact Essay and Woodie Flowers Essay. They also present their Impact Presentation at competitions, as well as organize outreach events, teaching and mentoring others. ",
     fileName: "chairmanFinance",
     id: 6,
   },
@@ -58,7 +58,7 @@ export const subteamList = [
   {
     name: "Media",
     description:
-      "In this subteam we document our team in an artistic way. We also work with the Chairman's subteam to create the Chairman's video every year.",
+      "In this subteam we document our team in an artistic way. We create designs for our projects, flyers, apparel, and more using industry grade tools such as Adobe Creative Cloud. We also work with the Impact subteam to create the Impact video every year.",
     fileName: "media",
     id: 9,
   },

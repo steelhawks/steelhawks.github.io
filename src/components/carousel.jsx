@@ -6,7 +6,7 @@ import "swiper/css/effect-creative";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/lazy";
-import "./carousel.css";
+import "../pages/Robots/carousel.css";
 
 const Carousel = (props) => {
   return (
