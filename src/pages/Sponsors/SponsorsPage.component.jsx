@@ -73,13 +73,12 @@ const SponsorPage = () => {
                   <h3 className='align-baseline inline'>{level.donation}</h3>
                 </div>
               </div>
-              <ul className='block text-center'>
-                {level.description.map((point, i) => (
-                  <ul className='list-disc' key={i}>
-                    <li>{point}</li>
-                  </ul>
-                ))}
-              </ul>
+              {level.description.map((point, i) => (
+                <div className='text-center'>
+                  <span>-ㅤ{point}</span>
+                  <br />
+                </div>
+              ))}
             </div>
           ))}
         </section>
