@@ -1,21 +1,23 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import { pages } from "./routes/routes";
-import NewNavigation from "./components/navigation/navigation";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import { pages } from './routes/routes';
+import NewNavigation from './components/navigation/navigation';
 
-import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Footer from "./components/footer/footer";
-const root = ReactDOM.createRoot(document.getElementById("root"));
+import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Footer from './components/footer/footer';
 
-root.render(
-  <React.StrictMode>
-    <NewNavigation routes={pages} />
-    <RouterProvider router={createBrowserRouter(pages)} />
-    <Footer />
-  </React.StrictMode>
-);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root &&
+  root.render(
+    <React.StrictMode>
+      <NewNavigation routes={pages} />
+      <RouterProvider router={createBrowserRouter(pages)} />
+      <Footer />
+    </React.StrictMode>,
+  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
