@@ -1,0 +1,7 @@
+.swiper-pagination {
+  @apply bg-transparent text-primary;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-primary p-2 opacity-100;
+}

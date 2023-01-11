@@ -37,7 +37,7 @@ const Footer = () => {
             >
               <img
                 src='/tba.svg'
-                alt=''
+                alt='Github Logo'
                 className='inline-block align-baseline h-[48px]'
               />
             </a>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { sponsorList, sponsorLevels } from './sponsorData';
+import { sponsorList, sponsorLevels } from './data';
 
 const SponsorPage = () => {
   return (
@@ -74,7 +74,7 @@ const SponsorPage = () => {
                 </div>
               </div>
               {level.description.map((point, i) => (
-                <div className='text-center'>
+                <div className='text-center' key={i}>
                   <span>-ㅤ{point}</span>
                   <br />
                 </div>

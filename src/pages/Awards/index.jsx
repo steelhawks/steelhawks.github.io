@@ -1,5 +1,5 @@
 import React from 'react';
-import awardList from './awardData';
+import awardList from './data';
 
 //pls rewrite banner.css in tailwind
 const AwardPage = () => {
@@ -12,7 +12,7 @@ const AwardPage = () => {
             <div className='banner' key={i}>
               <div className='flex bg-inherit justify-center'>
                 <img
-                  alt=''
+                  alt='FIRST Organization Logo'
                   className='bg-inherit mt-2 w-24'
                   src='/media/first_icon.svg'
                 />

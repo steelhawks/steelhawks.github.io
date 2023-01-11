@@ -1,5 +1,5 @@
 import React from 'react';
-import { executiveBoard } from './leadershipData';
+import { executiveBoard } from './data';
 
 const LeadershipPage = () => {
   return (

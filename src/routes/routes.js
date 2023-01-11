@@ -1,13 +1,13 @@
-import HomePage from '../pages/Home/HomePage.component';
-import SponsorPage from '../pages/Sponsors/SponsorsPage.component';
-import LeadershipPage from '../pages/Leadership/leadershipPage';
-import MentorPage from '../pages/Mentors/mentorPage';
-import SubteamPage from '../pages/Subteams/subteamPage';
-import AwardPage from '../pages/Awards/awardPage';
-import RobotPage from '../pages/Robots/robotPage';
-import OutreachPage from '../pages/Outreach/outreachPage';
-import SteelbucksPage from '../pages/Steelbucks/steelbucksPage';
-import ContactPage from '../pages/Contact/contactPage';
+import HomePage from '../pages/Home';
+import SponsorPage from '../pages/Sponsors';
+import LeadershipPage from '../pages/Leadership';
+import MentorPage from '../pages/Mentors';
+import SubteamPage from '../pages/Subteams';
+import AwardPage from '../pages/Awards';
+import RobotPage from '../pages/Robots';
+import OutreachPage from '../pages/Outreach';
+import SteelbucksPage from '../pages/Steelbucks';
+import ContactPage from '../pages/Contact';
 
 export const pages = [
   {

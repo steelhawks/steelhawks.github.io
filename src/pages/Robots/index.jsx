@@ -1,10 +1,10 @@
 import React from 'react';
-import { robotData } from './robotData';
-import MediaChooser from '../../components/mediaChooser';
+import { robotData } from './data';
+import MediaChooser from '../../helpers/MediaChooser';
 
 const RobotPage = () => {
   return (
-    <div>
+    <div className='p-10'>
       <h1 className='pageTitle'>Robots</h1>
       {robotData.map((robot, i) => (
         <section key={i}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { mentorList } from './mentorData';
+import { mentorList } from './data';
 
 const MentorPage = () => {
   return (

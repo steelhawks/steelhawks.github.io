@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { pages } from '../../routes/routes';
-import OurTeamDropdown from './ourTeamDropdown';
 
-const NewNavigation = (props) => {
+const Navigation = (props) => {
   const [toggleNav, setToggleNav] = useState(false); //mobile
+  const [toggleDropdown, setToggleDropdown] = useState(false);
+  const dropDown = useRef();
 
   const doNotDisplay = [
     'Home',
@@ -16,16 +17,57 @@ const NewNavigation = (props) => {
     'Steelbucks',
   ];
 
+  const useOutsideAlerter = (dropDown) => {
+    useEffect(() => {
+      function handleClickOutside(event) {
+        if (dropDown.current && !dropDown.current.contains(event.target))
+          setToggleDropdown(false);
+      }
+
+      document.addEventListener('mousedown', handleClickOutside);
+      return () =>
+        document.removeEventListener('mousedown', handleClickOutside);
+    }, [dropDown]);
+  };
+  useOutsideAlerter(dropDown);
+
   return (
     <div>
       {/*desktop nav*/}
-      <ul className='py-2 px-6 mb-0 text-lg justify-between uppercase items-center hidden lg:flex align-middle h-auto'>
+      <ul className='py-4 px-10 mb-0 text-lg justify-between uppercase items-center hidden lg:flex align-middle h-auto'>
         <li>
           <a href='/'>
-            <img alt='' className='h-[2.6rem]' src='media/2601Hawk.svg' />
+            <img
+              alt='Steel Hawks Logo'
+              className='h-[2.6rem]'
+              src='media/2601Hawk.svg'
+            />
           </a>
         </li>
-        <OurTeamDropdown />
+        <li className='m-0 w-fit' ref={dropDown}>
+          <button className='navButton' onClick={() => setToggleDropdown(true)}>
+            Our Team <FontAwesomeIcon icon={solid('caret-down')} />
+          </button>
+          <div
+            className={`${
+              toggleDropdown ? 'absolute' : 'hidden'
+            } px-2 text-center rounded-md w-48 translate-x-[-1.75rem] h-fit`}
+          >
+            {toggleDropdown && (
+              <ul>
+                <li>
+                  <a href='/mentors'>Mentors</a>
+                </li>
+                <li>
+                  <a href='/leadership'>Leadership</a>
+                </li>
+                <li>
+                  <a href='/subteams'>Subteams</a>
+                </li>
+              </ul>
+            )}
+          </div>
+        </li>
         {pages.map(
           (page, i) =>
             doNotDisplay.indexOf(page.name) === -1 && (
@@ -60,7 +102,11 @@ const NewNavigation = (props) => {
         >
           <li className='flex justify-center'>
             <a className='h-fit mx-0 mt-2 inline justify-center' href='/'>
-              <img alt='' className='h-20 m-4' src='media/2601Hawk.svg' />
+              <img
+                alt='Steel Hawks Logo'
+                className='h-20 m-4'
+                src='media/2601Hawk.svg'
+              />
             </a>
           </li>
           {pages.map(
@@ -87,4 +133,4 @@ const NewNavigation = (props) => {
   );
 };
 
-export default NewNavigation;
+export default Navigation;

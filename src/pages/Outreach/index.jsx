@@ -1,6 +1,6 @@
 import React from 'react';
-import { outreachData } from './outreachData';
-import MediaChooser from '../../components/mediaChooser';
+import { outreachData } from './data';
+import MediaChooser from '../../helpers/MediaChooser';
 
 const OutreachPage = () => {
   return (
