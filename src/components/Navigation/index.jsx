@@ -45,7 +45,10 @@ const Navigation = (props) => {
           </a>
         </li>
         <li className='m-0 w-fit' ref={dropDown}>
-          <button className='navButton' onClick={() => setToggleDropdown(true)}>
+          <button
+            className='navButton'
+            onClick={() => setToggleDropdown(!toggleDropdown)}
+          >
             Our Team <FontAwesomeIcon icon={solid('caret-down')} />
           </button>
           <div
