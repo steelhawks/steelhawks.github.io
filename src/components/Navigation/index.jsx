@@ -40,7 +40,7 @@ const Navigation = (props) => {
           <a href='/'>
             <img
               alt='Steel Hawks Logo'
-              className='h-[2.6rem]'
+              className='h-[2.6rem] w-[83.08px]'
               src='media/2601Hawk.svg'
             />
           </a>

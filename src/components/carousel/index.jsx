@@ -45,16 +45,47 @@ const Carousel = (props) => {
       <div
         className={`${
           props.size === 'LARGE'
-            ? 'h-[300px] w-[800px] md:h-[500px]'
+            ? 'sm:h-[300px] w-[1000px] lg:h-[500px] md:h-[400px] h-[200px]'
             : 'h-[200px] w-[600px] md:h-[300px]'
         }`}
       >
-        <motion.img
-          className='w-full h-full object-cover'
-          animate={controls}
-          src={`${mockImages[imageIndex]}`}
-          alt='Home Image'
-        />
+        <picture>
+          <source
+            srcSet={
+              '/media/' +
+              props.location +
+              '/avif/' +
+              props.images[imageIndex] +
+              '.avif'
+            }
+            type='image/avif'
+          />
+          <source
+            srcSet={
+              '/media/' +
+              props.location +
+              '/webp/' +
+              props.images[imageIndex] +
+              '.webp'
+            }
+            type='image/webp'
+          />
+          <source
+            srcSet={
+              '/media/' +
+              props.location +
+              '/jpg/' +
+              props.images[imageIndex] +
+              '.jpg'
+            }
+            type='image/jpg'
+          />
+          <motion.img
+            className='w-full h-full object-contain'
+            animate={controls}
+            alt='Home Image'
+          />
+        </picture>
       </div>
       <button
         className='ml-4'

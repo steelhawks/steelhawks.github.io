@@ -9,7 +9,7 @@ const SponsorPage = () => {
       <h2 className='mb-10 md:mb-20 text-2xl md:text-3xl px-10 md:px-24'>
         Thank you sponsors! We are eternally grateful for your support!
       </h2>
-      <section className='grid gap-4 grid-cols-3 px-1 md:px-2 place-content-center'>
+      <section className='grid gap-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 px-1 md:px-2 place-content-center'>
         {sponsorList.map((sponsor, i) => (
           <motion.div
             className='overflow-hidden'

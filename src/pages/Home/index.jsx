@@ -29,7 +29,7 @@ const HomePage = () => {
                     <motion.div
                       key={i}
                       initial={{
-                        x: -500,
+                        x: -300,
                         opacity: 0,
                       }}
                       whileInView={{
