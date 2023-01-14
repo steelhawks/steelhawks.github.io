@@ -6,13 +6,19 @@ import Navigation from './components/Navigation';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Footer from './components/Footer';
+import { motion } from 'framer-motion';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     <Navigation routes={pages} />
-    <RouterProvider router={createBrowserRouter(pages)} />
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ transition: { duration: 0.5 }, opacity: 1 }}
+    >
+      <RouterProvider router={createBrowserRouter(pages)} />
+    </motion.div>
     <Footer />
   </React.StrictMode>,
 );

@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { pages } from '../../routes/routes';
+import { motion } from 'framer-motion';
 
 const Navigation = (props) => {
   const [toggleNav, setToggleNav] = useState(false); //mobile
@@ -49,15 +50,22 @@ const Navigation = (props) => {
             className='navButton'
             onClick={() => setToggleDropdown(!toggleDropdown)}
           >
-            Our Team <FontAwesomeIcon icon={solid('caret-down')} />
+            Our Team{' '}
+            <FontAwesomeIcon
+              icon={solid('caret-down')}
+              className={`${toggleDropdown && 'rotate-180'} duration-300`}
+            />
           </button>
           <div
             className={`${
               toggleDropdown ? 'absolute' : 'hidden'
-            } px-2 text-center rounded-md w-48 translate-x-[-1.75rem] h-fit`}
+            } px-2 text-center rounded-md w-48 translate-x-[-1.75rem] h-fit z-10`}
           >
             {toggleDropdown && (
-              <ul>
+              <motion.ul
+                initial={{ y: -50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1, transition: { duration: 0.3 } }}
+              >
                 <li>
                   <a href='/mentors'>Mentors</a>
                 </li>
@@ -67,7 +75,7 @@ const Navigation = (props) => {
                 <li>
                   <a href='/subteams'>Subteams</a>
                 </li>
-              </ul>
+              </motion.ul>
             )}
           </div>
         </li>

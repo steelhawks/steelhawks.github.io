@@ -1,10 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { duration: 1 } }}
+      viewport={{ once: true }}
+    >
       <div className='grid sm:grid-cols-3 grid-cols-1 border-t-2 p-10 gap-4 text-center'>
         <div className='flex flex-col mt-2 items-center'>
           <span className='uppercase text-3xl font-bold mb-4'>
@@ -98,7 +103,7 @@ const Footer = () => {
         Townsend Harris High School · 149-11 Melbourne Ave, Queens, NY 11367 ·
         ©2022
       </p>
-    </>
+    </motion.div>
   );
 };
 export default Footer;

@@ -1,13 +1,19 @@
 import React from 'react';
 import { outreachData } from './data';
 import MediaChooser from '../../helpers/MediaChooser';
+import { motion } from 'framer-motion';
 
 const OutreachPage = () => {
   return (
     <div>
       <h1 className='pageTitle'>Outreach</h1>
       {outreachData.map((outreach, i) => (
-        <section key={i}>
+        <motion.section
+          key={i}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1, transition: { duration: 0.5 } }}
+          viewport={{ once: true }}
+        >
           <h2>{outreach.name}</h2>
           <div className='flex justify-center'>
             <MediaChooser
@@ -18,7 +24,7 @@ const OutreachPage = () => {
             />
           </div>
           <p className='md:px-24 lg:px-48 pb-20'>{outreach.description}</p>
-        </section>
+        </motion.section>
       ))}
     </div>
   );

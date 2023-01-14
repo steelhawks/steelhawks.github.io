@@ -1,6 +1,6 @@
 import React from 'react';
-
 import { sponsorList, sponsorLevels } from './data';
+import { motion } from 'framer-motion';
 
 const SponsorPage = () => {
   return (
@@ -11,7 +11,17 @@ const SponsorPage = () => {
       </h2>
       <section className='grid gap-4 grid-cols-3 px-1 md:px-2 place-content-center'>
         {sponsorList.map((sponsor, i) => (
-          <div className='overflow-hidden' key={i}>
+          <motion.div
+            className='overflow-hidden'
+            key={i}
+            initial={{ x: -300, opacity: 0 }}
+            whileInView={{
+              x: 0,
+              opacity: 1,
+              transition: { duration: 0.5, delay: i * 0.1 },
+            }}
+            viewport={{ once: true }}
+          >
             <h2 className='text-base text-center'>{sponsor.name}</h2>
             <div className='overflow-y-hidden h-full flex justify-center items-center pb-10'>
               <a href={sponsor.url}>
@@ -42,11 +52,15 @@ const SponsorPage = () => {
                 </picture>
               </a>
             </div>
-          </div>
+          </motion.div>
         ))}
       </section>
 
-      <section className='pb-10 mb-10 md:mb-20'>
+      <motion.section
+        className='pb-10 mb-10 md:mb-20'
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { duration: 0.3 } }}
+      >
         <div>
           <h1 className='pageTitle mb-2 text-3xl md:text-4xl'>
             INTERESTED IN SPONSORING?
@@ -82,7 +96,7 @@ const SponsorPage = () => {
             </div>
           ))}
         </section>
-      </section>
+      </motion.section>
     </div>
   );
 };

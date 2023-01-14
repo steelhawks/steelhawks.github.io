@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 import MediaChooser from '../../helpers/MediaChooser';
 import { news } from './data';
@@ -5,12 +6,15 @@ import { news } from './data';
 const HomePage = () => {
   return (
     <section className='p-10'>
-      <MediaChooser
-        title='The Steel Hawks'
-        type='carousel'
-        images={['home1', 'home2', 'home3']}
-        location='home'
-      />
+      <div>
+        <MediaChooser
+          title='The Steel Hawks'
+          type='carousel'
+          images={['home1', 'home2', 'home3']}
+          location='home'
+          size='LARGE'
+        />
+      </div>
 
       <div>
         {news.map(
@@ -22,7 +26,19 @@ const HomePage = () => {
                 </h1>
                 <div>
                   {season.events.map((event, i) => (
-                    <div key={i}>
+                    <motion.div
+                      key={i}
+                      initial={{
+                        x: -500,
+                        opacity: 0,
+                      }}
+                      whileInView={{
+                        x: 0,
+                        opacity: 1,
+                        transition: { duration: 0.5, delay: i * 0.1 },
+                      }}
+                      viewport={{ once: true }}
+                    >
                       <h2 className='text-2xl md:text-4xl mb-2 overflow-hidden text-center'>
                         {event.name}
                       </h2>
@@ -34,7 +50,7 @@ const HomePage = () => {
                         />
                       </div>
                       <p className='flex justify-center'>{event.text}</p>
-                    </div>
+                    </motion.div>
                   ))}
                 </div>
               </div>

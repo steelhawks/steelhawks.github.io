@@ -38,7 +38,11 @@ const MediaChooser = (props) => {
         <h1 className='text-[3em] mt-2 md:mt-2 md:text-[5em] text-center mb-2'>
           {props.title}
         </h1>
-        <Carousel images={props.images} location={props.location} />
+        <Carousel
+          images={props.images}
+          location={props.location}
+          size={props.size}
+        />
       </>
     );
   }
